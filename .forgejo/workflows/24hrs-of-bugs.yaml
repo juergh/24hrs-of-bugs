@@ -34,7 +34,7 @@ jobs:
           "$RUNNER_TEMP/venv/bin/pip" install --upgrade pip
           "$RUNNER_TEMP/venv/bin/pip" install -r tools/requirements.txt
 
-      - name: Generate reports
+      - name: Fetch bugs
         env:
           LP_CREDENTIALS: ${{ secrets.LP_CREDENTIALS }}
         run: |
@@ -44,8 +44,13 @@ jobs:
             printf '%s' "$LP_CREDENTIALS" | base64 -d > "$RUNNER_TEMP/lp/credentials"
             CREDS_ARG="--credentials-file $RUNNER_TEMP/lp/credentials"
           fi
-          "$RUNNER_TEMP/venv/bin/python" tools/24hrs-of-bugs.py \
-            --output "$GITHUB_WORKSPACE" $CREDS_ARG
+          "$RUNNER_TEMP/venv/bin/python" tools/fetch-bugs.py \
+            --state-dir "$GITHUB_WORKSPACE" $CREDS_ARG
+
+      - name: Render reports
+        run: |
+          "$RUNNER_TEMP/venv/bin/python" tools/render-html.py \
+            --output "$GITHUB_WORKSPACE"
 
       - name: Commit and push to Forgejo
         run: |
