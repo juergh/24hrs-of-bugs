@@ -8,19 +8,31 @@ This is a rewrite of the original `kteam-tools/stable/24hrs-of-bugs` email
 reporter. It runs as a time-triggered [Forgejo](https://forgejo.org/) action
 and publishes the rendered pages to GitHub Pages.
 
+## Components
+
+The tooling is split into two scripts plus a shared module:
+
+- **`fetch-bugs.py`** — the fetcher: scans Launchpad and updates the JSON store.
+- **`render-html.py`** — the renderer: turns the JSON store into HTML. It does
+  no network access.
+- **`common.py`** — the shared store, timestamp helpers and window definitions.
+
 ## Branches
 
-- **`tools`** (this branch) — the tooling: `24hrs-of-bugs.py`, the vendored
-  `cktools_data` package, and `requirements.txt`.
+- **`tools`** (this branch) — the tooling: `fetch-bugs.py`, `render-html.py`,
+  `common.py`, the vendored `cktools_data` package, and `requirements.txt`.
 - **`main`** — the generated output and persistent state: `index.html` plus one
   page per window, `last-run.json`, `bugs/<id>.json`, the Forgejo workflow and
   `.nojekyll`.
 
 The workflow (on `main`) checks the `tools` branch out as a git worktree, runs
-the tool against the `main` working tree, commits the refreshed pages and
-state, and pushes `main` to both Forgejo and the GitHub Pages repository.
+the fetcher then the renderer against the `main` working tree, commits the
+refreshed pages and state, and pushes `main` to both Forgejo and the GitHub
+Pages repository.
 
 ## How it works
+
+### Fetcher (`fetch-bugs.py`)
 
 1. Read `last-run.json`. If it is missing, seed the store from
    `now - 90 days`; otherwise scan incrementally from
@@ -37,31 +49,38 @@ state, and pushes `main` to both Forgejo and the GitHub Pages repository.
 5. Prune bug files whose newest target task is older than 90 days.
 6. Advance `last-run.json` **only if every target scanned successfully**, so a
    partial failure is recovered on the next run.
-7. Render all pages purely from the JSON store.
 
-A bug appears on a window page if **any** of its target tasks was created
-within that window; windows are cumulative (24h ⊆ 7d ⊆ 30d ⊆ 90d).
+### Renderer (`render-html.py`)
+
+Renders all pages purely from the JSON store. A bug appears on a window page if
+**any** of its target tasks was created within that window; windows are
+cumulative (24h ⊆ 7d ⊆ 30d ⊆ 90d).
 
 ## Usage
 
 ```sh
 pip install -r requirements.txt
 
-# Incremental/seed scan + render into the current directory
-./24hrs-of-bugs.py --output /path/to/main-checkout
+# Fetch new bugs into the store, then render the HTML alongside it
+./fetch-bugs.py  --state-dir /path/to/main-checkout
+./render-html.py --output    /path/to/main-checkout
 
 # Re-render only, no Launchpad access
-./24hrs-of-bugs.py --output /path/to/main-checkout --no-scan
+./render-html.py --output /path/to/main-checkout
 ```
 
-Key options:
+`fetch-bugs.py` options:
 
-- `--output DIR` — root for state (`bugs/`, `last-run.json`) and rendered HTML.
-- `--state-dir DIR` — keep state separate from the HTML output (testing).
+- `--state-dir DIR` — directory for the store (`bugs/`, `last-run.json`).
 - `--credentials-file FILE` — Launchpad credentials; required for tagging.
 - `--no-tag` — never tag bugs even with credentials.
-- `--no-scan` — skip Launchpad and only re-render from the store.
 - `--seed-days N` / `--fudge-minutes N` — tune the first-run and overlap windows.
+- `--datetime 'YYYY-MM-DD HH:MM'` — treat a fixed UTC time as "now" (testing).
+
+`render-html.py` options:
+
+- `--output DIR` — directory to write the HTML into.
+- `--state-dir DIR` — store location if separate from `--output` (testing).
 - `--datetime 'YYYY-MM-DD HH:MM'` — treat a fixed UTC time as "now" (testing).
 
 ## Notes

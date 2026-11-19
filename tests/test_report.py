@@ -4,12 +4,20 @@ from datetime import datetime, timedelta, timezone
 
 import pytest
 
-# Load the hyphenated script as a module.
-_SPEC = importlib.util.spec_from_file_location(
-    "report", os.path.join(os.path.dirname(__file__), "..", "24hrs-of-bugs.py")
-)
-report = importlib.util.module_from_spec(_SPEC)
-_SPEC.loader.exec_module(report)
+import common
+
+_HERE = os.path.dirname(__file__)
+
+
+def _load(name, filename):
+    spec = importlib.util.spec_from_file_location(name, os.path.join(_HERE, "..", filename))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+render = _load("render_html", "render-html.py")
+fetch = _load("fetch_bugs", "fetch-bugs.py")
 
 NOW = datetime(2026, 11, 19, 1, 0, tzinfo=timezone.utc)
 
@@ -18,7 +26,7 @@ def _target(name, days_ago):
     return {
         "name": name,
         "type": "package",
-        "date_created": report.iso(NOW - timedelta(days=days_ago)),
+        "date_created": common.iso(NOW - timedelta(days=days_ago)),
     }
 
 
@@ -35,22 +43,22 @@ def _bug(bug_id, *targets):
 
 
 def test_iso_roundtrip():
-    assert report.parse_iso(report.iso(NOW)) == NOW
+    assert common.parse_iso(common.iso(NOW)) == NOW
 
 
 def test_window_membership_uses_newest_target():
     # Bug opened long ago but a target task was added 2 hours ago.
     record = _bug(1, _target("linux", 40), _target("linux-aws", 0))
-    assert report._bug_in_window(record, NOW, 1) is not None  # 24h
-    assert report._bug_in_window(record, NOW, 90) is not None
+    assert render._bug_in_window(record, NOW, 1) is not None  # 24h
+    assert render._bug_in_window(record, NOW, 90) is not None
 
 
 def test_window_membership_excludes_old():
     record = _bug(2, _target("linux", 40))
-    assert report._bug_in_window(record, NOW, 1) is None
-    assert report._bug_in_window(record, NOW, 7) is None
-    assert report._bug_in_window(record, NOW, 30) is None
-    assert report._bug_in_window(record, NOW, 90) is not None
+    assert render._bug_in_window(record, NOW, 1) is None
+    assert render._bug_in_window(record, NOW, 7) is None
+    assert render._bug_in_window(record, NOW, 30) is None
+    assert render._bug_in_window(record, NOW, 90) is not None
 
 
 def test_window_bugs_sorted_newest_first():
@@ -59,7 +67,7 @@ def test_window_bugs_sorted_newest_first():
         _bug(2, _target("linux", 1)),
         _bug(3, _target("linux", 3)),
     ]
-    rows = report._window_bugs(bugs, NOW, 7)
+    rows = render._window_bugs(bugs, NOW, 7)
     assert [r[1]["id"] for r in rows] == [2, 3, 1]
 
 
@@ -70,14 +78,14 @@ def test_cumulative_windows():
         _bug(3, _target("linux", 20)),
         _bug(4, _target("linux", 60)),
     ]
-    assert len(report._window_bugs(bugs, NOW, 1)) == 1
-    assert len(report._window_bugs(bugs, NOW, 7)) == 2
-    assert len(report._window_bugs(bugs, NOW, 30)) == 3
-    assert len(report._window_bugs(bugs, NOW, 90)) == 4
+    assert len(render._window_bugs(bugs, NOW, 1)) == 1
+    assert len(render._window_bugs(bugs, NOW, 7)) == 2
+    assert len(render._window_bugs(bugs, NOW, 30)) == 3
+    assert len(render._window_bugs(bugs, NOW, 90)) == 4
 
 
 def test_store_upsert_and_prune(tmp_path):
-    store = report.Store(str(tmp_path))
+    store = common.Store(str(tmp_path))
     assert store.read_last_run() is None
 
     store.save_bug(_bug(10, _target("linux", 0)))
@@ -87,9 +95,9 @@ def test_store_upsert_and_prune(tmp_path):
     assert loaded["title"] == "bug 10"
 
     # Emulate the pruner.
-    cutoff = NOW - timedelta(days=report.RETENTION_DAYS)
+    cutoff = NOW - timedelta(days=common.RETENTION_DAYS)
     for record in list(store.all_bugs()):
-        newest = max(report.parse_iso(t["date_created"]) for t in record["targets"])
+        newest = max(common.parse_iso(t["date_created"]) for t in record["targets"])
         if newest < cutoff:
             store.remove_bug(record["id"])
 
@@ -98,26 +106,26 @@ def test_store_upsert_and_prune(tmp_path):
 
 
 def test_last_run_roundtrip(tmp_path):
-    store = report.Store(str(tmp_path))
+    store = common.Store(str(tmp_path))
     store.write_last_run(NOW)
     assert store.read_last_run() == NOW
 
 
 def test_retry_gives_up(monkeypatch):
-    monkeypatch.setattr(report.time, "sleep", lambda *_: None)
+    monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
     calls = {"n": 0}
 
     def boom():
         calls["n"] += 1
         raise ConnectionError("flaky")
 
-    with pytest.raises(report.RetryExhausted):
-        report.retry("boom", boom)
-    assert calls["n"] == report.RETRY_ATTEMPTS
+    with pytest.raises(fetch.RetryExhausted):
+        fetch.retry("boom", boom)
+    assert calls["n"] == fetch.RETRY_ATTEMPTS
 
 
 def test_retry_succeeds_after_failures(monkeypatch):
-    monkeypatch.setattr(report.time, "sleep", lambda *_: None)
+    monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
     calls = {"n": 0}
 
     def flaky():
@@ -126,17 +134,17 @@ def test_retry_succeeds_after_failures(monkeypatch):
             raise ConnectionError("flaky")
         return "ok"
 
-    assert report.retry("flaky", flaky) == "ok"
+    assert fetch.retry("flaky", flaky) == "ok"
     assert calls["n"] == 3
 
 
 def test_render_from_store(tmp_path):
-    store = report.Store(str(tmp_path))
+    store = common.Store(str(tmp_path))
     store.save_bug(_bug(10, _target("linux", 0)))
     store.save_bug(_bug(11, _target("linux", 20)))
-    report.render(store, NOW, str(tmp_path))
+    render.render(store, NOW, str(tmp_path))
 
-    for slug, _, _ in report.WINDOWS:
+    for slug, _, _ in common.WINDOWS:
         assert os.path.exists(os.path.join(tmp_path, f"{slug}.html"))
     index = open(os.path.join(tmp_path, "index.html")).read()
     assert "Newly opened kernel bugs" in index
