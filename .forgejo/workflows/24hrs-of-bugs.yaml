@@ -1,0 +1,70 @@
+name: Bug report
+
+on:
+  schedule:
+    # Daily at 01:00 UTC.
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: 24hrs-of-bugs
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main (state + output)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Add tools worktree
+        run: |
+          git fetch --no-tags origin tools:tools
+          git worktree add tools tools
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r tools/requirements.txt
+
+      - name: Generate reports
+        env:
+          LP_CREDENTIALS: ${{ secrets.LP_CREDENTIALS }}
+        run: |
+          CREDS_ARG="--no-tag"
+          if [ -n "${LP_CREDENTIALS:-}" ]; then
+            mkdir -p "$RUNNER_TEMP/lp"
+            printf '%s' "$LP_CREDENTIALS" | base64 -d > "$RUNNER_TEMP/lp/credentials"
+            CREDS_ARG="--credentials-file $RUNNER_TEMP/lp/credentials"
+          fi
+          python3 tools/24hrs-of-bugs.py --output "$GITHUB_WORKSPACE" $CREDS_ARG
+
+      - name: Commit and push to Forgejo
+        run: |
+          git config user.name "24hrs-of-bugs bot"
+          git config user.email "kernel-team@lists.ubuntu.com"
+          git worktree remove tools --force
+          git add index.html 24-hours.html 7-days.html 30-days.html 90-days.html \
+                  last-run.json bugs .nojekyll
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Update bug reports $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin HEAD:main
+
+      - name: Push to GitHub Pages
+        if: ${{ vars.GH_PAGES_REPO != '' }}
+        env:
+          GIT_AUTH_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
+          GH_PAGES_REPO: ${{ vars.GH_PAGES_REPO }}
+        run: |
+          git remote add pages \
+            "https://x-access-token:${GIT_AUTH_TOKEN}@github.com/${GH_PAGES_REPO}.git"
+          git push --force pages HEAD:main
