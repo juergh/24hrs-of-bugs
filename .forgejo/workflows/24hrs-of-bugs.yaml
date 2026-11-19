@@ -30,8 +30,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install -r tools/requirements.txt
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install --upgrade pip
+          "$RUNNER_TEMP/venv/bin/pip" install -r tools/requirements.txt
 
       - name: Generate reports
         env:
@@ -43,7 +44,8 @@ jobs:
             printf '%s' "$LP_CREDENTIALS" | base64 -d > "$RUNNER_TEMP/lp/credentials"
             CREDS_ARG="--credentials-file $RUNNER_TEMP/lp/credentials"
           fi
-          python3 tools/24hrs-of-bugs.py --output "$GITHUB_WORKSPACE" $CREDS_ARG
+          "$RUNNER_TEMP/venv/bin/python" tools/24hrs-of-bugs.py \
+            --output "$GITHUB_WORKSPACE" $CREDS_ARG
 
       - name: Commit and push to Forgejo
         run: |
