@@ -245,3 +245,94 @@ footer {
   padding: 2.5rem 1rem;
   font-style: italic;
 }
+
+/* "multiple" aggregate value (brief mode) */
+.k-multiple {
+  font-style: italic;
+  color: var(--muted);
+  border-bottom: 1px dotted #999;
+  cursor: help;
+}
+
+/* Inactive (closed/invalidated/removed) targets in the Targets column */
+.k-target-inactive {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Duplicate marker */
+.k-duplicate {
+  color: var(--aubergine);
+}
+
+/* Task-detail expand toggle */
+.k-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.75rem;
+  padding: 0 0.35rem 0 0;
+  line-height: 1;
+  transition: transform 0.15s ease-in-out;
+}
+tr.is-open .k-toggle,
+table.k-verbose .k-toggle {
+  transform: rotate(90deg);
+}
+
+/* Verbose task-detail sub-table */
+tr.k-details {
+  display: none;
+}
+tr.is-open + tr.k-details,
+table.k-verbose tr.k-details {
+  display: table-row;
+}
+tr.k-details > td {
+  background: #f9f9f9;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+}
+table.k-sub {
+  width: 100%;
+  font-size: 0.82rem;
+}
+table.k-sub thead th {
+  border-bottom: 1px solid #ddd;
+  padding: 0.25rem 0.6rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+table.k-sub tbody td {
+  border-bottom: 1px solid #eee;
+  padding: 0.25rem 0.6rem;
+}
+table.k-sub tbody tr.k-inactive td {
+  color: #999;
+}
+
+/* Brief/Verbose view switch */
+.k-view-switch {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+.k-view-btn {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--ink);
+  transition: all 0.15s ease-in-out;
+}
+.k-view-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.k-view-btn.is-active {
+  background: var(--aubergine);
+  border-color: var(--aubergine);
+  color: #fff;
+}

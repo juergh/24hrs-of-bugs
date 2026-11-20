@@ -5,6 +5,9 @@
 #
 # This is the "renderer" half of 24hrs-of-bugs; populating the store from
 # Launchpad is done separately by fetch-bugs.py. It performs no network access.
+#
+# The store holds raw per-task facts only; all display-level aggregation
+# (shared value vs "multiple", active vs inactive targets) is derived here.
 
 import logging
 import os
@@ -14,7 +17,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from common import WINDOWS, Store, iso, parse_iso
+from common import CLOSED_STATUSES, WINDOWS, Store, iso, parse_iso
 
 log = logging.getLogger("render-html")
 
@@ -23,6 +26,8 @@ LP_BUG_URL = "https://bugs.launchpad.net/bugs/"
 _HERE = os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_DIR = os.path.join(_HERE, "templates")
 STATIC_DIR = os.path.join(_HERE, "static")
+
+_CLOSED = set(CLOSED_STATUSES)
 
 
 def _load_assets() -> tuple[str, str]:
@@ -48,14 +53,98 @@ def _bug_in_window(record: dict[str, Any], now: datetime, days: int) -> datetime
     return max(hits)
 
 
-def _window_bugs(bugs: list[dict[str, Any]], now: datetime, days: int) -> list[tuple[datetime, dict[str, Any]]]:
-    """Bugs in the window as (newest qualifying date, record), newest first."""
-    rows: list[tuple[datetime, dict[str, Any]]] = []
+def _active_targets(record: dict[str, Any]) -> list[dict[str, Any]]:
+    """Tasks with ongoing work: not closed and the bug is not a duplicate."""
+    if record.get("duplicate_of") is not None:
+        return []
+    return [t for t in record.get("targets", []) if t.get("status") not in _CLOSED]
+
+
+def _field(pool: list[dict[str, Any]], key: str) -> dict[str, str]:
+    """Aggregate one task field for brief mode.
+
+    The shared value when every task in the pool agrees, else "multiple" with
+    a tooltip listing the distinct values.
+    """
+    values = [str(t.get(key) or "") for t in pool]
+    if values and all(v == values[0] for v in values):
+        return {"value": values[0], "tooltip": ""}
+    distinct = []
+    for v in values:
+        if v and v not in distinct:
+            distinct.append(v)
+    return {"value": "multiple", "tooltip": ", ".join(distinct)}
+
+
+def _brief(record: dict[str, Any]) -> dict[str, Any]:
+    """Derive the brief-mode display fields from the raw per-task data."""
+    targets = record.get("targets", [])
+    pool = _active_targets(record) or targets
+    brief: dict[str, Any] = {
+        "importance": _field(pool, "importance"),
+        "assignee": _field(pool, "assignee"),
+        "series": _field(pool, "series"),
+    }
+    if record.get("duplicate_of") is not None:
+        brief["status"] = "Duplicate"
+    else:
+        brief["status"] = _field(pool, "status")
+    return brief
+
+
+def _display_targets(record: dict[str, Any]) -> list[dict[str, Any]]:
+    """Unique target names for the Targets column, flagging inactive ones.
+
+    A name is inactive when the bug has no active task on it (the task was
+    closed, invalidated or removed/retargeted).
+    """
+    active_names = {t["name"] for t in _active_targets(record)}
+    by_name: dict[str, dict[str, Any]] = {}
+    for t in record.get("targets", []):
+        name = t["name"]
+        inactive = name not in active_names
+        if name not in by_name or not inactive:
+            by_name[name] = {"name": name, "inactive": inactive}
+    return [by_name[name] for name in sorted(by_name)]
+
+
+def _detail_targets(record: dict[str, Any]) -> list[dict[str, Any]]:
+    """Per-task rows for verbose mode, with an active flag and display date."""
+    duplicate = record.get("duplicate_of") is not None
+    details = []
+    for t in record.get("targets", []):
+        details.append(
+            {
+                **t,
+                "active": not duplicate and t.get("status") not in _CLOSED,
+                "date_opened": parse_iso(t["date_created"]).strftime("%Y-%m-%d %H:%M"),
+            }
+        )
+    return details
+
+
+def _window_bugs(bugs: list[dict[str, Any]], now: datetime, days: int) -> list[dict[str, Any]]:
+    """Bugs in the window as display rows, newest qualifying task first."""
+    rows: list[dict[str, Any]] = []
     for record in bugs:
         newest = _bug_in_window(record, now, days)
-        if newest is not None:
-            rows.append((newest, record))
-    rows.sort(key=lambda r: r[0], reverse=True)
+        if newest is None:
+            continue
+        targets = record.get("targets", [])
+        rows.append(
+            {
+                "newest": newest,
+                "id": record["id"],
+                "title": record.get("title", ""),
+                "duplicate_of": record.get("duplicate_of"),
+                "brief": _brief(record),
+                "series_attr": " ".join(sorted({t.get("series", "") for t in targets if t.get("series")})),
+                "targets": _display_targets(record),
+                "targets_attr": " ".join(sorted({t["name"] for t in targets})),
+                "details": _detail_targets(record),
+            }
+        )
+    rows.sort(key=lambda r: r["newest"], reverse=True)
     return rows
 
 
@@ -80,8 +169,8 @@ def render(store: Store, now: datetime, output_dir: str) -> None:
         rows = _window_bugs(bugs, now, days)
         counts[slug] = len(rows)
 
-        series_list = sorted({str(r[1]["series"]) for r in rows if r[1].get("series")})
-        has_unspecified_series = any(not r[1].get("series") for r in rows)
+        series_list = sorted({s for r in rows for s in r["series_attr"].split()})
+        has_unspecified_series = any(not r["series_attr"] for r in rows)
 
         html = window_template.render(
             slug=slug,

@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% macro brief_field(f) -%}
+{%- if f.value == "multiple" -%}
+<span class="k-multiple" title="{{ f.tooltip }}">multiple</span>
+{%- elif f.value -%}
+{{ f.value }}
+{%- else -%}
+&mdash;
+{%- endif -%}
+{%- endmacro %}
+
 {% block title %}Kernel bugs opened in the {{ label }}{% endblock %}
 
 {% block content %}
@@ -38,6 +48,13 @@
     </div>
   </div>
   {% endif %}
+  <div class="k-filter-row">
+    <span class="k-filter-label">View:</span>
+    <div class="k-view-switch" id="k-view-switch">
+      <button type="button" class="k-view-btn is-active" data-view="brief">Brief</button>
+      <button type="button" class="k-view-btn" data-view="verbose">Verbose</button>
+    </div>
+  </div>
   <div class="k-filter-status">
     <span id="k-filter-count">Showing {{ rows|length }} of {{ rows|length }} bug{% if rows|length != 1 %}s{% endif %}</span>
   </div>
@@ -56,16 +73,46 @@
 </tr>
 </thead>
 <tbody>
-{% for _, record in rows %}
-<tr data-series="{{ record.series or '' }}" data-targets="{{ record.targets|map(attribute='name')|join(', ') }}">
-  <td class="k-id"><a href="{{ lp_bug_url }}{{ record.id }}">#{{ record.id }}</a></td>
-  <td><a href="{{ lp_bug_url }}{{ record.id }}" style="color:inherit;text-decoration:none">{{ record.title }}</a></td>
-  <td>{% if record.series %}{{ record.series }}{% else %}&mdash;{% endif %}</td>
-  <td>{{ record.importance }}</td>
-  <td>{{ record.status }}</td>
-  <td>{{ record.assignee }}</td>
-  <td class="k-targets">{{ record.targets|map(attribute='name')|join(', ') }}</td>
+{% for row in rows %}
+<tr class="k-bug" data-series="{{ row.series_attr }}" data-targets="{{ row.targets_attr }}">
+  <td class="k-id">{% if row.details|length > 1 %}<button type="button" class="k-toggle" title="Toggle task details" aria-label="Toggle task details">&#9656;</button>{% endif %}<a href="{{ lp_bug_url }}{{ row.id }}">#{{ row.id }}</a></td>
+  <td><a href="{{ lp_bug_url }}{{ row.id }}" style="color:inherit;text-decoration:none">{{ row.title }}</a></td>
+  <td>{{ brief_field(row.brief.series) }}</td>
+  <td>{{ brief_field(row.brief.importance) }}</td>
+  <td>{% if row.duplicate_of is not none %}<a class="k-duplicate" href="{{ lp_bug_url }}{{ row.duplicate_of }}" title="Duplicate of #{{ row.duplicate_of }}">Duplicate</a>{% else %}{{ brief_field(row.brief.status) }}{% endif %}</td>
+  <td>{{ brief_field(row.brief.assignee) }}</td>
+  <td class="k-targets">{% for t in row.targets %}{% if not loop.first %}, {% endif %}{% if t.inactive %}<span class="k-target-inactive" title="No active task on this target">{{ t.name }}</span>{% else %}{{ t.name }}{% endif %}{% endfor %}</td>
 </tr>
+{% if row.details|length > 1 %}
+<tr class="k-details">
+  <td colspan="7">
+    <table class="k-sub">
+      <thead>
+      <tr>
+        <th>Target</th>
+        <th>Series</th>
+        <th>Status</th>
+        <th>Importance</th>
+        <th>Assignee</th>
+        <th>Opened (UTC)</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for t in row.details %}
+      <tr{% if not t.active %} class="k-inactive"{% endif %}>
+        <td>{{ t.name }}</td>
+        <td>{% if t.series %}{{ t.series }}{% else %}&mdash;{% endif %}</td>
+        <td>{{ t.status }}</td>
+        <td>{{ t.importance }}</td>
+        <td>{{ t.assignee }}</td>
+        <td>{{ t.date_opened }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </td>
+</tr>
+{% endif %}
 {% endfor %}
 <tr id="k-no-matches" style="display: none;">
   <td colspan="7" class="k-match-none">No bugs match the current filters.</td>
