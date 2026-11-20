@@ -16,9 +16,10 @@ import time
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from collections.abc import Callable
 from datetime import UTC, datetime, timedelta
-from typing import Any, TypeVar
+from typing import Any
 from urllib.error import HTTPError as UrllibHTTPError
 from urllib.error import URLError
+from urllib.parse import urlparse
 
 from launchpadlib.launchpad import Launchpad
 
@@ -29,8 +30,8 @@ except ImportError:  # pragma: no cover - lazr always ships with launchpadlib
     LazrHTTPError = ()
     LazrServerError = ()
 
-from cktools_data import KernelSeries, KernelTargets
-from common import FUDGE_MINUTES, RETENTION_DAYS, Store, iso, parse_iso
+from cktools_data import KernelTargets
+from common import CLOSED_STATUSES, FUDGE_MINUTES, RETENTION_DAYS, Store, iso, parse_iso
 
 log = logging.getLogger("fetch-bugs")
 
@@ -61,9 +62,6 @@ RETRYABLE_EXCEPTIONS: tuple[type[BaseException], ...] = (
 )
 if LazrServerError:
     RETRYABLE_EXCEPTIONS = RETRYABLE_EXCEPTIONS + (LazrServerError,)
-
-
-T = TypeVar("T")
 
 
 class RetryExhausted(Exception):
@@ -137,6 +135,55 @@ def retry[T](description: str, func: Callable[[], T]) -> T:
     raise RetryExhausted(f"{description}: failed after {RETRY_ATTEMPTS} attempts")
 
 
+def task_target(target_link: str) -> tuple[str, str, str] | None:
+    """Extract (name, type, series) from a bug task's target_link URL.
+
+    Distribution task: .../ubuntu/+source/<pkg>          -> (<pkg>, "package", "")
+    Series task:       .../ubuntu/<series>/+source/<pkg> -> (<pkg>, "package", <series>)
+    Project task:      .../<project>                     -> (<project>, "project", "")
+
+    Returns None for source package tasks on non-Ubuntu distributions.
+    """
+    parts = urlparse(target_link).path.strip("/").split("/")
+    if "+source" in parts:
+        i = parts.index("+source")
+        if parts[i - 1] == "ubuntu":
+            return parts[i + 1], "package", ""
+        if i >= 2 and parts[i - 2] == "ubuntu":
+            return parts[i + 1], "package", parts[i - 1]
+        return None
+    return parts[-1], "project", ""
+
+
+def merge_targets(old_targets: list[dict[str, Any]], current: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Merge freshly scanned tasks with previously stored targets.
+
+    Previously stored targets whose task no longer exists on Launchpad (the
+    bug was retargeted or the task deleted) are preserved with the synthetic
+    status "Removed" as an audit trail; a task that reappears on Launchpad is
+    revived with its live data.
+    """
+    current_keys = {(t["name"], t["type"], t["series"]) for t in current}
+    merged = list(current)
+    for old in old_targets:
+        key = (old["name"], old["type"], old.get("series", ""))
+        if key in current_keys:
+            continue
+        merged.append(
+            {
+                "name": old["name"],
+                "type": old["type"],
+                "series": old.get("series", ""),
+                "status": "Removed",
+                "importance": old.get("importance", "Undecided"),
+                "assignee": old.get("assignee", "unassigned"),
+                "date_created": old["date_created"],
+            }
+        )
+    merged.sort(key=lambda t: (t["name"], t["type"], t["series"]))
+    return merged
+
+
 class Scanner:
     """Drives the Launchpad scan and store upsert."""
 
@@ -144,13 +191,6 @@ class Scanner:
         self.args = args
         self.store = store
         self.now = args.now
-        self.kernel_series = KernelSeries()
-        # Codenames, newest series first, so the most recent matching tag wins.
-        self._series_codenames = [
-            s.codename
-            for s in sorted(self.kernel_series.series, key=KernelSeries.key_series_name, reverse=True)  # type: ignore[attr-defined]
-            if s.codename
-        ]
 
         self.can_tag = False
         if args.credentials_file and os.path.exists(args.credentials_file):
@@ -167,16 +207,18 @@ class Scanner:
             self.lp = Launchpad.login_anonymously("24hrs-of-bugs", "production", ".shadow-cache", version="devel")
         self.distro = self.lp.distributions["ubuntu"]
 
-        # Per-run cache of bug.tags keyed by bug id, so a bug hit via several
-        # targets is only dereferenced once.
-        self._tags_cache: dict[int, list[str]] = {}
-        self.failures = 0
+        self._targets = KernelTargets().all
+        self._monitored_names = {
+            "package": {t.name for t in self._targets if t.type == "package"},
+            "project": {t.name for t in self._targets if t.type == "project"},
+        }
 
-    def series_from_tags(self, tags: list[str]) -> str:
-        for codename in self._series_codenames:
-            if codename in tags:
-                return codename
-        return ""
+        # Per-run cache of bug.tags keyed by bug id, and the set of bugs
+        # already reconciled this run, so a bug hit via several targets is
+        # only dereferenced and processed once.
+        self._tags_cache: dict[int, list[str]] = {}
+        self._processed_bugs: set[int] = set()
+        self.failures = 0
 
     def _entry_for(self, name: str, type_: str) -> Any:
         if type_ == "project":
@@ -196,15 +238,56 @@ class Scanner:
             self._tags_cache[bug_id] = retry(f"bug {bug_id} tags", lambda: list(bug.tags))
         return self._tags_cache[bug_id]
 
+    @staticmethod
+    def _duplicate_of(bug: Any) -> int | None:
+        """The id of the bug this one duplicates, or None."""
+        link = bug.duplicate_of_link
+        if not link:
+            return None
+        try:
+            return int(link.rstrip("/").rsplit("/", 1)[-1])
+        except ValueError:
+            return None
+
+    def _monitored_tasks(self, bug: Any) -> list[dict[str, Any]]:
+        """The bug's current tasks on monitored targets, from bug.bug_tasks."""
+        tasks = retry(f"bug {bug.id} tasks", lambda: list(bug.bug_tasks))
+        monitored = []
+        for task in tasks:
+            target = task_target(task.target_link)
+            if target is None:
+                continue
+            name, type_, series = target
+            if name not in self._monitored_names[type_]:
+                continue
+            try:
+                assignee = task.assignee.display_name
+            except AttributeError:
+                assignee = "unassigned"
+            except ValueError:
+                assignee = "unknown"
+            monitored.append(
+                {
+                    "name": name,
+                    "type": type_,
+                    "series": series,
+                    "status": task.status,
+                    "importance": task.importance,
+                    "assignee": assignee,
+                    "date_created": iso(task.date_created.astimezone(UTC)),
+                }
+            )
+        return monitored
+
     def scan_target(self, name: str, type_: str, since: datetime) -> None:
-        """Query one target and upsert every in-window task into the store."""
+        """Query one target and reconcile every in-window bug into the store."""
         entry = retry(f"lookup {type_} {name}", lambda: self._entry_for(name, type_))
         if entry is None:
             return
 
         tasks = retry(
             f"searchTasks {type_} {name}",
-            lambda: entry.searchTasks(status=SEARCH_STATUS, modified_since=since),
+            lambda: entry.searchTasks(status=SEARCH_STATUS, modified_since=since, omit_duplicates=False),
         )
 
         # Iterate defensively: each page is a separate HTTP fetch.
@@ -218,63 +301,63 @@ class Scanner:
                 break
 
             bug = task.bug
+            if bug.id in self._processed_bugs:
+                continue
+            self._processed_bugs.add(bug.id)
+
             tags = self._bug_tags(bug)
             if "kernel-release-tracking-bug" in tags:
                 continue
 
-            date_created = task.date_created.astimezone(UTC)
-            # Ignore tasks whose creation predates the retention window; the
-            # pruner would drop them again immediately.
-            if date_created < self.now - timedelta(days=RETENTION_DAYS):
-                continue
+            self._upsert(bug, tags)
 
-            self._upsert(bug, task, tags, name, type_, date_created)
+    def _upsert(self, bug: Any, tags: list[str]) -> None:
+        """Reconcile one bug record with its current Launchpad tasks.
 
-    def _upsert(self, bug: Any, task: Any, tags: list[str], name: str, type_: str, date_created: datetime) -> None:
-        """Upsert one JSON record per bug (dedup by bug id).
-
-        A bug raised against several kernel targets is stored once: append a
-        new target task, or refresh its creation date if already known, and
-        refresh title/series/importance/status/assignee on every sighting.
+        The full task list (bug.bug_tasks) is re-examined on every sighting
+        so the record always reflects Launchpad reality: retargeted or
+        deleted tasks are preserved with the synthetic status "Removed".
         """
         bug_id = bug.id
-        record = self.store.load_bug(bug_id) or {
-            "id": bug_id,
-            "targets": [],
-        }
+        record = self.store.load_bug(bug_id) or {"id": bug_id, "targets": []}
 
-        try:
-            assignee = task.assignee.display_name
-        except AttributeError:
-            assignee = "unassigned"
-        except ValueError:
-            assignee = "unknown"
+        targets = merge_targets(record["targets"], self._monitored_tasks(bug))
+        if not targets:
+            # No monitored tasks and nothing worth preserving.
+            self.store.remove_bug(bug_id)
+            log.info("II: Removed LP: #%s (no monitored tasks) -- %s", bug_id, bug.title)
+            return
+
+        # Ignore (and drop) bugs whose newest task predates the retention
+        # window; the pruner would remove them again immediately.
+        newest = max(parse_iso(t["date_created"]) for t in targets)
+        if newest < self.now - timedelta(days=RETENTION_DAYS):
+            self.store.remove_bug(bug_id)
+            return
 
         record["title"] = bug.title
-        record["series"] = self.series_from_tags(tags)
-        record["importance"] = task.importance
-        record["status"] = task.status
-        record["assignee"] = assignee
+        record["duplicate_of"] = self._duplicate_of(bug)
         record["last_seen"] = iso(self.now)
-
-        target = {"name": name, "type": type_, "date_created": iso(date_created)}
-        existing = next((t for t in record["targets"] if t["name"] == name and t["type"] == type_), None)
-        if existing:
-            existing["date_created"] = target["date_created"]
-        else:
-            record["targets"].append(target)
-        record["targets"].sort(key=lambda t: (t["name"], t["type"]))
+        record["targets"] = targets
+        # Drop legacy top-level fields superseded by the per-target data.
+        for key in ("series", "importance", "status", "assignee"):
+            record.pop(key, None)
 
         self.store.save_bug(record)
-        log.info("II: Upserted LP: #%s (%s) -- %s -- %s", bug_id, name, task.status, bug.title)
+        log.info("II: Upserted LP: #%s -- %s", bug_id, bug.title)
 
-        if self._should_tag(date_created):
-            self._tag(bug, tags, name)
+        if self._should_tag(record):
+            self._tag(bug, tags, record)
 
-    def _should_tag(self, date_created: datetime) -> bool:
-        return self.can_tag and date_created >= self.now - timedelta(days=1)
+    def _should_tag(self, record: dict[str, Any]) -> bool:
+        if not self.can_tag or record["duplicate_of"] is not None:
+            return False
+        cutoff = self.now - timedelta(days=1)
+        return any(
+            t["status"] not in CLOSED_STATUSES and parse_iso(t["date_created"]) >= cutoff for t in record["targets"]
+        )
 
-    def _tag(self, bug: Any, tags: list[str], name: str) -> None:
+    def _tag(self, bug: Any, tags: list[str], record: dict[str, Any]) -> None:
         """Apply the daily-bug tags: kernel-daily-bug, plus
         linux-firmware-daily-bug for firmware targets. Best-effort: failures
         are logged, not fatal.
@@ -282,7 +365,8 @@ class Scanner:
         new_tags = []
         if "kernel-daily-bug" not in tags:
             new_tags.append("kernel-daily-bug")
-        if name.startswith("linux-firmware") and "linux-firmware-daily-bug" not in tags:
+        has_firmware = any(t["name"].startswith("linux-firmware") for t in record["targets"])
+        if has_firmware and "linux-firmware-daily-bug" not in tags:
             new_tags.append("linux-firmware-daily-bug")
         if not new_tags:
             return
@@ -313,7 +397,7 @@ class Scanner:
             since = last_run - timedelta(minutes=self.args.fudge_minutes)
             log.info("II: Incremental scan since %s (last run %s)", iso(since), iso(last_run))
 
-        targets = sorted({(t.name, t.type) for t in KernelTargets().all})
+        targets = sorted({(t.name, t.type) for t in self._targets})
         log.info("II: Scanning %d targets", len(targets))
         for name, type_ in targets:
             try:

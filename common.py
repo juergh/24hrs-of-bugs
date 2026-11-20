@@ -24,6 +24,11 @@ RETENTION_DAYS: int = 90
 # Launchpad's eventual consistency.
 FUDGE_MINUTES: int = 15
 
+# Task statuses after which no further work happens on a task. "Removed" is a
+# synthetic status recorded by the fetcher when a previously seen task no
+# longer exists on Launchpad (e.g. the bug was retargeted to another package).
+CLOSED_STATUSES: tuple[str, ...] = ("Invalid", "Won't Fix", "Expired", "Removed")
+
 
 def iso(dt: datetime) -> str:
     """Serialise a datetime as a UTC ISO-8601 string."""
@@ -43,18 +48,25 @@ def parse_iso(value: str) -> datetime:
 #
 #     {
 #       "id": 1234567,
-#       "title": "...", "series": "noble",
-#       "importance": "Medium", "status": "New", "assignee": "...",
+#       "title": "...",
+#       "duplicate_of": null | <bug id>,
 #       "last_seen": "<utc iso>",
 #       "targets": [
-#         {"name": "linux", "type": "package", "date_created": "<utc iso>"},
+#         {
+#           "name": "linux", "type": "package", "series": "noble",
+#           "status": "In Progress", "importance": "High", "assignee": "...",
+#           "date_created": "<utc iso>"
+#         },
 #         ...
 #       ]
 #     }
 #
-# "targets" records every kernel target a task has been filed against, each
-# with its own task creation date; a bug is stored once even when raised
-# against several targets.
+# "targets" records the bug's current tasks on monitored targets plus tasks
+# that were removed or retargeted on Launchpad (kept with the synthetic
+# status "Removed" as an audit trail). One entry per (name, type, series);
+# series is "" for unversioned distribution tasks and projects. The record
+# holds raw Launchpad facts only; aggregated display fields (shared value vs
+# "multiple") are derived by the renderer.
 class Store:
     """Filesystem-backed store of per-bug JSON files plus a last-run stamp."""
 
