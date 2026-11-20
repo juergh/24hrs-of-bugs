@@ -6,7 +6,7 @@
 import json
 import os
 from collections.abc import Iterator
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 
 # Reporting windows (slug, human label, number of days).
@@ -27,15 +27,15 @@ FUDGE_MINUTES: int = 15
 
 def iso(dt: datetime) -> str:
     """Serialise a datetime as a UTC ISO-8601 string."""
-    return dt.astimezone(timezone.utc).isoformat()
+    return dt.astimezone(UTC).isoformat()
 
 
 def parse_iso(value: str) -> datetime:
     """Parse an ISO-8601 string into an aware UTC datetime."""
     dt = datetime.fromisoformat(value)
     if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
-    return dt.astimezone(timezone.utc)
+        dt = dt.replace(tzinfo=UTC)
+    return dt.astimezone(UTC)
 
 
 # On-disk bug record schema — the contract between fetch-bugs.py and

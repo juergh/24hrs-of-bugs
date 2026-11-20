@@ -18,7 +18,9 @@ module = "cktools_data.*"
 ignore_errors = true
 
 [tool.ruff]
-line-length = 120
+line-length = 118
+indent-width = 4
+target-version = "py312"
 extend-exclude = [
     "cktools_data",
 ]

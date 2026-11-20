@@ -1,7 +1,7 @@
 import importlib.util
 import os
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 import pytest
 
@@ -24,7 +24,7 @@ def _load(name, filename):
 render = _load("render_html", "render-html.py")
 fetch = _load("fetch_bugs", "fetch-bugs.py")
 
-NOW = datetime(2026, 11, 19, 1, 0, tzinfo=timezone.utc)
+NOW = datetime(2026, 11, 19, 1, 0, tzinfo=UTC)
 
 
 def _target(name, days_ago):

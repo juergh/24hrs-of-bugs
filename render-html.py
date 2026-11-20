@@ -9,7 +9,7 @@
 import logging
 import os
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -123,7 +123,7 @@ def main() -> None:
     if args.datetime:
         now = datetime.strptime(args.datetime + ":00+0000", "%Y-%m-%d %H:%M:%S%z")
     else:
-        now = datetime.now(timezone.utc)
+        now = datetime.now(UTC)
 
     output_dir = os.path.abspath(args.output)
     state_dir = os.path.abspath(args.state_dir) if args.state_dir else output_dir

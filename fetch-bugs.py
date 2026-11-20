@@ -15,7 +15,7 @@ import socket
 import time
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from collections.abc import Callable
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Any, TypeVar
 from urllib.error import HTTPError as UrllibHTTPError
 from urllib.error import URLError
@@ -104,7 +104,7 @@ def _retry_after(exc: BaseException) -> float | None:
         return None
 
 
-def retry(description: str, func: Callable[[], T]) -> T:
+def retry[T](description: str, func: Callable[[], T]) -> T:
     """Call func() with exponential backoff + jitter, honouring Retry-After.
 
     Raises RetryExhausted when all attempts fail with a retryable error, and
@@ -126,7 +126,12 @@ def retry(description: str, func: Callable[[], T]) -> T:
                 delay = min(RETRY_CAP_SECONDS, RETRY_BASE_SECONDS * (2 ** (attempt - 1)))
                 delay *= 1 + random.uniform(-0.2, 0.2)
             log.warning(
-                "WW: %s failed (attempt %d/%d): %s; retrying in %.1fs", description, attempt, RETRY_ATTEMPTS, exc, delay
+                "WW: %s failed (attempt %d/%d): %s; retrying in %.1fs",
+                description,
+                attempt,
+                RETRY_ATTEMPTS,
+                exc,
+                delay,
             )
             time.sleep(delay)
     raise RetryExhausted(f"{description}: failed after {RETRY_ATTEMPTS} attempts")
@@ -217,7 +222,7 @@ class Scanner:
             if "kernel-release-tracking-bug" in tags:
                 continue
 
-            date_created = task.date_created.astimezone(timezone.utc)
+            date_created = task.date_created.astimezone(UTC)
             # Ignore tasks whose creation predates the retention window; the
             # pruner would drop them again immediately.
             if date_created < self.now - timedelta(days=RETENTION_DAYS):
@@ -353,7 +358,10 @@ def main() -> None:
     )
     parser.add_argument("--no-tag", action="store_true", help="Do not tag bugs on Launchpad.")
     parser.add_argument(
-        "--seed-days", type=int, default=RETENTION_DAYS, help="History to ingest on the first run (no last-run stamp)."
+        "--seed-days",
+        type=int,
+        default=RETENTION_DAYS,
+        help="History to ingest on the first run (no last-run stamp).",
     )
     parser.add_argument(
         "--fudge-minutes",
@@ -369,12 +377,12 @@ def main() -> None:
     if args.datetime:
         args.now = datetime.strptime(args.datetime + ":00+0000", "%Y-%m-%d %H:%M:%S%z")
     else:
-        args.now = datetime.now(timezone.utc)
+        args.now = datetime.now(UTC)
     log.info("II: Now: %s", iso(args.now))
 
     store = Store(os.path.abspath(args.state_dir))
     Scanner(args, store).run()
-    log.info("II: Finished: %s", iso(datetime.now(timezone.utc)))
+    log.info("II: Finished: %s", iso(datetime.now(UTC)))
 
 
 if __name__ == "__main__":
