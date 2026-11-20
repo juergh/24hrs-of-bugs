@@ -23,3 +23,5 @@ extend-exclude = [
     "cktools_data",
 ]
 
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP"]

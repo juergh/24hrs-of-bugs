@@ -30,7 +30,6 @@ except ImportError:  # pragma: no cover - lazr always ships with launchpadlib
     LazrServerError = ()
 
 from cktools_data import KernelSeries, KernelTargets
-
 from common import FUDGE_MINUTES, RETENTION_DAYS, Store, iso, parse_iso
 
 log = logging.getLogger("fetch-bugs")

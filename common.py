@@ -5,8 +5,9 @@
 
 import json
 import os
+from collections.abc import Iterator
 from datetime import datetime, timezone
-from typing import Any, Iterator
+from typing import Any
 
 # Reporting windows (slug, human label, number of days).
 WINDOWS: list[tuple[str, str, int]] = [
