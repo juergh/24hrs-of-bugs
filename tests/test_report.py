@@ -160,3 +160,10 @@ def test_render_from_store(tmp_path):
     assert "/bugs/11" not in day
     assert "<td>&mdash;</td>" in day
     assert "&amp;mdash;" not in day
+    assert 'data-series=""' in day
+    assert 'data-targets="linux"' in day
+    assert 'id="k-pkg-search"' in day
+    assert 'id="k-filter-clear"' in day
+    assert 'data-series="none"' in day
+    assert 'id="k-bugs-table"' in day
+    assert "applyFilters" in day

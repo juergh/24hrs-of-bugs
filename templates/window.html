@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}Kernel bugs opened in the {{ label }}{% endblock %}
+
+{% block content %}
+<h2>Bugs opened in the {{ label }}</h2>
+<p class="k-sub">{{ rows|length }} bug(s) &middot; a bug raised against several kernel targets is listed once.</p>
+
+<nav class="k-tabs">
+  <a href="index.html">Overview</a>
+  {% for w_slug, w_label, _ in windows %}
+  <a href="{{ w_slug }}.html"{% if w_slug == slug %} class="is-active"{% endif %}>{{ w_label|replace("last ", "") }}</a>
+  {% endfor %}
+</nav>
+
+{% if not rows %}
+<p class="k-empty">No bugs opened in this window.</p>
+{% else %}
+<div class="k-filter-box" id="k-filter-box">
+  <div class="k-filter-row">
+    <span class="k-filter-label">Package:</span>
+    <div class="k-search-wrap">
+      <input type="text" id="k-pkg-search" class="k-search-input" placeholder="Filter package name (e.g. aws, gcp)..." autocomplete="off" spellcheck="false">
+      <button type="button" id="k-filter-clear" class="k-btn-clear" title="Clear all filters">&times; Reset</button>
+    </div>
+  </div>
+  {% if series_list or has_unspecified_series %}
+  <div class="k-filter-row">
+    <span class="k-filter-label">Series:</span>
+    <div class="k-pills" id="k-series-pills">
+      <button type="button" class="k-pill is-all is-active" data-series="all">All</button>
+      {% for s in series_list %}
+      <button type="button" class="k-pill" data-series="{{ s }}">{{ s }}</button>
+      {% endfor %}
+      {% if has_unspecified_series %}
+      <button type="button" class="k-pill" data-series="none">None</button>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+  <div class="k-filter-status">
+    <span id="k-filter-count">Showing {{ rows|length }} of {{ rows|length }} bug{% if rows|length != 1 %}s{% endif %}</span>
+  </div>
+</div>
+
+<table id="k-bugs-table">
+<thead>
+<tr>
+  <th>Bug</th>
+  <th>Title</th>
+  <th>Series</th>
+  <th>Importance</th>
+  <th>Status</th>
+  <th>Assignee</th>
+  <th>Targets</th>
+</tr>
+</thead>
+<tbody>
+{% for _, record in rows %}
+<tr data-series="{{ record.series or '' }}" data-targets="{{ record.targets|map(attribute='name')|join(', ') }}">
+  <td class="k-id"><a href="{{ lp_bug_url }}{{ record.id }}">#{{ record.id }}</a></td>
+  <td><a href="{{ lp_bug_url }}{{ record.id }}" style="color:inherit;text-decoration:none">{{ record.title }}</a></td>
+  <td>{% if record.series %}{{ record.series }}{% else %}&mdash;{% endif %}</td>
+  <td>{{ record.importance }}</td>
+  <td>{{ record.status }}</td>
+  <td>{{ record.assignee }}</td>
+  <td class="k-targets">{{ record.targets|map(attribute='name')|join(', ') }}</td>
+</tr>
+{% endfor %}
+<tr id="k-no-matches" style="display: none;">
+  <td colspan="7" class="k-match-none">No bugs match the current filters.</td>
+</tr>
+</tbody>
+</table>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if rows %}
+<script>
+{{ js|safe }}
+</script>
+{% endif %}
+{% endblock %}

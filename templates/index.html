@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Ubuntu kernel newly opened bugs{% endblock %}
+
+{% block content %}
+<h2>Newly opened kernel bugs</h2>
+<p class="k-sub">Bugs filed against Ubuntu kernel targets on Launchpad, bucketed by how recently they were opened.</p>
+<nav class="k-tabs">
+  <a href="index.html" class="is-active">Overview</a>
+  {% for slug, label, _ in windows %}
+  <a href="{{ slug }}.html">{{ label|replace("last ", "") }}</a>
+  {% endfor %}
+</nav>
+<div class="k-cards">
+  {% for slug, label, _ in windows %}
+  <a class="k-card" href="{{ slug }}.html">
+    <span class="k-count">{{ counts.get(slug, 0) }}</span>
+    <span class="k-label">{{ label }}</span>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

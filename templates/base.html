@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Ubuntu kernel newly opened bugs{% endblock %}</title>
+<style>
+{{ css|safe }}
+</style>
+</head>
+<body>
+<header class="k-head"><span class="k-logo">U</span><h1>Ubuntu kernel &mdash; newly opened bugs</h1></header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer>Generated {{ generated_at }} &middot; data from <a href="https://bugs.launchpad.net/">Launchpad</a></footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>
