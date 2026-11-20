@@ -98,6 +98,12 @@ def _footer(now):
 
 
 def _bug_in_window(record, now, days):
+    """Newest target-task creation date within the window, or None.
+
+    A bug is in window W if ANY of its target tasks was created within W, so
+    a bug retargeted onto a new kernel shows up in the fresh window. Windows
+    are cumulative (24h ⊆ 7d ⊆ 30d ⊆ 90d).
+    """
     cutoff = now - timedelta(days=days)
     hits = [parse_iso(t["date_created"]) for t in record["targets"]]
     hits = [h for h in hits if h >= cutoff]
@@ -107,6 +113,7 @@ def _bug_in_window(record, now, days):
 
 
 def _window_bugs(bugs, now, days):
+    """Bugs in the window as (newest qualifying date, record), newest first."""
     rows = []
     for record in bugs:
         newest = _bug_in_window(record, now, days)

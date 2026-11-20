@@ -37,6 +37,23 @@ def parse_iso(value):
     return dt.astimezone(timezone.utc)
 
 
+# On-disk bug record schema — the contract between fetch-bugs.py and
+# render-html.py. One JSON file per bug, keyed by Launchpad bug id:
+#
+#     {
+#       "id": 1234567,
+#       "title": "...", "series": "noble",
+#       "importance": "Medium", "status": "New", "assignee": "...",
+#       "last_seen": "<utc iso>",
+#       "targets": [
+#         {"name": "linux", "type": "package", "date_created": "<utc iso>"},
+#         ...
+#       ]
+#     }
+#
+# "targets" records every kernel target a task has been filed against, each
+# with its own task creation date; a bug is stored once even when raised
+# against several targets.
 class Store:
     """Filesystem-backed store of per-bug JSON files plus a last-run stamp."""
 
@@ -54,6 +71,7 @@ class Store:
             return None
 
     def write_last_run(self, when):
+        """Write the last-run stamp, atomically (tmp file + rename)."""
         tmp = self.last_run_path + ".tmp"
         with open(tmp, "w") as fh:
             json.dump({"last_run": iso(when)}, fh, indent=2)
@@ -71,6 +89,7 @@ class Store:
             return None
 
     def save_bug(self, record):
+        """Persist a bug record, atomically (tmp file + rename)."""
         path = self._bug_path(record["id"])
         tmp = path + ".tmp"
         with open(tmp, "w") as fh:

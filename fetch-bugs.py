@@ -215,6 +215,12 @@ class Scanner:
             self._upsert(bug, task, tags, name, type_, date_created)
 
     def _upsert(self, bug, task, tags, name, type_, date_created):
+        """Upsert one JSON record per bug (dedup by bug id).
+
+        A bug raised against several kernel targets is stored once: append a
+        new target task, or refresh its creation date if already known, and
+        refresh title/series/importance/status/assignee on every sighting.
+        """
         bug_id = bug.id
         record = self.store.load_bug(bug_id) or {
             "id": bug_id,
@@ -253,6 +259,10 @@ class Scanner:
         return self.can_tag and date_created >= self.now - timedelta(days=1)
 
     def _tag(self, bug, tags, name):
+        """Apply the daily-bug tags: kernel-daily-bug, plus
+        linux-firmware-daily-bug for firmware targets. Best-effort: failures
+        are logged, not fatal.
+        """
         new_tags = []
         if "kernel-daily-bug" not in tags:
             new_tags.append("kernel-daily-bug")
@@ -273,6 +283,12 @@ class Scanner:
             log.warning("WW: Failed to tag LP: #%s: %s", bug.id, exc)
 
     def run(self):
+        """Scan all kernel targets and update the store.
+
+        Self-healing: the last-run stamp is advanced only when every target
+        scanned successfully, so a partial failure is re-covered on the next
+        run (the fudge factor absorbs the overlap).
+        """
         last_run = self.store.read_last_run()
         if last_run is None:
             since = self.now - timedelta(days=self.args.seed_days)
