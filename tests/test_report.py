@@ -140,7 +140,9 @@ def test_retry_succeeds_after_failures(monkeypatch):
 
 def test_render_from_store(tmp_path):
     store = common.Store(str(tmp_path))
-    store.save_bug(_bug(10, _target("linux", 0)))
+    bug10 = _bug(10, _target("linux", 0))
+    bug10["series"] = ""
+    store.save_bug(bug10)
     store.save_bug(_bug(11, _target("linux", 20)))
     render.render(store, NOW, str(tmp_path))
 
@@ -152,3 +154,5 @@ def test_render_from_store(tmp_path):
     day = open(os.path.join(tmp_path, "24-hours.html")).read()
     assert "/bugs/10" in day
     assert "/bugs/11" not in day
+    assert "<td>&mdash;</td>" in day
+    assert "&amp;mdash;" not in day

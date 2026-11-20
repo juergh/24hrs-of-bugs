@@ -151,12 +151,13 @@ def _write_window_page(path, slug, label, rows, now):
                    "</tr>\n</thead>\n<tbody>\n")
         for _, record in rows:
             targets = ", ".join(escape(t["name"]) for t in record["targets"])
+            series = escape(record.get("series") or "") or "&mdash;"
             out.append(
                 "<tr>"
                 f'<td class="k-id"><a href="{LP_BUG_URL}{record["id"]}">#{record["id"]}</a></td>'
                 f'<td><a href="{LP_BUG_URL}{record["id"]}" style="color:inherit;text-decoration:none">'
                 f'{escape(record.get("title", ""))}</a></td>'
-                f'<td>{escape(record.get("series") or "&mdash;")}</td>'
+                f'<td>{series}</td>'
                 f'<td>{escape(record.get("importance", ""))}</td>'
                 f'<td>{escape(record.get("status", ""))}</td>'
                 f'<td>{escape(record.get("assignee", ""))}</td>'
