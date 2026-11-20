@@ -41,6 +41,9 @@ Every commit must follow these rules:
 - **Atomic Writes**: Any writes to `bugs/<id>.json` or `last-run.json` must be atomic (write to a `.tmp` file and rename via `os.replace`).
 - **Scan Failure Recovery**: Never advance `last-run.json` if any target fails during a scan. A partial scan must leave the timestamp intact so the next scheduled run re-scans the missing window.
 - **Cumulative Windows**: A bug qualifies for a reporting window if *any* of its target tasks were created within that window (24h ⊆ 7d ⊆ 30d ⊆ 90d).
+- **Raw Facts Only**: `bugs/<id>.json` stores raw per-task Launchpad facts (`status`, `importance`, `assignee`, `series`, `date_created` per target, plus bug-level `duplicate_of`). Display aggregation (shared value vs `multiple`, active vs inactive) is derived by `render-html.py` at render time — never store derived values.
+- **Task Reconciliation**: On every sighting, a bug's full `bug_tasks` list is re-examined. Tasks that no longer exist on Launchpad are preserved with the synthetic status `Removed` (an audit trail), never silently dropped.
+- **Duplicates**: `searchTasks` must be called with `omit_duplicates=False`; a bug with `duplicate_of` set is displayed with the artificial status `Duplicate`.
 
 ## Testing & Quality Assurance
 

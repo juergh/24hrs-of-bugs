@@ -39,15 +39,22 @@ Pages repository.
    `last_run - 15 minutes` (the fudge factor absorbs clock skew and
    Launchpad's eventual consistency).
 2. For every unique kernel target (`KernelTargets.all`), run
-   `searchTasks(status=..., modified_since=since)` with retries.
-3. Upsert one JSON file per bug, keyed by bug id. A bug raised against several
-   targets is stored **once**, recording each target's task creation date.
-   Re-seen bugs have their title/series/importance/status/assignee refreshed.
-4. When run with Launchpad credentials, bugs with a task created in the last 24
-   hours are tagged `kernel-daily-bug` (and `linux-firmware-daily-bug` for
-   firmware packages).
-5. Prune bug files whose newest target task is older than 90 days.
-6. Advance `last-run.json` **only if every target scanned successfully**, so a
+   `searchTasks(status=..., modified_since=since, omit_duplicates=False)`
+   with retries. Each bug found is reconciled once per run, no matter how
+   many targets it was found through.
+3. Reconcile one JSON file per bug, keyed by bug id: the bug's full
+   `bug_tasks` list is re-examined and every task on a monitored target is
+   recorded with its own `series` (empty for unversioned distribution tasks
+   and projects), `status`, `importance`, `assignee` and `date_created`.
+   Tasks that no longer exist on Launchpad (bug retargeted, task deleted) are
+   preserved with the synthetic status `Removed` as an audit trail.
+4. Duplicates: a bug with `duplicate_of` set is recorded with the master bug
+   id; the renderer displays it with the artificial status `Duplicate`.
+5. When run with Launchpad credentials, non-duplicate bugs with an active
+   task created in the last 24 hours are tagged `kernel-daily-bug` (and
+   `linux-firmware-daily-bug` for firmware packages).
+6. Prune bug files whose newest target task is older than 90 days.
+7. Advance `last-run.json` **only if every target scanned successfully**, so a
    partial failure is recovered on the next run.
 
 ### Renderer (`render-html.py`)
@@ -55,6 +62,15 @@ Pages repository.
 Renders all pages purely from the JSON store. A bug appears on a window page if
 **any** of its target tasks was created within that window; windows are
 cumulative (24h ⊆ 7d ⊆ 30d ⊆ 90d).
+
+The store holds raw per-task facts only; the renderer derives the display:
+
+- **Brief mode** (default): one row per bug. Status, importance, series and
+  assignee show the shared value of the active tasks, or `multiple` (with a
+  tooltip) when they differ. Inactive targets (closed, invalidated or
+  `Removed`) are shown struck through.
+- **Verbose mode**: each multi-task bug expands into a per-task detail table
+  (target, series, status, importance, assignee, creation date).
 
 ## Usage
 
