@@ -45,5 +45,6 @@ Every commit must follow these rules:
 ## Testing & Quality Assurance
 
 - Always run `pytest` directly from the repository root when working on the `tools` branch.
+- Run `mypy` directly from the repository root to verify static typing across all tooling and test files.
 - Keep `pyproject.toml` and `sys.path` defenses intact so test collection never fails regardless of runner invocation.
 - Do not modify files in `cktools_data/` directly; refer to `VENDORED.md` for instructions on refreshing from upstream `kteam-tools`.
