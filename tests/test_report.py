@@ -15,6 +15,7 @@ import common
 
 def _load(name, filename):
     spec = importlib.util.spec_from_file_location(name, os.path.join(_HERE, "..", filename))
+    assert spec is not None and spec.loader is not None
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
@@ -96,6 +97,7 @@ def test_store_upsert_and_prune(tmp_path):
     store.save_bug(_bug(11, _target("linux", 100)))
 
     loaded = store.load_bug(10)
+    assert loaded is not None
     assert loaded["title"] == "bug 10"
 
     # Emulate the pruner.

@@ -5,11 +5,11 @@
 
 import json
 import os
-from datetime import timezone
-from datetime import datetime
+from datetime import datetime, timezone
+from typing import Any, Iterator
 
 # Reporting windows (slug, human label, number of days).
-WINDOWS = [
+WINDOWS: list[tuple[str, str, int]] = [
     ("24-hours", "last 24 hours", 1),
     ("7-days", "last 7 days", 7),
     ("30-days", "last 30 days", 30),
@@ -17,19 +17,19 @@ WINDOWS = [
 ]
 
 # How long bugs are retained in the store (matches the widest window).
-RETENTION_DAYS = 90
+RETENTION_DAYS: int = 90
 
 # Overlap subtracted from the last-run timestamp to absorb clock skew and
 # Launchpad's eventual consistency.
-FUDGE_MINUTES = 15
+FUDGE_MINUTES: int = 15
 
 
-def iso(dt):
+def iso(dt: datetime) -> str:
     """Serialise a datetime as a UTC ISO-8601 string."""
     return dt.astimezone(timezone.utc).isoformat()
 
 
-def parse_iso(value):
+def parse_iso(value: str) -> datetime:
     """Parse an ISO-8601 string into an aware UTC datetime."""
     dt = datetime.fromisoformat(value)
     if dt.tzinfo is None:
@@ -57,20 +57,20 @@ def parse_iso(value):
 class Store:
     """Filesystem-backed store of per-bug JSON files plus a last-run stamp."""
 
-    def __init__(self, root):
+    def __init__(self, root: str) -> None:
         self.root = root
         self.bugs_dir = os.path.join(root, "bugs")
         self.last_run_path = os.path.join(root, "last-run.json")
         os.makedirs(self.bugs_dir, exist_ok=True)
 
-    def read_last_run(self):
+    def read_last_run(self) -> datetime | None:
         try:
             with open(self.last_run_path) as fh:
                 return parse_iso(json.load(fh)["last_run"])
         except (FileNotFoundError, KeyError, ValueError):
             return None
 
-    def write_last_run(self, when):
+    def write_last_run(self, when: datetime) -> None:
         """Write the last-run stamp, atomically (tmp file + rename)."""
         tmp = self.last_run_path + ".tmp"
         with open(tmp, "w") as fh:
@@ -78,17 +78,17 @@ class Store:
             fh.write("\n")
         os.replace(tmp, self.last_run_path)
 
-    def _bug_path(self, bug_id):
+    def _bug_path(self, bug_id: int) -> str:
         return os.path.join(self.bugs_dir, f"{bug_id}.json")
 
-    def load_bug(self, bug_id):
+    def load_bug(self, bug_id: int) -> dict[str, Any] | None:
         try:
             with open(self._bug_path(bug_id)) as fh:
                 return json.load(fh)
         except (FileNotFoundError, ValueError):
             return None
 
-    def save_bug(self, record):
+    def save_bug(self, record: dict[str, Any]) -> None:
         """Persist a bug record, atomically (tmp file + rename)."""
         path = self._bug_path(record["id"])
         tmp = path + ".tmp"
@@ -97,7 +97,7 @@ class Store:
             fh.write("\n")
         os.replace(tmp, path)
 
-    def all_bugs(self):
+    def all_bugs(self) -> Iterator[dict[str, Any]]:
         for name in sorted(os.listdir(self.bugs_dir)):
             if not name.endswith(".json"):
                 continue
@@ -107,7 +107,7 @@ class Store:
             except ValueError:
                 continue
 
-    def remove_bug(self, bug_id):
+    def remove_bug(self, bug_id: int) -> None:
         try:
             os.remove(self._bug_path(bug_id))
         except FileNotFoundError:

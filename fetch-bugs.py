@@ -14,7 +14,9 @@ import random
 import socket
 import time
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
+from collections.abc import Callable
 from datetime import datetime, timedelta, timezone
+from typing import Any, TypeVar
 from urllib.error import HTTPError as UrllibHTTPError
 from urllib.error import URLError
 
@@ -52,16 +54,24 @@ RETRY_BASE_SECONDS = 2
 RETRY_CAP_SECONDS = 60
 
 # Errors that are worth retrying.
-RETRYABLE_EXCEPTIONS = (URLError, socket.timeout, socket.error, ConnectionError)
+RETRYABLE_EXCEPTIONS: tuple[type[BaseException], ...] = (
+    URLError,
+    socket.timeout,
+    socket.error,
+    ConnectionError,
+)
 if LazrServerError:
     RETRYABLE_EXCEPTIONS = RETRYABLE_EXCEPTIONS + (LazrServerError,)
+
+
+T = TypeVar("T")
 
 
 class RetryExhausted(Exception):
     """Raised when a Launchpad operation keeps failing after all retries."""
 
 
-def _is_retryable(exc):
+def _is_retryable(exc: BaseException) -> bool:
     """Return True if the exception should be retried."""
     if isinstance(exc, RETRYABLE_EXCEPTIONS):
         return True
@@ -76,7 +86,7 @@ def _is_retryable(exc):
     return False
 
 
-def _retry_after(exc):
+def _retry_after(exc: BaseException) -> float | None:
     """Return a server-requested delay in seconds, if any."""
     headers = getattr(exc, "response", None)
     if headers is None:
@@ -95,7 +105,7 @@ def _retry_after(exc):
         return None
 
 
-def retry(description, func):
+def retry(description: str, func: Callable[[], T]) -> T:
     """Call func() with exponential backoff + jitter, honouring Retry-After.
 
     Raises RetryExhausted when all attempts fail with a retryable error, and
@@ -119,12 +129,13 @@ def retry(description, func):
             log.warning("WW: %s failed (attempt %d/%d): %s; retrying in %.1fs",
                         description, attempt, RETRY_ATTEMPTS, exc, delay)
             time.sleep(delay)
+    raise RetryExhausted(f"{description}: failed after {RETRY_ATTEMPTS} attempts")
 
 
 class Scanner:
     """Drives the Launchpad scan and store upsert."""
 
-    def __init__(self, args, store):
+    def __init__(self, args: Any, store: Store) -> None:
         self.args = args
         self.store = store
         self.now = args.now
@@ -132,7 +143,7 @@ class Scanner:
         # Codenames, newest series first, so the most recent matching tag wins.
         self._series_codenames = [
             s.codename
-            for s in sorted(self.kernel_series.series, key=KernelSeries.key_series_name, reverse=True)
+            for s in sorted(self.kernel_series.series, key=KernelSeries.key_series_name, reverse=True)  # type: ignore[attr-defined]
             if s.codename
         ]
 
@@ -153,16 +164,16 @@ class Scanner:
 
         # Per-run cache of bug.tags keyed by bug id, so a bug hit via several
         # targets is only dereferenced once.
-        self._tags_cache = {}
+        self._tags_cache: dict[int, list[str]] = {}
         self.failures = 0
 
-    def series_from_tags(self, tags):
+    def series_from_tags(self, tags: list[str]) -> str:
         for codename in self._series_codenames:
             if codename in tags:
                 return codename
         return ""
 
-    def _entry_for(self, name, type_):
+    def _entry_for(self, name: str, type_: str) -> Any:
         if type_ == "project":
             try:
                 return self.lp.projects[name]
@@ -174,13 +185,13 @@ class Scanner:
             log.warning("WW: Source package not found: %s", name)
         return entry
 
-    def _bug_tags(self, bug):
+    def _bug_tags(self, bug: Any) -> list[str]:
         bug_id = bug.id
         if bug_id not in self._tags_cache:
             self._tags_cache[bug_id] = retry(f"bug {bug_id} tags", lambda: list(bug.tags))
         return self._tags_cache[bug_id]
 
-    def scan_target(self, name, type_, since):
+    def scan_target(self, name: str, type_: str, since: datetime) -> None:
         """Query one target and upsert every in-window task into the store."""
         entry = retry(f"lookup {type_} {name}", lambda: self._entry_for(name, type_))
         if entry is None:
@@ -214,7 +225,7 @@ class Scanner:
 
             self._upsert(bug, task, tags, name, type_, date_created)
 
-    def _upsert(self, bug, task, tags, name, type_, date_created):
+    def _upsert(self, bug: Any, task: Any, tags: list[str], name: str, type_: str, date_created: datetime) -> None:
         """Upsert one JSON record per bug (dedup by bug id).
 
         A bug raised against several kernel targets is stored once: append a
@@ -255,10 +266,10 @@ class Scanner:
         if self._should_tag(date_created):
             self._tag(bug, tags, name)
 
-    def _should_tag(self, date_created):
+    def _should_tag(self, date_created: datetime) -> bool:
         return self.can_tag and date_created >= self.now - timedelta(days=1)
 
-    def _tag(self, bug, tags, name):
+    def _tag(self, bug: Any, tags: list[str], name: str) -> None:
         """Apply the daily-bug tags: kernel-daily-bug, plus
         linux-firmware-daily-bug for firmware targets. Best-effort: failures
         are logged, not fatal.
@@ -272,7 +283,7 @@ class Scanner:
             return
         log.info("II: Tagging LP: #%s with %s", bug.id, new_tags)
 
-        def _save():
+        def _save() -> None:
             bug.tags = tags + new_tags
             bug.lp_save()
 
@@ -282,7 +293,7 @@ class Scanner:
         except Exception as exc:  # noqa: BLE001 - tagging is best-effort
             log.warning("WW: Failed to tag LP: #%s: %s", bug.id, exc)
 
-    def run(self):
+    def run(self) -> None:
         """Scan all kernel targets and update the store.
 
         Self-healing: the last-run stamp is advanced only when every target
@@ -317,7 +328,7 @@ class Scanner:
             self.store.write_last_run(self.now)
             log.info("II: Advanced last-run stamp to %s", iso(self.now))
 
-    def prune(self):
+    def prune(self) -> None:
         cutoff = self.now - timedelta(days=RETENTION_DAYS)
         removed = 0
         for record in self.store.all_bugs():
@@ -329,7 +340,7 @@ class Scanner:
             log.info("II: Pruned %d bug(s) older than %d days", removed, RETENTION_DAYS)
 
 
-def main():
+def main() -> None:
     parser = ArgumentParser(
         description="Scan Launchpad for newly opened Ubuntu kernel bugs into the JSON store.",
         formatter_class=RawDescriptionHelpFormatter,

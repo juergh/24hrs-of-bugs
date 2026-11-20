@@ -10,6 +10,7 @@ import logging
 import os
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from datetime import datetime, timedelta, timezone
+from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -24,7 +25,7 @@ TEMPLATES_DIR = os.path.join(_HERE, "templates")
 STATIC_DIR = os.path.join(_HERE, "static")
 
 
-def _load_assets():
+def _load_assets() -> tuple[str, str]:
     with open(os.path.join(STATIC_DIR, "style.css"), encoding="utf-8") as fh:
         css = fh.read()
     with open(os.path.join(STATIC_DIR, "filter.js"), encoding="utf-8") as fh:
@@ -32,7 +33,7 @@ def _load_assets():
     return css, js
 
 
-def _bug_in_window(record, now, days):
+def _bug_in_window(record: dict[str, Any], now: datetime, days: int) -> datetime | None:
     """Newest target-task creation date within the window, or None.
 
     A bug is in window W if ANY of its target tasks was created within W, so
@@ -47,9 +48,9 @@ def _bug_in_window(record, now, days):
     return max(hits)
 
 
-def _window_bugs(bugs, now, days):
+def _window_bugs(bugs: list[dict[str, Any]], now: datetime, days: int) -> list[tuple[datetime, dict[str, Any]]]:
     """Bugs in the window as (newest qualifying date, record), newest first."""
-    rows = []
+    rows: list[tuple[datetime, dict[str, Any]]] = []
     for record in bugs:
         newest = _bug_in_window(record, now, days)
         if newest is not None:
@@ -58,9 +59,9 @@ def _window_bugs(bugs, now, days):
     return rows
 
 
-def render(store, now, output_dir):
+def render(store: Store, now: datetime, output_dir: str) -> None:
     bugs = list(store.all_bugs())
-    counts = {}
+    counts: dict[str, int] = {}
 
     css, js = _load_assets()
     env = Environment(
@@ -79,7 +80,7 @@ def render(store, now, output_dir):
         rows = _window_bugs(bugs, now, days)
         counts[slug] = len(rows)
 
-        series_list = sorted({r[1].get("series") for r in rows if r[1].get("series")})
+        series_list = sorted({str(r[1]["series"]) for r in rows if r[1].get("series")})
         has_unspecified_series = any(not r[1].get("series") for r in rows)
 
         html = window_template.render(
@@ -107,7 +108,7 @@ def render(store, now, output_dir):
         fh.write(index_html)
 
 
-def main():
+def main() -> None:
     parser = ArgumentParser(
         description="Render the 24hrs-of-bugs JSON store into static HTML reports.",
         formatter_class=RawDescriptionHelpFormatter,
