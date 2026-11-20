@@ -1,4 +1,5 @@
-name: Bug report
+---
+name: Fetch and render kernel bugs
 
 on:
   schedule:
@@ -54,8 +55,8 @@ jobs:
 
       - name: Commit and push to Forgejo
         run: |
-          git config user.name "24hrs-of-bugs bot"
-          git config user.email "kernel-team@lists.ubuntu.com"
+          git config user.name "Forgejo Actions"
+          git config user.email "noreply+forgejo-actions@invalid.canonical.com"
           git worktree remove tools --force
           git add index.html 24-hours.html 7-days.html 30-days.html 90-days.html \
                   last-run.json bugs .nojekyll
@@ -63,7 +64,7 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Update bug reports $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git commit -m "Update bug reports $(date -u +%Y-%m-%dT%H:%M:%S%Z)"
           git push origin HEAD:main
 
       - name: Push to GitHub Pages
