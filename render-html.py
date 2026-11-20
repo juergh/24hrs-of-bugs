@@ -113,12 +113,9 @@ def main() -> None:
         description="Render the 24hrs-of-bugs JSON store into static HTML reports.",
         formatter_class=RawDescriptionHelpFormatter,
     )
-    parser.add_argument("--output", default=".",
-                        help="Directory to write the rendered HTML into.")
-    parser.add_argument("--state-dir",
-                        help="Directory holding the store (defaults to --output).")
-    parser.add_argument("--datetime",
-                        help="Treat this UTC 'YYYY-MM-DD HH:MM' as 'now' (for testing).")
+    parser.add_argument("--output", default=".", help="Directory to write the rendered HTML into.")
+    parser.add_argument("--state-dir", help="Directory holding the store (defaults to --output).")
+    parser.add_argument("--datetime", help="Treat this UTC 'YYYY-MM-DD HH:MM' as 'now' (for testing).")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(message)s")

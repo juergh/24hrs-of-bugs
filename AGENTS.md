@@ -46,5 +46,6 @@ Every commit must follow these rules:
 
 - Always run `pytest` directly from the repository root when working on the `tools` branch.
 - Run `mypy` directly from the repository root to verify static typing across all tooling and test files.
+- Run `ruff check` and `ruff format --check` directly from the repository root to verify code style and formatting (maximum line length 120).
 - Keep `pyproject.toml` and `sys.path` defenses intact so test collection never fails regardless of runner invocation.
 - Do not modify files in `cktools_data/` directly; refer to `VENDORED.md` for instructions on refreshing from upstream `kteam-tools`.

@@ -126,8 +126,9 @@ def retry(description: str, func: Callable[[], T]) -> T:
             if delay is None:
                 delay = min(RETRY_CAP_SECONDS, RETRY_BASE_SECONDS * (2 ** (attempt - 1)))
                 delay *= 1 + random.uniform(-0.2, 0.2)
-            log.warning("WW: %s failed (attempt %d/%d): %s; retrying in %.1fs",
-                        description, attempt, RETRY_ATTEMPTS, exc, delay)
+            log.warning(
+                "WW: %s failed (attempt %d/%d): %s; retrying in %.1fs", description, attempt, RETRY_ATTEMPTS, exc, delay
+            )
             time.sleep(delay)
     raise RetryExhausted(f"{description}: failed after {RETRY_ATTEMPTS} attempts")
 
@@ -151,15 +152,15 @@ class Scanner:
         if args.credentials_file and os.path.exists(args.credentials_file):
             log.info("II: Launchpad login with credentials")
             self.lp = Launchpad.login_with(
-                "24hrs-of-bugs", "production", version="devel",
+                "24hrs-of-bugs",
+                "production",
+                version="devel",
                 credentials_file=args.credentials_file,
             )
             self.can_tag = not args.no_tag
         else:
             log.info("II: Launchpad login anonymously")
-            self.lp = Launchpad.login_anonymously(
-                "24hrs-of-bugs", "production", ".shadow-cache", version="devel"
-            )
+            self.lp = Launchpad.login_anonymously("24hrs-of-bugs", "production", ".shadow-cache", version="devel")
         self.distro = self.lp.distributions["ubuntu"]
 
         # Per-run cache of bug.tags keyed by bug id, so a bug hit via several
@@ -345,19 +346,23 @@ def main() -> None:
         description="Scan Launchpad for newly opened Ubuntu kernel bugs into the JSON store.",
         formatter_class=RawDescriptionHelpFormatter,
     )
-    parser.add_argument("--state-dir", default=".",
-                        help="Directory for the store (bugs/, last-run.json).")
-    parser.add_argument("--credentials-file",
-                        default=os.path.expanduser(
-                            os.path.join("~/.config", "24hrs-of-bugs", "credentials-production")),
-                        help="Launchpad credentials file. Required for tagging bugs.")
+    parser.add_argument("--state-dir", default=".", help="Directory for the store (bugs/, last-run.json).")
+    parser.add_argument(
+        "--credentials-file",
+        default=os.path.expanduser(os.path.join("~/.config", "24hrs-of-bugs", "credentials-production")),
+        help="Launchpad credentials file. Required for tagging bugs.",
+    )
     parser.add_argument("--no-tag", action="store_true", help="Do not tag bugs on Launchpad.")
-    parser.add_argument("--seed-days", type=int, default=RETENTION_DAYS,
-                        help="History to ingest on the first run (no last-run stamp).")
-    parser.add_argument("--fudge-minutes", type=int, default=FUDGE_MINUTES,
-                        help="Overlap subtracted from the last-run timestamp on incremental runs.")
-    parser.add_argument("--datetime",
-                        help="Treat this UTC 'YYYY-MM-DD HH:MM' as 'now' (for testing).")
+    parser.add_argument(
+        "--seed-days", type=int, default=RETENTION_DAYS, help="History to ingest on the first run (no last-run stamp)."
+    )
+    parser.add_argument(
+        "--fudge-minutes",
+        type=int,
+        default=FUDGE_MINUTES,
+        help="Overlap subtracted from the last-run timestamp on incremental runs.",
+    )
+    parser.add_argument("--datetime", help="Treat this UTC 'YYYY-MM-DD HH:MM' as 'now' (for testing).")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(message)s")

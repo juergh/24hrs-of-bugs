@@ -10,7 +10,7 @@ _ROOT = os.path.abspath(os.path.join(_HERE, ".."))
 if _ROOT not in sys.path:
     sys.path.insert(0, _ROOT)
 
-import common
+import common  # noqa: E402
 
 
 def _load(name, filename):
