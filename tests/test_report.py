@@ -1,12 +1,16 @@
 import importlib.util
 import os
+import sys
 from datetime import datetime, timedelta, timezone
 
 import pytest
 
-import common
-
 _HERE = os.path.dirname(__file__)
+_ROOT = os.path.abspath(os.path.join(_HERE, ".."))
+if _ROOT not in sys.path:
+    sys.path.insert(0, _ROOT)
+
+import common
 
 
 def _load(name, filename):
