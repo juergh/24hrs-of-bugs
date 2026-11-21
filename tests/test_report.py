@@ -67,27 +67,38 @@ def test_window_membership_excludes_old():
     assert render._bug_in_window(record, NOW, 90) is not None
 
 
-def test_window_bugs_sorted_newest_first():
+def test_rows_sorted_newest_first():
     bugs = [
         _bug(1, _target("linux", 5)),
         _bug(2, _target("linux", 1)),
         _bug(3, _target("linux", 3)),
     ]
-    rows = render._window_bugs(bugs, NOW, 7)
+    rows = render._rows(bugs, NOW)
     assert [r["id"] for r in rows] == [2, 3, 1]
 
 
-def test_cumulative_windows():
+def test_rows_exclude_beyond_retention():
+    bugs = [
+        _bug(1, _target("linux", 60)),
+        _bug(2, _target("linux", 100)),
+    ]
+    rows = render._rows(bugs, NOW)
+    assert [r["id"] for r in rows] == [1]
+
+
+def test_counts_cumulative_windows():
     bugs = [
         _bug(1, _target("linux", 0)),
         _bug(2, _target("linux", 5)),
         _bug(3, _target("linux", 20)),
         _bug(4, _target("linux", 60)),
     ]
-    assert len(render._window_bugs(bugs, NOW, 1)) == 1
-    assert len(render._window_bugs(bugs, NOW, 7)) == 2
-    assert len(render._window_bugs(bugs, NOW, 30)) == 3
-    assert len(render._window_bugs(bugs, NOW, 90)) == 4
+    rows = render._rows(bugs, NOW)
+    counts = render._counts(rows, NOW)
+    assert counts["24-hours"] == 1
+    assert counts["7-days"] == 2
+    assert counts["30-days"] == 3
+    assert counts["90-days"] == 4
 
 
 def test_store_upsert_and_prune(tmp_path):
@@ -269,24 +280,36 @@ def test_render_from_store(tmp_path):
     store.save_bug(_bug(11, _target("linux", 20)))
     render.render(store, NOW, str(tmp_path))
 
+    # Only the single page is rendered; no per-window pages.
+    assert os.path.exists(os.path.join(tmp_path, "index.html"))
     for slug, _, _ in common.WINDOWS:
-        assert os.path.exists(os.path.join(tmp_path, f"{slug}.html"))
-    index = open(os.path.join(tmp_path, "index.html")).read()
-    assert "Newly opened kernel bugs" in index
+        assert not os.path.exists(os.path.join(tmp_path, f"{slug}.html"))
 
-    day = open(os.path.join(tmp_path, "24-hours.html")).read()
-    assert "/bugs/10" in day
-    assert "/bugs/11" not in day
-    assert "<td>&mdash;</td>" in day
-    assert "&amp;mdash;" not in day
-    assert 'data-series=""' in day
-    assert 'data-targets="linux"' in day
-    assert 'id="k-pkg-search"' in day
-    assert 'id="k-filter-clear"' in day
-    assert 'data-series="none"' in day
-    assert 'id="k-view-switch"' in day
-    assert 'id="k-bugs-table"' in day
-    assert "applyFilters" in day
+    page = open(os.path.join(tmp_path, "index.html")).read()
+    assert "Newly opened kernel bugs" in page
+    # Both bugs are on the single page (the date filter scopes the view).
+    assert "/bugs/10" in page
+    assert "/bugs/11" in page
+    assert "<td>&mdash;</td>" in page
+    assert "&amp;mdash;" not in page
+    assert 'data-series=""' in page
+    assert 'data-targets="linux"' in page
+    assert "data-opened=" in page
+    assert "data-active=" in page
+    assert "data-generated=" in page
+    assert 'id="k-ranges"' in page
+    assert 'data-slug="24-hours"' in page
+    assert 'data-days="7"' in page
+    assert "k-range-count" in page
+    assert 'id="k-date-from"' in page
+    assert 'id="k-date-to"' in page
+    assert 'id="k-active-only"' in page
+    assert 'id="k-pkg-search"' in page
+    assert 'id="k-filter-clear"' in page
+    assert 'data-series="none"' in page
+    assert 'id="k-view-switch"' in page
+    assert 'id="k-bugs-table"' in page
+    assert "applyFilters" in page
 
 
 def test_render_multi_target_details(tmp_path):
@@ -295,16 +318,18 @@ def test_render_multi_target_details(tmp_path):
     store.save_bug(record)
     render.render(store, NOW, str(tmp_path))
 
-    day = open(os.path.join(tmp_path, "24-hours.html")).read()
+    page = open(os.path.join(tmp_path, "index.html")).read()
     # Only one active task: the brief status must not be "multiple".
-    assert 'class="k-multiple"' not in day
+    assert 'class="k-multiple"' not in page
     # The removed target is shown struck through.
-    assert 'class="k-target-inactive"' in day
-    # Verbose details: toggle, detail row and per-task data.
-    assert "k-toggle" in day
-    assert 'class="k-details"' in day
-    assert "In Progress" in day
-    assert "Removed" in day
+    assert 'class="k-target-inactive"' in page
+    # Verbose details: toggle in its own column, detail row, per-task data.
+    assert 'class="k-toggle-cell"' in page
+    assert "k-toggle" in page
+    assert 'class="k-details"' in page
+    assert 'colspan="9"' in page
+    assert "In Progress" in page
+    assert "Removed" in page
 
 
 def test_render_multiple_indicator(tmp_path):
@@ -313,9 +338,9 @@ def test_render_multiple_indicator(tmp_path):
     store.save_bug(record)
     render.render(store, NOW, str(tmp_path))
 
-    day = open(os.path.join(tmp_path, "24-hours.html")).read()
-    assert 'class="k-multiple"' in day
-    assert ">multiple</span>" in day
+    page = open(os.path.join(tmp_path, "index.html")).read()
+    assert 'class="k-multiple"' in page
+    assert ">multiple</span>" in page
 
 
 def test_render_duplicate(tmp_path):
@@ -323,6 +348,20 @@ def test_render_duplicate(tmp_path):
     store.save_bug(_bug(22, _target("linux", 0), duplicate_of=99))
     render.render(store, NOW, str(tmp_path))
 
-    day = open(os.path.join(tmp_path, "24-hours.html")).read()
-    assert 'class="k-duplicate"' in day
-    assert "/bugs/99" in day
+    page = open(os.path.join(tmp_path, "index.html")).read()
+    assert 'class="k-duplicate"' in page
+    assert "/bugs/99" in page
+    # A duplicate has no active work: the row is muted and filterable.
+    assert "k-inactive-row" in page
+    assert 'data-active="false"' in page
+
+
+def test_render_title_is_plain_truncating_text(tmp_path):
+    store = common.Store(str(tmp_path))
+    store.save_bug(_bug(23, _target("linux", 0)))
+    render.render(store, NOW, str(tmp_path))
+
+    page = open(os.path.join(tmp_path, "index.html")).read()
+    # The title is plain text in a truncating cell with a hover tooltip,
+    # not a link (row clicks expand the task details).
+    assert '<td class="k-title" title="bug 23">bug 23</td>' in page

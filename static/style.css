@@ -41,7 +41,7 @@ header.k-head h1 {
 }
 main {
   padding: 1.5rem 2rem 3rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 h2 {
@@ -53,25 +53,6 @@ h2 {
   color: var(--muted);
   margin: 0 0 1.5rem;
   font-size: 0.9rem;
-}
-nav.k-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0 1.5rem;
-}
-nav.k-tabs a {
-  text-decoration: none;
-  color: var(--ink);
-  padding: 0.4rem 0.9rem;
-  border: 1px solid #cdcdcd;
-  border-radius: 2px;
-  font-size: 0.9rem;
-}
-nav.k-tabs a.is-active {
-  background: var(--orange);
-  color: #fff;
-  border-color: var(--orange);
 }
 table {
   width: 100%;
@@ -92,6 +73,57 @@ tbody td {
 tbody tr:hover {
   background: #faf7f8;
 }
+
+/* Fixed layout: the Title column absorbs the slack and truncates with an
+   ellipsis; every other column sizes to its content and never wraps. */
+#k-bugs-table {
+  table-layout: fixed;
+}
+#k-bugs-table > thead th,
+#k-bugs-table > tbody > tr > td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#k-bugs-table col.col-arrow {
+  width: 1.6rem;
+}
+#k-bugs-table col.col-bug {
+  width: 5.5rem;
+}
+#k-bugs-table col.col-series {
+  width: 6rem;
+}
+#k-bugs-table col.col-importance {
+  width: 6.5rem;
+}
+#k-bugs-table col.col-status {
+  width: 10.5rem;
+}
+#k-bugs-table col.col-assignee {
+  width: 11rem;
+}
+#k-bugs-table col.col-targets {
+  width: 24rem;
+}
+#k-bugs-table > tbody > tr.k-details > td {
+  white-space: normal;
+  overflow: visible;
+}
+
+/* Rows with no active work (closed, removed or duplicate) are muted. */
+tr.k-inactive-row td {
+  color: #999;
+}
+tr.k-inactive-row td.k-id a {
+  color: var(--orange);
+}
+tr.k-inactive-row a.k-duplicate {
+  color: var(--aubergine);
+}
+tr.k-expandable {
+  cursor: pointer;
+}
 td.k-id a {
   color: var(--orange);
   text-decoration: none;
@@ -107,33 +139,6 @@ td.k-id a:hover {
 .k-empty {
   color: var(--muted);
   padding: 2rem 0;
-}
-.k-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-.k-card {
-  flex: 1 1 10rem;
-  border: 1px solid #cdcdcd;
-  border-radius: 2px;
-  padding: 1rem 1.25rem;
-  text-decoration: none;
-  color: var(--ink);
-}
-.k-card:hover {
-  border-color: var(--orange);
-}
-.k-card .k-count {
-  font-size: 2rem;
-  font-weight: 300;
-  color: var(--orange);
-  display: block;
-}
-.k-card .k-label {
-  color: var(--muted);
-  font-size: 0.9rem;
 }
 footer {
   color: var(--muted);
@@ -309,6 +314,71 @@ table.k-sub tbody td {
 }
 table.k-sub tbody tr.k-inactive td {
   color: #999;
+}
+
+/* Date-range presets and custom pickers */
+.k-ranges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+.k-range-btn {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  color: var(--ink);
+  transition: all 0.15s ease-in-out;
+  user-select: none;
+}
+.k-range-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.k-range-btn.is-active {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: #fff;
+}
+.k-range-count {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin-left: 0.3rem;
+}
+.k-range-btn.is-active .k-range-count {
+  color: #fff;
+}
+.k-custom-range {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.75rem;
+}
+.k-date-input {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: var(--ink);
+}
+.k-range-sep {
+  color: var(--muted);
+}
+
+/* State filter checkbox */
+.k-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.k-check input {
+  cursor: pointer;
 }
 
 /* Brief/Verbose view switch */

@@ -1,22 +1,153 @@
 {% extends "base.html" %}
 
+{% macro brief_field(f) -%}
+{%- if f.value == "multiple" -%}
+<span class="k-multiple" title="{{ f.tooltip }}">multiple</span>
+{%- elif f.value -%}
+{{ f.value }}
+{%- else -%}
+&mdash;
+{%- endif -%}
+{%- endmacro %}
+
 {% block title %}Ubuntu kernel newly opened bugs{% endblock %}
 
 {% block content %}
 <h2>Newly opened kernel bugs</h2>
-<p class="k-sub">Bugs filed against Ubuntu kernel targets on Launchpad, bucketed by how recently they were opened.</p>
-<nav class="k-tabs">
-  <a href="index.html" class="is-active">Overview</a>
-  {% for slug, label, _ in windows %}
-  <a href="{{ slug }}.html">{{ label|replace("last ", "") }}</a>
-  {% endfor %}
-</nav>
-<div class="k-cards">
-  {% for slug, label, _ in windows %}
-  <a class="k-card" href="{{ slug }}.html">
-    <span class="k-count">{{ counts.get(slug, 0) }}</span>
-    <span class="k-label">{{ label }}</span>
-  </a>
-  {% endfor %}
+<p class="k-sub">Bugs filed against Ubuntu kernel targets on Launchpad in the last 90 days &middot; data as of {{ generated_at }}.</p>
+
+{% if not rows %}
+<p class="k-empty">No bugs in the store.</p>
+{% else %}
+<div class="k-filter-box" id="k-filter-box">
+  <div class="k-filter-row">
+    <span class="k-filter-label">Date:</span>
+    <div class="k-ranges" id="k-ranges">
+      {% for slug, label, days in windows %}
+      <button type="button" class="k-range-btn{% if slug == "24-hours" %} is-active{% endif %}" data-slug="{{ slug }}" data-days="{{ days }}">{{ label|replace("last ", "") }} <span class="k-range-count">{{ counts.get(slug, 0) }}</span></button>
+      {% endfor %}
+      <span class="k-custom-range">
+        <input type="date" id="k-date-from" class="k-date-input" aria-label="From date">
+        <span class="k-range-sep">&ndash;</span>
+        <input type="date" id="k-date-to" class="k-date-input" aria-label="To date">
+      </span>
+    </div>
+  </div>
+  <div class="k-filter-row">
+    <span class="k-filter-label">Package:</span>
+    <div class="k-search-wrap">
+      <input type="text" id="k-pkg-search" class="k-search-input" placeholder="Filter package name (e.g. aws, gcp)..." autocomplete="off" spellcheck="false">
+      <button type="button" id="k-filter-clear" class="k-btn-clear" title="Clear package filter">&times; Reset</button>
+    </div>
+  </div>
+  {% if series_list or has_unspecified_series %}
+  <div class="k-filter-row">
+    <span class="k-filter-label">Series:</span>
+    <div class="k-pills" id="k-series-pills">
+      <button type="button" class="k-pill is-all is-active" data-series="all">All</button>
+      {% for s in series_list %}
+      <button type="button" class="k-pill" data-series="{{ s }}">{{ s }}</button>
+      {% endfor %}
+      {% if has_unspecified_series %}
+      <button type="button" class="k-pill" data-series="none">None</button>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+  <div class="k-filter-row">
+    <span class="k-filter-label">State:</span>
+    <label class="k-check"><input type="checkbox" id="k-active-only"> Active only (hide closed, removed and duplicate bugs)</label>
+  </div>
+  <div class="k-filter-row">
+    <span class="k-filter-label">View:</span>
+    <div class="k-view-switch" id="k-view-switch">
+      <button type="button" class="k-view-btn is-active" data-view="brief">Brief</button>
+      <button type="button" class="k-view-btn" data-view="verbose">Verbose</button>
+    </div>
+  </div>
+  <div class="k-filter-status">
+    <span id="k-filter-count">Showing {{ counts.get("24-hours", 0) }} of {{ rows|length }} bug{% if rows|length != 1 %}s{% endif %}</span>
+  </div>
 </div>
+
+<table id="k-bugs-table" data-generated="{{ generated_iso }}">
+<colgroup>
+  <col class="col-arrow">
+  <col class="col-bug">
+  <col class="col-title">
+  <col class="col-series">
+  <col class="col-importance">
+  <col class="col-status">
+  <col class="col-assignee">
+  <col class="col-targets">
+</colgroup>
+<thead>
+<tr>
+  <th></th>
+  <th>Bug</th>
+  <th>Title</th>
+  <th>Series</th>
+  <th>Importance</th>
+  <th>Status</th>
+  <th>Assignee</th>
+  <th>Targets</th>
+</tr>
+</thead>
+<tbody>
+{% for row in rows %}
+<tr class="k-bug{% if row.details|length > 1 %} k-expandable{% endif %}{% if not row.active %} k-inactive-row{% endif %}" data-series="{{ row.series_attr }}" data-targets="{{ row.targets_attr }}" data-opened="{{ row.opened_iso }}" data-active="{{ "true" if row.active else "false" }}">
+  <td class="k-toggle-cell">{% if row.details|length > 1 %}<button type="button" class="k-toggle" title="Toggle task details" aria-label="Toggle task details">&#9656;</button>{% endif %}</td>
+  <td class="k-id"><a href="{{ lp_bug_url }}{{ row.id }}">#{{ row.id }}</a></td>
+  <td class="k-title" title="{{ row.title }}">{{ row.title }}</td>
+  <td>{{ brief_field(row.brief.series) }}</td>
+  <td>{{ brief_field(row.brief.importance) }}</td>
+  <td>{% if row.duplicate_of is not none %}<a class="k-duplicate" href="{{ lp_bug_url }}{{ row.duplicate_of }}" title="Duplicate of #{{ row.duplicate_of }}">Duplicate</a>{% else %}{{ brief_field(row.brief.status) }}{% endif %}</td>
+  <td>{{ brief_field(row.brief.assignee) }}</td>
+  <td class="k-targets" title="{{ row.targets_attr }}">{% for t in row.targets %}{% if not loop.first %}, {% endif %}{% if t.inactive %}<span class="k-target-inactive" title="No active task on this target">{{ t.name }}</span>{% else %}{{ t.name }}{% endif %}{% endfor %}</td>
+</tr>
+{% if row.details|length > 1 %}
+<tr class="k-details">
+  <td colspan="9" class="k-details-cell">
+    <table class="k-sub">
+      <thead>
+      <tr>
+        <th>Target</th>
+        <th>Series</th>
+        <th>Status</th>
+        <th>Importance</th>
+        <th>Assignee</th>
+        <th>Opened (UTC)</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for t in row.details %}
+      <tr{% if not t.active %} class="k-inactive"{% endif %}>
+        <td>{{ t.name }}</td>
+        <td>{% if t.series %}{{ t.series }}{% else %}&mdash;{% endif %}</td>
+        <td>{{ t.status }}</td>
+        <td>{{ t.importance }}</td>
+        <td>{{ t.assignee }}</td>
+        <td>{{ t.date_opened }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </td>
+</tr>
+{% endif %}
+{% endfor %}
+<tr id="k-no-matches" style="display: none;">
+  <td colspan="9" class="k-match-none">No bugs match the current filters.</td>
+</tr>
+</tbody>
+</table>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if rows %}
+<script>
+{{ js|safe }}
+</script>
+{% endif %}
 {% endblock %}

@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 #
-# Render the 24hrs-of-bugs JSON store into static HTML reports for the 24 hour,
-# 7 day, 30 day and 90 day windows.
+# Render the 24hrs-of-bugs JSON store into a single static HTML report.
 #
 # This is the "renderer" half of 24hrs-of-bugs; populating the store from
 # Launchpad is done separately by fetch-bugs.py. It performs no network access.
 #
 # The store holds raw per-task facts only; all display-level aggregation
 # (shared value vs "multiple", active vs inactive targets) is derived here.
+# The report is one page containing every bug in the store; the time windows
+# (24 hours, 7 days, 30 days, 90 days) are client-side date-range presets.
 
 import logging
 import os
@@ -123,21 +124,24 @@ def _detail_targets(record: dict[str, Any]) -> list[dict[str, Any]]:
     return details
 
 
-def _window_bugs(bugs: list[dict[str, Any]], now: datetime, days: int) -> list[dict[str, Any]]:
-    """Bugs in the window as display rows, newest qualifying task first."""
+def _rows(bugs: list[dict[str, Any]], now: datetime) -> list[dict[str, Any]]:
+    """Every bug in the store as a display row, newest qualifying task first."""
+    retention = WINDOWS[-1][2]
     rows: list[dict[str, Any]] = []
     for record in bugs:
-        newest = _bug_in_window(record, now, days)
+        newest = _bug_in_window(record, now, retention)
         if newest is None:
             continue
         targets = record.get("targets", [])
         rows.append(
             {
                 "newest": newest,
+                "opened_iso": iso(newest),
                 "id": record["id"],
                 "title": record.get("title", ""),
                 "duplicate_of": record.get("duplicate_of"),
                 "brief": _brief(record),
+                "active": bool(_active_targets(record)),
                 "series_attr": " ".join(sorted({t.get("series", "") for t in targets if t.get("series")})),
                 "targets": _display_targets(record),
                 "targets_attr": " ".join(sorted({t["name"] for t in targets})),
@@ -148,9 +152,17 @@ def _window_bugs(bugs: list[dict[str, Any]], now: datetime, days: int) -> list[d
     return rows
 
 
+def _counts(rows: list[dict[str, Any]], now: datetime) -> dict[str, int]:
+    """Initial per-window bug counts (the client recomputes them live)."""
+    counts: dict[str, int] = {}
+    for slug, _, days in WINDOWS:
+        cutoff = now - timedelta(days=days)
+        counts[slug] = sum(1 for r in rows if r["newest"] >= cutoff)
+    return counts
+
+
 def render(store: Store, now: datetime, output_dir: str) -> None:
     bugs = list(store.all_bugs())
-    counts: dict[str, int] = {}
 
     css, js = _load_assets()
     env = Environment(
@@ -161,45 +173,31 @@ def render(store: Store, now: datetime, output_dir: str) -> None:
     )
 
     generated_at = now.strftime("%Y-%m-%d %H:%M UTC")
+    generated_iso = iso(now)
 
-    window_template = env.get_template("window.html")
-    index_template = env.get_template("index.html")
+    rows = _rows(bugs, now)
+    series_list = sorted({s for r in rows for s in r["series_attr"].split()})
+    has_unspecified_series = any(not r["series_attr"] for r in rows)
 
-    for slug, label, days in WINDOWS:
-        rows = _window_bugs(bugs, now, days)
-        counts[slug] = len(rows)
-
-        series_list = sorted({s for r in rows for s in r["series_attr"].split()})
-        has_unspecified_series = any(not r["series_attr"] for r in rows)
-
-        html = window_template.render(
-            slug=slug,
-            label=label,
-            rows=rows,
-            windows=WINDOWS,
-            series_list=series_list,
-            has_unspecified_series=has_unspecified_series,
-            lp_bug_url=LP_BUG_URL,
-            generated_at=generated_at,
-            css=css,
-            js=js,
-        )
-        with open(os.path.join(output_dir, f"{slug}.html"), "w", encoding="utf-8") as fh:
-            fh.write(html)
-
-    index_html = index_template.render(
-        counts=counts,
+    html = env.get_template("index.html").render(
+        rows=rows,
+        counts=_counts(rows, now),
         windows=WINDOWS,
+        series_list=series_list,
+        has_unspecified_series=has_unspecified_series,
+        lp_bug_url=LP_BUG_URL,
         generated_at=generated_at,
+        generated_iso=generated_iso,
         css=css,
+        js=js,
     )
     with open(os.path.join(output_dir, "index.html"), "w", encoding="utf-8") as fh:
-        fh.write(index_html)
+        fh.write(html)
 
 
 def main() -> None:
     parser = ArgumentParser(
-        description="Render the 24hrs-of-bugs JSON store into static HTML reports.",
+        description="Render the 24hrs-of-bugs JSON store into a static HTML report.",
         formatter_class=RawDescriptionHelpFormatter,
     )
     parser.add_argument("--output", default=".", help="Directory to write the rendered HTML into.")
@@ -220,7 +218,7 @@ def main() -> None:
 
     store = Store(state_dir)
     render(store, now, output_dir)
-    log.info("II: Rendered reports into %s (generated %s)", output_dir, iso(now))
+    log.info("II: Rendered report into %s (generated %s)", output_dir, iso(now))
 
 
 if __name__ == "__main__":
