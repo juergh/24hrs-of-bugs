@@ -77,20 +77,33 @@ def _field(pool: list[dict[str, Any]], key: str) -> dict[str, str]:
     return {"value": "multiple", "tooltip": ", ".join(distinct)}
 
 
+def _status_field(record: dict[str, Any]) -> dict[str, str]:
+    """Aggregate the task statuses for brief mode.
+
+    The shared status when every relevant task agrees. When active tasks
+    diverge, the umbrella "Open"; when only done tasks remain and they
+    diverge, the umbrella "Closed" — with the distinct statuses kept in the
+    tooltip. A duplicated bug reports "Duplicate".
+    """
+    if record.get("duplicate_of") is not None:
+        return {"value": "Duplicate", "tooltip": ""}
+    active = _active_targets(record)
+    field = _field(active or record.get("targets", []), "status")
+    if field["value"] == "multiple":
+        return {"value": "Open" if active else "Closed", "tooltip": field["tooltip"]}
+    return field
+
+
 def _brief(record: dict[str, Any]) -> dict[str, Any]:
     """Derive the brief-mode display fields from the raw per-task data."""
     targets = record.get("targets", [])
     pool = _active_targets(record) or targets
-    brief: dict[str, Any] = {
+    return {
+        "status": _status_field(record),
         "importance": _field(pool, "importance"),
         "assignee": _field(pool, "assignee"),
         "series": _field(pool, "series"),
     }
-    if record.get("duplicate_of") is not None:
-        brief["status"] = {"value": "Duplicate", "tooltip": ""}
-    else:
-        brief["status"] = _field(pool, "status")
-    return brief
 
 
 def _display_targets(record: dict[str, Any]) -> list[dict[str, Any]]:

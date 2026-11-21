@@ -255,12 +255,32 @@ def test_brief_shared_values():
     assert brief["importance"]["value"] == "Medium"
 
 
-def test_brief_multiple_values():
+def test_brief_status_open_when_active_tasks_differ():
     record = _bug(1, _target("linux", 1, status="New"), _target("linux-aws", 2, status="Confirmed"))
     brief = render._brief(record)
-    assert brief["status"]["value"] == "multiple"
+    assert brief["status"]["value"] == "Open"
     assert "New" in brief["status"]["tooltip"]
     assert "Confirmed" in brief["status"]["tooltip"]
+
+
+def test_brief_status_closed_when_done_tasks_differ():
+    record = _bug(1, _target("linux", 1, status="Fix Released"), _target("linux-aws", 2, status="Invalid"))
+    brief = render._brief(record)
+    assert brief["status"]["value"] == "Closed"
+    assert "Fix Released" in brief["status"]["tooltip"]
+    assert "Invalid" in brief["status"]["tooltip"]
+
+
+def test_brief_other_fields_still_multiple():
+    record = _bug(
+        1,
+        _target("linux", 1, status="New", importance="High"),
+        _target("linux-aws", 2, status="New", importance="Low"),
+    )
+    brief = render._brief(record)
+    assert brief["importance"]["value"] == "multiple"
+    assert "High" in brief["importance"]["tooltip"]
+    assert "Low" in brief["importance"]["tooltip"]
 
 
 def test_brief_ignores_inactive_targets():
@@ -385,15 +405,28 @@ def test_render_multi_target_details(tmp_path):
     assert 'class="k-details" data-active="true"' in page
 
 
-def test_render_multiple_indicator(tmp_path):
+def test_render_open_indicator(tmp_path):
     store = common.Store(str(tmp_path))
     record = _bug(21, _target("linux", 0, status="New"), _target("linux-aws", 0, status="Confirmed"))
     store.save_bug(record)
     render.render(store, NOW, str(tmp_path))
 
     page = open(os.path.join(tmp_path, "index.html")).read()
-    assert 'class="k-multiple"' in page
-    assert ">multiple</span>" in page
+    assert '<span class="k-multiple" title="New, Confirmed">Open</span>' in page
+
+
+def test_render_multiple_indicator(tmp_path):
+    store = common.Store(str(tmp_path))
+    record = _bug(
+        24,
+        _target("linux", 0, status="New", importance="High"),
+        _target("linux-aws", 0, status="New", importance="Low"),
+    )
+    store.save_bug(record)
+    render.render(store, NOW, str(tmp_path))
+
+    page = open(os.path.join(tmp_path, "index.html")).read()
+    assert '<span class="k-multiple" title="High, Low">multiple</span>' in page
 
 
 def test_render_duplicate(tmp_path):
