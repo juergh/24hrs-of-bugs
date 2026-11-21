@@ -307,7 +307,7 @@ def test_render_from_store(tmp_path):
     assert 'id="k-pkg-search"' in page
     assert 'id="k-filter-clear"' in page
     assert 'data-series="none"' in page
-    assert 'id="k-view-switch"' in page
+    assert 'id="k-verbose-toggle"' in page
     assert 'id="k-bugs-table"' in page
     assert "applyFilters" in page
 

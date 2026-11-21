@@ -365,28 +365,4 @@ tr.k-details {
   cursor: pointer;
 }
 
-/* Brief/Verbose view switch */
-.k-view-switch {
-  display: flex;
-  gap: 0.35rem;
-  align-items: center;
-}
-.k-view-btn {
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  padding: 0.3rem 0.8rem;
-  font-size: 0.85rem;
-  cursor: pointer;
-  color: var(--ink);
-  transition: all 0.15s ease-in-out;
-}
-.k-view-btn:hover {
-  border-color: var(--orange);
-  color: var(--orange);
-}
-.k-view-btn.is-active {
-  background: var(--aubergine);
-  border-color: var(--aubergine);
-  color: #fff;
-}
+

@@ -60,10 +60,7 @@
   </div>
   <div class="k-filter-row">
     <span class="k-filter-label">View:</span>
-    <div class="k-view-switch" id="k-view-switch">
-      <button type="button" class="k-view-btn is-active" data-view="brief">Brief</button>
-      <button type="button" class="k-view-btn" data-view="verbose">Verbose</button>
-    </div>
+    <label class="k-check"><input type="checkbox" id="k-verbose-toggle"> Verbose (show task details)</label>
   </div>
   <div class="k-filter-status">
     <span id="k-filter-count">Showing {{ counts.get("24-hours", 0) }} of {{ rows|length }} bug{% if rows|length != 1 %}s{% endif %}</span>
