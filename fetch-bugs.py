@@ -293,10 +293,7 @@ class Scanner:
         # Iterate defensively: each page is a separate HTTP fetch.
         iterator = iter(tasks)
         while True:
-            try:
-                task = retry(f"page of {type_} {name}", lambda: next(iterator, None))
-            except StopIteration:
-                break
+            task = retry(f"page of {type_} {name}", lambda: next(iterator, None))
             if task is None:
                 break
 
@@ -305,11 +302,20 @@ class Scanner:
                 continue
             self._processed_bugs.add(bug.id)
 
-            tags = self._bug_tags(bug)
-            if "kernel-release-tracking-bug" in tags:
-                continue
-
-            self._upsert(bug, tags)
+            # Isolate per-bug failures: one poisonous bug must not abort the
+            # rest of the target's scan. Failures still count, so the last-run
+            # stamp is not advanced and the next run re-covers the window.
+            try:
+                tags = self._bug_tags(bug)
+                if "kernel-release-tracking-bug" in tags:
+                    continue
+                self._upsert(bug, tags)
+            except RetryExhausted as exc:
+                self.failures += 1
+                log.warning("WW: Bug %s (%s) failed: %s", bug.id, name, exc)
+            except (LazrHTTPError, UrllibHTTPError) as exc:
+                self.failures += 1
+                log.warning("WW: Bug %s (%s) failed: %s", bug.id, name, exc)
 
     def _upsert(self, bug: Any, tags: list[str]) -> None:
         """Reconcile one bug record with its current Launchpad tasks.
