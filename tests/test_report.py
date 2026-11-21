@@ -351,7 +351,7 @@ def test_render_from_store(tmp_path):
         assert not os.path.exists(os.path.join(tmp_path, f"{slug}.html"))
 
     page = open(os.path.join(tmp_path, "index.html")).read()
-    assert "Newly opened kernel bugs" in page
+    assert "Bugs opened against Ubuntu kernel targets" in page
     # Both bugs are on the single page (the date filter scopes the view).
     assert "/bugs/10" in page
     assert "/bugs/11" in page
