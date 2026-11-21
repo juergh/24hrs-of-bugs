@@ -58,8 +58,7 @@ jobs:
           git config user.name "Forgejo Actions"
           git config user.email "noreply+forgejo-actions@invalid.canonical.com"
           git worktree remove tools --force
-          git add index.html 24-hours.html 7-days.html 30-days.html 90-days.html \
-                  last-run.json bugs .nojekyll
+          git add index.html last-run.json bugs .nojekyll
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
