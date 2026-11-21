@@ -50,12 +50,14 @@
   });
 
   // A detail row is shown iff its bug row passes the filters and either
-  // verbose view is on or the bug is individually expanded.
+  // verbose view is on or the bug is individually expanded. With Active
+  // only enabled, done tasks are hidden from the expanded view as well.
   function syncDetails(row) {
     const details = detailOf.get(row);
     if (!details) return;
-    const show = row.style.display !== 'none' && (currentView === 'verbose' || row.classList.contains('is-open'));
+    const expanded = row.style.display !== 'none' && (currentView === 'verbose' || row.classList.contains('is-open'));
     details.forEach(d => {
+      const show = expanded && (!activeOnly || d.getAttribute('data-active') === 'true');
       d.style.display = show ? 'table-row' : 'none';
     });
   }

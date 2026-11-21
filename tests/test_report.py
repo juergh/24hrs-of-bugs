@@ -274,6 +274,19 @@ def test_brief_ignores_inactive_targets():
     assert brief["status"]["value"] == "New"
 
 
+def test_brief_ignores_fix_released_targets():
+    # "Fix Released" is done work: it must not drag the brief status into
+    # "multiple" either.
+    record = _bug(1, _target("linux", 1, status="Fix Released"), _target("linux-aws", 2, status="In Progress"))
+    brief = render._brief(record)
+    assert brief["status"]["value"] == "In Progress"
+
+    # ...but a fully fixed bug still reports Fix Released (fallback pool).
+    record = _bug(1, _target("linux", 1, status="Fix Released"))
+    brief = render._brief(record)
+    assert brief["status"]["value"] == "Fix Released"
+
+
 def test_brief_all_closed_falls_back_to_all_targets():
     record = _bug(1, _target("linux", 1, status="Invalid"))
     brief = render._brief(record)
@@ -367,8 +380,9 @@ def test_render_multi_target_details(tmp_path):
     assert '<td class="k-targets">linux-aws</td>' in page
     assert "In Progress" in page
     assert "Removed" in page
-    # The removed task's detail row is muted.
-    assert 'class="k-details k-inactive"' in page
+    # The removed task's detail row is muted and filterable by Active only.
+    assert 'class="k-details k-inactive" data-active="false"' in page
+    assert 'class="k-details" data-active="true"' in page
 
 
 def test_render_multiple_indicator(tmp_path):

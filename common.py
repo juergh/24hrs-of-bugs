@@ -27,7 +27,7 @@ FUDGE_MINUTES: int = 15
 # Task statuses after which no further work happens on a task. "Removed" is a
 # synthetic status recorded by the fetcher when a previously seen task no
 # longer exists on Launchpad (e.g. the bug was retargeted to another package).
-CLOSED_STATUSES: tuple[str, ...] = ("Invalid", "Won't Fix", "Expired", "Removed")
+CLOSED_STATUSES: tuple[str, ...] = ("Invalid", "Won't Fix", "Expired", "Fix Released", "Removed")
 
 
 def iso(dt: datetime) -> str:

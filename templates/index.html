@@ -104,7 +104,7 @@
 </tr>
 {% if row.details|length > 1 %}
 {% for t in row.details %}
-<tr class="k-details{% if not t.active %} k-inactive{% endif %}">
+<tr class="k-details{% if not t.active %} k-inactive{% endif %}" data-active="{{ "true" if t.active else "false" }}">
   <td></td>
   <td></td>
   <td class="k-opened" title="Opened (UTC)">{{ t.date_opened }}</td>
