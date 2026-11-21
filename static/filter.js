@@ -201,9 +201,6 @@
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       if (pkgInput) pkgInput.value = '';
-      if (allPill) allPill.classList.add('is-active');
-      seriesPills.forEach(p => p.classList.remove('is-active'));
-      setView('brief');
       applyFilters();
     });
   }

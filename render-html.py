@@ -86,7 +86,7 @@ def _brief(record: dict[str, Any]) -> dict[str, Any]:
         "series": _field(pool, "series"),
     }
     if record.get("duplicate_of") is not None:
-        brief["status"] = "Duplicate"
+        brief["status"] = {"value": "Duplicate", "tooltip": ""}
     else:
         brief["status"] = _field(pool, "status")
     return brief

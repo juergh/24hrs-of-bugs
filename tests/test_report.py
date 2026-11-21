@@ -240,7 +240,7 @@ def test_brief_all_closed_falls_back_to_all_targets():
 def test_brief_duplicate_is_status():
     record = _bug(1, _target("linux", 1, status="New"), duplicate_of=42)
     brief = render._brief(record)
-    assert brief["status"] == "Duplicate"
+    assert brief["status"]["value"] == "Duplicate"
 
 
 def test_brief_series():
