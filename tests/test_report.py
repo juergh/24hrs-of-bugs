@@ -323,13 +323,20 @@ def test_render_multi_target_details(tmp_path):
     assert 'class="k-multiple"' not in page
     # The removed target is shown struck through.
     assert 'class="k-target-inactive"' in page
-    # Verbose details: toggle in its own column, detail row, per-task data.
+    # Verbose details: toggle in its own column, per-task detail rows that
+    # align with the outer table columns (no nested table, no colspan).
     assert 'class="k-toggle-cell"' in page
     assert "k-toggle" in page
-    assert 'class="k-details"' in page
-    assert 'colspan="9"' in page
+    assert 'class="k-details' in page
+    assert "table class=" not in page
+    assert 'colspan="9"' not in page
+    assert '<td class="k-opened" title="Opened (UTC)">' in page
+    assert '<td class="k-targets">linux</td>' in page
+    assert '<td class="k-targets">linux-aws</td>' in page
     assert "In Progress" in page
     assert "Removed" in page
+    # The removed task's detail row is muted.
+    assert 'class="k-details k-inactive"' in page
 
 
 def test_render_multiple_indicator(tmp_path):

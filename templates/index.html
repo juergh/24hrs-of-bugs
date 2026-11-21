@@ -106,38 +106,22 @@
   <td class="k-targets" title="{{ row.targets_attr }}">{% for t in row.targets %}{% if not loop.first %}, {% endif %}{% if t.inactive %}<span class="k-target-inactive" title="No active task on this target">{{ t.name }}</span>{% else %}{{ t.name }}{% endif %}{% endfor %}</td>
 </tr>
 {% if row.details|length > 1 %}
-<tr class="k-details">
-  <td colspan="9" class="k-details-cell">
-    <table class="k-sub">
-      <thead>
-      <tr>
-        <th>Target</th>
-        <th>Series</th>
-        <th>Status</th>
-        <th>Importance</th>
-        <th>Assignee</th>
-        <th>Opened (UTC)</th>
-      </tr>
-      </thead>
-      <tbody>
-      {% for t in row.details %}
-      <tr{% if not t.active %} class="k-inactive"{% endif %}>
-        <td>{{ t.name }}</td>
-        <td>{% if t.series %}{{ t.series }}{% else %}&mdash;{% endif %}</td>
-        <td>{{ t.status }}</td>
-        <td>{{ t.importance }}</td>
-        <td>{{ t.assignee }}</td>
-        <td>{{ t.date_opened }}</td>
-      </tr>
-      {% endfor %}
-      </tbody>
-    </table>
-  </td>
+{% for t in row.details %}
+<tr class="k-details{% if not t.active %} k-inactive{% endif %}">
+  <td></td>
+  <td></td>
+  <td class="k-opened" title="Opened (UTC)">{{ t.date_opened }}</td>
+  <td>{% if t.series %}{{ t.series }}{% else %}&mdash;{% endif %}</td>
+  <td>{{ t.importance }}</td>
+  <td>{{ t.status }}</td>
+  <td>{{ t.assignee }}</td>
+  <td class="k-targets">{{ t.name }}</td>
 </tr>
+{% endfor %}
 {% endif %}
 {% endfor %}
 <tr id="k-no-matches" style="display: none;">
-  <td colspan="9" class="k-match-none">No bugs match the current filters.</td>
+  <td colspan="8" class="k-match-none">No bugs match the current filters.</td>
 </tr>
 </tbody>
 </table>

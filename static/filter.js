@@ -27,23 +27,39 @@
   let rangeDays = 1;
   let activeOnly = false;
 
-  // Pair each bug row with its verbose detail row (if any) so both are
-  // shown and hidden together. Clicking anywhere on a row (except links)
-  // toggles its details.
+  // Pair each bug row with its verbose detail rows (if any). Clicking
+  // anywhere on a row (except links) toggles its details.
   const detailOf = new Map();
   const openedOf = new Map();
   bugRows.forEach(row => {
-    const next = row.nextElementSibling;
-    if (next && next.classList.contains('k-details')) {
-      detailOf.set(row, next);
+    const details = [];
+    let next = row.nextElementSibling;
+    while (next && next.classList.contains('k-details')) {
+      details.push(next);
+      next = next.nextElementSibling;
+    }
+    if (details.length) {
+      detailOf.set(row, details);
     }
     openedOf.set(row, new Date(row.getAttribute('data-opened')));
     row.addEventListener('click', e => {
       if (e.target.closest('a')) return;
       if (!detailOf.has(row)) return;
       row.classList.toggle('is-open');
+      syncDetails(row);
     });
   });
+
+  // A detail row is shown iff its bug row passes the filters and either
+  // verbose view is on or the bug is individually expanded.
+  function syncDetails(row) {
+    const details = detailOf.get(row);
+    if (!details) return;
+    const show = row.style.display !== 'none' && (currentView === 'verbose' || row.classList.contains('is-open'));
+    details.forEach(d => {
+      d.style.display = show ? 'table-row' : 'none';
+    });
+  }
 
   function getActiveSeries() {
     if (!allPill || allPill.classList.contains('is-active')) {
@@ -103,10 +119,7 @@
 
   function setRowVisible(row, visible) {
     row.style.display = visible ? '' : 'none';
-    const detail = detailOf.get(row);
-    if (detail) {
-      detail.style.display = visible ? '' : 'none';
-    }
+    syncDetails(row);
   }
 
   function applyFilters() {
@@ -200,6 +213,7 @@
     currentView = view === 'verbose' ? 'verbose' : 'brief';
     viewBtns.forEach(b => b.classList.toggle('is-active', b.getAttribute('data-view') === currentView));
     table.classList.toggle('k-verbose', currentView === 'verbose');
+    bugRows.forEach(syncDetails);
     try {
       window.localStorage.setItem('k-view', currentView);
     } catch (e) { /* storage unavailable */ }
