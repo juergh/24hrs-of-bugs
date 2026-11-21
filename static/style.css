@@ -104,7 +104,7 @@ tbody tr:hover {
   width: 11rem;
 }
 #k-bugs-table col.col-targets {
-  width: 24rem;
+  width: 14rem;
 }
 /* Verbose task-detail rows are real rows of the main table, so their
    cells align with the outer columns and showing them never disturbs
