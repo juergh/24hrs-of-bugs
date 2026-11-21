@@ -129,6 +129,38 @@ def test_last_run_roundtrip(tmp_path):
     assert store.read_last_run() == NOW
 
 
+def test_render_anchors_to_last_run(tmp_path):
+    store = common.Store(str(tmp_path))
+    # Bug opened 60 hours ago; the store was last scanned 48 hours ago, so
+    # relative to the stamp the bug is 12 hours old (inside the 24h window),
+    # while relative to the render wall-clock it is 60 hours old (outside).
+    bug30 = _bug(
+        30,
+        {
+            "name": "linux",
+            "type": "package",
+            "series": "",
+            "status": "New",
+            "importance": "Medium",
+            "assignee": "unassigned",
+            "date_created": common.iso(NOW - timedelta(hours=60)),
+        },
+    )
+    store.save_bug(bug30)
+    stamp = NOW - timedelta(hours=48)
+    store.write_last_run(stamp)
+    render.render(store, NOW, str(tmp_path))
+
+    page = open(os.path.join(tmp_path, "index.html")).read()
+    # The data anchor is the last-run stamp, not the render time...
+    assert f'data-as-of="{common.iso(stamp)}"' in page
+    assert f"data as of {stamp.strftime('%Y-%m-%d %H:%M UTC')}" in page
+    # ...so window selection and preset counts are relative to the stamp.
+    assert 'data-slug="24-hours" data-days="1">24 hours <span class="k-range-count">1</span>' in page
+    # The footer still records the actual render time.
+    assert f"Generated {NOW.strftime('%Y-%m-%d %H:%M UTC')}" in page
+
+
 def test_retry_gives_up(monkeypatch):
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
     calls = {"n": 0}
@@ -296,7 +328,7 @@ def test_render_from_store(tmp_path):
     assert 'data-targets="linux"' in page
     assert "data-opened=" in page
     assert "data-active=" in page
-    assert "data-generated=" in page
+    assert "data-as-of=" in page
     assert 'id="k-ranges"' in page
     assert 'data-slug="24-hours"' in page
     assert 'data-days="7"' in page

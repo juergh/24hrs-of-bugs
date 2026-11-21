@@ -164,6 +164,12 @@ def _counts(rows: list[dict[str, Any]], now: datetime) -> dict[str, int]:
 def render(store: Store, now: datetime, output_dir: str) -> None:
     bugs = list(store.all_bugs())
 
+    # The report reflects the data as of the last scan, not the wall-clock
+    # render time: window selection, the date-preset anchor and the "data as
+    # of" label all derive from the last-run stamp. Only the footer records
+    # when the page was actually built.
+    as_of = store.read_last_run() or now
+
     css, js = _load_assets()
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
@@ -172,22 +178,20 @@ def render(store: Store, now: datetime, output_dir: str) -> None:
         lstrip_blocks=True,
     )
 
-    generated_at = now.strftime("%Y-%m-%d %H:%M UTC")
-    generated_iso = iso(now)
-
-    rows = _rows(bugs, now)
+    rows = _rows(bugs, as_of)
     series_list = sorted({s for r in rows for s in r["series_attr"].split()})
     has_unspecified_series = any(not r["series_attr"] for r in rows)
 
     html = env.get_template("index.html").render(
         rows=rows,
-        counts=_counts(rows, now),
+        counts=_counts(rows, as_of),
         windows=WINDOWS,
         series_list=series_list,
         has_unspecified_series=has_unspecified_series,
         lp_bug_url=LP_BUG_URL,
-        generated_at=generated_at,
-        generated_iso=generated_iso,
+        as_of_at=as_of.strftime("%Y-%m-%d %H:%M UTC"),
+        as_of_iso=iso(as_of),
+        generated_at=now.strftime("%Y-%m-%d %H:%M UTC"),
         css=css,
         js=js,
     )

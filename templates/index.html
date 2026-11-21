@@ -14,7 +14,7 @@
 
 {% block content %}
 <h2>Newly opened kernel bugs</h2>
-<p class="k-sub">Bugs filed against Ubuntu kernel targets on Launchpad in the last 90 days &middot; data as of {{ generated_at }}.</p>
+<p class="k-sub">Bugs filed against Ubuntu kernel targets on Launchpad in the last 90 days &middot; data as of {{ as_of_at }}.</p>
 
 {% if not rows %}
 <p class="k-empty">No bugs in the store.</p>
@@ -67,7 +67,7 @@
   </div>
 </div>
 
-<table id="k-bugs-table" data-generated="{{ generated_iso }}">
+<table id="k-bugs-table" data-as-of="{{ as_of_iso }}">
 <colgroup>
   <col class="col-arrow">
   <col class="col-bug">

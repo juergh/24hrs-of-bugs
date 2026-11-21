@@ -2,7 +2,7 @@
   const table = document.getElementById('k-bugs-table');
   if (!table) return;
 
-  const anchor = new Date(table.getAttribute('data-generated'));
+  const anchor = new Date(table.getAttribute('data-as-of'));
   const bugRows = Array.from(table.querySelectorAll('tbody tr.k-bug'));
   const noMatchesRow = document.getElementById('k-no-matches');
   const pkgInput = document.getElementById('k-pkg-search');
