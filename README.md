@@ -59,18 +59,22 @@ Pages repository.
 
 ### Renderer (`render-html.py`)
 
-Renders all pages purely from the JSON store. A bug appears on a window page if
-**any** of its target tasks was created within that window; windows are
-cumulative (24h ⊆ 7d ⊆ 30d ⊆ 90d).
+Renders a single `index.html` purely from the JSON store, containing every
+bug in the store (i.e. opened within the 90-day retention window; windows
+are cumulative: 24h ⊆ 7d ⊆ 30d ⊆ 90d). The 24-hour/7-day/30-day/90-day
+windows are client-side date-range presets anchored to the page's
+generation time; a custom From/To range is also available.
 
 The store holds raw per-task facts only; the renderer derives the display:
 
 - **Brief mode** (default): one row per bug. Status, importance, series and
   assignee show the shared value of the active tasks, or `multiple` (with a
   tooltip) when they differ. Inactive targets (closed, invalidated or
-  `Removed`) are shown struck through.
+  `Removed`) are shown struck through; rows with no active work (including
+  duplicates) are muted and can be hidden with the *Active only* filter.
 - **Verbose mode**: each multi-task bug expands into a per-task detail table
-  (target, series, status, importance, assignee, creation date).
+  (target, series, status, importance, assignee, creation date). Rows expand
+  on click.
 
 ## Usage
 

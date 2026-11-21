@@ -8,7 +8,7 @@ This repository maintains two disconnected branch histories:
 
 - **`tools`**: Contains all Python code, tests, templates, static assets, and vendored libraries. All tooling development, refactoring, and test execution must happen on this branch.
 - **`main`**: The deployed production branch and persistent state. Contains:
-  - Static HTML reports (`index.html`, `24-hours.html`, `7-days.html`, etc.).
+  - The static HTML report (`index.html`; time windows are client-side date-range presets).
   - Bug store cache (`bugs/<id>.json`) and scan checkpoint (`last-run.json`).
   - Forgejo CI workflow (`.forgejo/workflows/24hrs-of-bugs.yaml`).
 
