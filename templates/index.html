@@ -94,11 +94,11 @@
 {% for row in rows %}
 <tr class="k-bug{% if row.details|length > 1 %} k-expandable{% endif %}{% if not row.active %} k-inactive-row{% endif %}" data-series="{{ row.series_attr }}" data-targets="{{ row.targets_attr }}" data-opened="{{ row.opened_iso }}" data-active="{{ "true" if row.active else "false" }}">
   <td class="k-toggle-cell">{% if row.details|length > 1 %}<button type="button" class="k-toggle" title="Toggle task details" aria-label="Toggle task details">&#9656;</button>{% endif %}</td>
-  <td class="k-id"><a href="{{ lp_bug_url }}{{ row.id }}">#{{ row.id }}</a></td>
+  <td class="k-id"><a href="{{ lp_bug_url }}{{ row.id }}" target="_blank" rel="noopener">#{{ row.id }}</a></td>
   <td class="k-title" title="{{ row.title }}">{{ row.title }}</td>
   <td>{{ brief_field(row.brief.series) }}</td>
   <td>{{ brief_field(row.brief.importance) }}</td>
-  <td>{% if row.duplicate_of is not none %}<a class="k-duplicate" href="{{ lp_bug_url }}{{ row.duplicate_of }}" title="Duplicate of #{{ row.duplicate_of }}">Duplicate</a>{% else %}{{ brief_field(row.brief.status) }}{% endif %}</td>
+  <td>{% if row.duplicate_of is not none %}<a class="k-duplicate" href="{{ lp_bug_url }}{{ row.duplicate_of }}" target="_blank" rel="noopener" title="Duplicate of #{{ row.duplicate_of }}">Duplicate</a>{% else %}{{ brief_field(row.brief.status) }}{% endif %}</td>
   <td>{{ brief_field(row.brief.assignee) }}</td>
   <td class="k-targets" title="{{ row.targets_attr }}">{% for t in row.targets %}{% if not loop.first %}, {% endif %}{% if t.inactive %}<span class="k-target-inactive" title="No active task on this target">{{ t.name }}</span>{% else %}{{ t.name }}{% endif %}{% endfor %}</td>
 </tr>
