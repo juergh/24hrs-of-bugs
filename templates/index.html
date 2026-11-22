@@ -56,7 +56,14 @@
   {% endif %}
   <div class="k-filter-row">
     <span class="k-filter-label">State:</span>
-    <label class="k-check"><input type="checkbox" id="k-active-only"> Active only (hide closed, removed and duplicate bugs)</label>
+    <div class="k-pills" id="k-state-pills">
+      <button type="button" class="k-pill is-all is-active" data-state="all">All</button>
+      <button type="button" class="k-pill" data-state="open">Open</button>
+      <button type="button" class="k-pill" data-state="closed">Closed</button>
+      {% if has_duplicates %}
+      <button type="button" class="k-pill" data-state="duplicate">Duplicate</button>
+      {% endif %}
+    </div>
   </div>
   <div class="k-filter-row">
     <span class="k-filter-label">View:</span>
@@ -92,7 +99,7 @@
 </thead>
 <tbody>
 {% for row in rows %}
-<tr class="k-bug{% if row.details|length > 1 %} k-expandable{% endif %}{% if not row.active %} k-inactive-row{% endif %}" data-series="{{ row.series_attr }}" data-targets="{{ row.targets_attr }}" data-opened="{{ row.opened_iso }}" data-active="{{ "true" if row.active else "false" }}">
+<tr class="k-bug{% if row.details|length > 1 %} k-expandable{% endif %}{% if not row.active %} k-inactive-row{% endif %}" data-series="{{ row.series_attr }}" data-targets="{{ row.targets_attr }}" data-opened="{{ row.opened_iso }}" data-state="{{ row.state }}">
   <td class="k-toggle-cell">{% if row.details|length > 1 %}<button type="button" class="k-toggle" title="Toggle task details" aria-label="Toggle task details">&#9656;</button>{% endif %}</td>
   <td class="k-id"><a href="{{ lp_bug_url }}{{ row.id }}" target="_blank" rel="noopener">#{{ row.id }}</a></td>
   <td class="k-title" title="{{ row.title }}">{{ row.title }}</td>
@@ -104,7 +111,7 @@
 </tr>
 {% if row.details|length > 1 %}
 {% for t in row.details %}
-<tr class="k-details{% if not t.active %} k-inactive{% endif %}" data-active="{{ "true" if t.active else "false" }}">
+<tr class="k-details{% if not t.active %} k-inactive{% endif %}" data-state="{{ t.state }}">
   <td></td>
   <td></td>
   <td class="k-opened" title="Opened (UTC)">{{ t.date_opened }}</td>

@@ -8,11 +8,7 @@
   const pkgInput = document.getElementById('k-pkg-search');
   const clearBtn = document.getElementById('k-filter-clear');
   const countSpan = document.getElementById('k-filter-count');
-  const pillsContainer = document.getElementById('k-series-pills');
-  const allPill = pillsContainer ? pillsContainer.querySelector('[data-series="all"]') : null;
-  const seriesPills = pillsContainer ? Array.from(pillsContainer.querySelectorAll('.k-pill:not([data-series="all"])')) : [];
   const verboseToggle = document.getElementById('k-verbose-toggle');
-  const activeChk = document.getElementById('k-active-only');
   const rangeContainer = document.getElementById('k-ranges');
   const rangeBtns = rangeContainer ? Array.from(rangeContainer.querySelectorAll('.k-range-btn')) : [];
   const dateFrom = document.getElementById('k-date-from');
@@ -24,7 +20,62 @@
   let rangeMode = 'preset';
   let rangeSlug = defaultSlug;
   let rangeDays = 1;
-  let activeOnly = false;
+
+  // Multi-select pill group with a leading "all" pill. get() returns null
+  // when everything passes, or the set of selected values (lowercase).
+  function makePillGroup(containerId, attr) {
+    const container = document.getElementById(containerId);
+    const allPill = container ? container.querySelector('.k-pill[data-' + attr + '="all"]') : null;
+    const pills = container ? Array.from(container.querySelectorAll('.k-pill:not([data-' + attr + '="all"])')) : [];
+
+    function get() {
+      if (!allPill || allPill.classList.contains('is-active')) {
+        return null;
+      }
+      const active = new Set();
+      pills.forEach(p => {
+        if (p.classList.contains('is-active')) {
+          active.add(p.getAttribute('data-' + attr).toLowerCase());
+        }
+      });
+      return active.size > 0 ? active : null;
+    }
+
+    function set(values) {
+      if (!container) return;
+      const targets = (values || []).map(v => v.toLowerCase());
+      let any = false;
+      pills.forEach(p => {
+        const on = targets.includes(p.getAttribute('data-' + attr).toLowerCase());
+        p.classList.toggle('is-active', on);
+        if (on) any = true;
+      });
+      if (allPill) {
+        allPill.classList.toggle('is-active', !any);
+      }
+    }
+
+    if (container) {
+      container.addEventListener('click', e => {
+        const pill = e.target.closest('.k-pill');
+        if (!pill) return;
+        if (pill.getAttribute('data-' + attr) === 'all') {
+          if (allPill) allPill.classList.add('is-active');
+          pills.forEach(p => p.classList.remove('is-active'));
+        } else {
+          pill.classList.toggle('is-active');
+          const any = pills.some(p => p.classList.contains('is-active'));
+          if (allPill) allPill.classList.toggle('is-active', !any);
+        }
+        applyFilters();
+      });
+    }
+
+    return { get, set };
+  }
+
+  const seriesPills = makePillGroup('k-series-pills', 'series');
+  const statePills = makePillGroup('k-state-pills', 'state');
 
   // Pair each bug row with its verbose detail rows (if any). Clicking
   // anywhere on a row (except links) toggles its details.
@@ -49,49 +100,37 @@
     });
   });
 
-  // A detail row is shown iff its bug row passes the filters and either
-  // verbose view is on or the bug is individually expanded. With Active
-  // only enabled, done tasks are hidden from the expanded view as well.
+  // A detail row is shown iff its bug row passes the filters, the bug is
+  // expanded (verbose view or individually opened), and the task's own
+  // state matches the state filter.
   function syncDetails(row) {
     const details = detailOf.get(row);
     if (!details) return;
     const expanded = row.style.display !== 'none' && (currentView === 'verbose' || row.classList.contains('is-open'));
+    const states = statePills.get();
     details.forEach(d => {
-      const show = expanded && (!activeOnly || d.getAttribute('data-active') === 'true');
+      const show = expanded && (states === null || states.has(d.getAttribute('data-state')));
       d.style.display = show ? 'table-row' : 'none';
     });
   }
 
-  function getActiveSeries() {
-    if (!allPill || allPill.classList.contains('is-active')) {
-      return null;
-    }
-    const active = new Set();
-    seriesPills.forEach(pill => {
-      if (pill.classList.contains('is-active')) {
-        active.add(pill.getAttribute('data-series').toLowerCase());
-      }
-    });
-    return active.size > 0 ? active : null;
-  }
-
   function baseMatch(row) {
     const pkgQuery = pkgInput ? pkgInput.value.trim().toLowerCase() : '';
-    const activeSeries = getActiveSeries();
-    const rowSeries = (row.getAttribute('data-series') || '').toLowerCase().split(/\s+/).filter(s => s);
-    const rowTargets = (row.getAttribute('data-targets') || '').toLowerCase();
+    const activeSeries = seriesPills.get();
+    const activeStates = statePills.get();
 
-    if (activeOnly && row.getAttribute('data-active') !== 'true') {
+    if (activeStates !== null && !activeStates.has(row.getAttribute('data-state'))) {
       return false;
     }
 
     if (activeSeries !== null) {
+      const rowSeries = (row.getAttribute('data-series') || '').toLowerCase().split(/\s+/).filter(s => s);
       const none = rowSeries.length === 0 && activeSeries.has('none');
       const hit = rowSeries.some(s => activeSeries.has(s));
       if (!none && !hit) return false;
     }
 
-    if (pkgQuery && rowTargets.indexOf(pkgQuery) === -1) {
+    if (pkgQuery && (row.getAttribute('data-targets') || '').toLowerCase().indexOf(pkgQuery) === -1) {
       return false;
     }
 
@@ -164,18 +203,20 @@
       params.delete('pkg');
     }
 
-    const activeSeries = getActiveSeries();
+    const activeSeries = seriesPills.get();
     if (activeSeries !== null && activeSeries.size > 0) {
       params.set('series', Array.from(activeSeries).join(','));
     } else {
       params.delete('series');
     }
 
-    if (activeOnly) {
-      params.set('active', '1');
+    const activeStates = statePills.get();
+    if (activeStates !== null && activeStates.size > 0) {
+      params.set('state', Array.from(activeStates).join(','));
     } else {
-      params.delete('active');
+      params.delete('state');
     }
+    params.delete('active');
 
     if (rangeMode === 'preset') {
       if (rangeSlug !== defaultSlug) {
@@ -246,26 +287,13 @@
     }
 
     const urlSeries = params.get('series');
-    if (urlSeries && pillsContainer) {
-      const targetSeries = urlSeries.toLowerCase().split(',').map(s => s.trim());
-      let activatedAny = false;
-      seriesPills.forEach(pill => {
-        const s = pill.getAttribute('data-series').toLowerCase();
-        if (targetSeries.includes(s)) {
-          pill.classList.add('is-active');
-          activatedAny = true;
-        } else {
-          pill.classList.remove('is-active');
-        }
-      });
-      if (activatedAny && allPill) {
-        allPill.classList.remove('is-active');
-      }
+    if (urlSeries) {
+      seriesPills.set(urlSeries.split(','));
     }
 
-    activeOnly = params.get('active') === '1';
-    if (activeChk) {
-      activeChk.checked = activeOnly;
+    const urlState = params.get('state');
+    if (urlState) {
+      statePills.set(urlState.split(','));
     }
 
     const from = params.get('from');
@@ -288,28 +316,6 @@
     setVerbose(initialView === 'verbose');
   }
 
-  if (pillsContainer) {
-    pillsContainer.addEventListener('click', e => {
-      const pill = e.target.closest('.k-pill');
-      if (!pill) return;
-
-      const seriesVal = pill.getAttribute('data-series');
-      if (seriesVal === 'all') {
-        allPill.classList.add('is-active');
-        seriesPills.forEach(p => p.classList.remove('is-active'));
-      } else {
-        pill.classList.toggle('is-active');
-        const anyActive = seriesPills.some(p => p.classList.contains('is-active'));
-        if (anyActive) {
-          if (allPill) allPill.classList.remove('is-active');
-        } else {
-          if (allPill) allPill.classList.add('is-active');
-        }
-      }
-      applyFilters();
-    });
-  }
-
   if (rangeContainer) {
     rangeContainer.addEventListener('click', e => {
       const btn = e.target.closest('.k-range-btn');
@@ -327,13 +333,6 @@
       });
     }
   });
-
-  if (activeChk) {
-    activeChk.addEventListener('change', () => {
-      activeOnly = activeChk.checked;
-      applyFilters();
-    });
-  }
 
   if (verboseToggle) {
     verboseToggle.addEventListener('change', () => {

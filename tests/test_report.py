@@ -360,7 +360,7 @@ def test_render_from_store(tmp_path):
     assert 'data-series=""' in page
     assert 'data-targets="linux"' in page
     assert "data-opened=" in page
-    assert "data-active=" in page
+    assert 'data-state="open"' in page
     assert "data-as-of=" in page
     assert 'id="k-ranges"' in page
     assert 'data-slug="24-hours"' in page
@@ -368,7 +368,10 @@ def test_render_from_store(tmp_path):
     assert "k-range-count" in page
     assert 'id="k-date-from"' in page
     assert 'id="k-date-to"' in page
-    assert 'id="k-active-only"' in page
+    assert 'id="k-state-pills"' in page
+    assert '<button type="button" class="k-pill" data-state="open">Open</button>' in page
+    # No duplicates in this store: the Duplicate pill is omitted.
+    assert '<button type="button" class="k-pill" data-state="duplicate">Duplicate</button>' not in page
     assert 'id="k-pkg-search"' in page
     assert 'id="k-filter-clear"' in page
     assert 'data-series="none"' in page
@@ -401,8 +404,8 @@ def test_render_multi_target_details(tmp_path):
     assert "In Progress" in page
     assert "Removed" in page
     # The removed task's detail row is muted and filterable by Active only.
-    assert 'class="k-details k-inactive" data-active="false"' in page
-    assert 'class="k-details" data-active="true"' in page
+    assert 'class="k-details k-inactive" data-state="closed"' in page
+    assert 'class="k-details" data-state="open"' in page
 
 
 def test_render_open_indicator(tmp_path):
@@ -439,7 +442,9 @@ def test_render_duplicate(tmp_path):
     assert "/bugs/99" in page
     # A duplicate has no active work: the row is muted and filterable.
     assert "k-inactive-row" in page
-    assert 'data-active="false"' in page
+    assert 'data-state="duplicate"' in page
+    # ...and the Duplicate state pill is offered.
+    assert '<button type="button" class="k-pill" data-state="duplicate">Duplicate</button>' in page
 
 
 def test_render_title_is_plain_truncating_text(tmp_path):

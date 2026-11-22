@@ -127,10 +127,12 @@ def _detail_targets(record: dict[str, Any]) -> list[dict[str, Any]]:
     duplicate = record.get("duplicate_of") is not None
     details = []
     for t in record.get("targets", []):
+        active = not duplicate and t.get("status") not in _CLOSED
         details.append(
             {
                 **t,
-                "active": not duplicate and t.get("status") not in _CLOSED,
+                "active": active,
+                "state": "duplicate" if duplicate else ("open" if active else "closed"),
                 "date_opened": parse_iso(t["date_created"]).strftime("%Y-%m-%d %H:%M"),
             }
         )
@@ -146,6 +148,8 @@ def _rows(bugs: list[dict[str, Any]], now: datetime) -> list[dict[str, Any]]:
         if newest is None:
             continue
         targets = record.get("targets", [])
+        duplicate = record.get("duplicate_of") is not None
+        active = bool(_active_targets(record))
         rows.append(
             {
                 "newest": newest,
@@ -154,7 +158,8 @@ def _rows(bugs: list[dict[str, Any]], now: datetime) -> list[dict[str, Any]]:
                 "title": record.get("title", ""),
                 "duplicate_of": record.get("duplicate_of"),
                 "brief": _brief(record),
-                "active": bool(_active_targets(record)),
+                "active": active,
+                "state": "duplicate" if duplicate else ("open" if active else "closed"),
                 "series_attr": " ".join(sorted({t.get("series", "") for t in targets if t.get("series")})),
                 "targets": _display_targets(record),
                 "targets_attr": " ".join(sorted({t["name"] for t in targets})),
@@ -194,6 +199,7 @@ def render(store: Store, now: datetime, output_dir: str) -> None:
     rows = _rows(bugs, as_of)
     series_list = sorted({s for r in rows for s in r["series_attr"].split()})
     has_unspecified_series = any(not r["series_attr"] for r in rows)
+    has_duplicates = any(r["duplicate_of"] is not None for r in rows)
 
     html = env.get_template("index.html").render(
         rows=rows,
@@ -201,6 +207,7 @@ def render(store: Store, now: datetime, output_dir: str) -> None:
         windows=WINDOWS,
         series_list=series_list,
         has_unspecified_series=has_unspecified_series,
+        has_duplicates=has_duplicates,
         lp_bug_url=LP_BUG_URL,
         as_of_at=as_of.strftime("%Y-%m-%d %H:%M UTC"),
         as_of_iso=iso(as_of),
