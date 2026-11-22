@@ -66,12 +66,8 @@ jobs:
           git commit -m "Update bug reports $(date -u +%Y-%m-%dT%H:%M:%S%Z)"
           git push origin HEAD:main
 
-      - name: Push to GitHub Pages
-        if: ${{ vars.GH_PAGES_REPO != '' }}
+      - name: Push to personal GitHub
         env:
-          GIT_AUTH_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
-          GH_PAGES_REPO: ${{ vars.GH_PAGES_REPO }}
+          GIT_AUTH_TOKEN: ${{ secrets.GH_PAT_24HRS_OF_BUGS }}
         run: |
-          git remote add pages \
-            "https://x-access-token:${GIT_AUTH_TOKEN}@github.com/${GH_PAGES_REPO}.git"
-          git push --force pages HEAD:main
+          git push --force "https://x-access-token:${GIT_AUTH_TOKEN}@github.com/juergh/24hrs-of-bugs.git" HEAD:main
