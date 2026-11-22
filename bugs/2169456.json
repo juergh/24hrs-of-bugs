@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169456,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-04T10:18:46.105256+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] xe driver eDP-1 cold boot black screen (CPU pipe A FIFO underrun) between 7.0.0-31 and 7.0.0-38"
+}

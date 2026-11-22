@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167211,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T06:08:03.460933+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression in 7.0.0-31: RTL8761BU btusb enters permanent 30s USB reset storm after single URB failure (self-recovered on 6.8.0-13x)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165852,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-08-30T14:48:38.684363+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "[AMD Rembrandt + ThinkPad TB4 Dock 40B0] Infinite disconnect loop: \"failed to enable TMU\" / \"USB3 tunnel creation failed\" without thunderbolt.clx=0"
+}

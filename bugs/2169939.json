@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169940,
+  "id": 2169939,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T07:37:33.288009+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "text  Fallo de coordinaci\u00f3n i915/nvidia-drm al conectar hub USB-C: pantalla queda en gris (nv_drm_dumb_map_offset)"
+}

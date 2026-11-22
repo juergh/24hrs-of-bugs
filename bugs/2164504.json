@@ -1,0 +1,89 @@
+{
+  "duplicate_of": null,
+  "id": 2164504,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T06:39:21.332751+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T06:39:21.332751+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-08-25T06:39:21.332751+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-19T06:42:05.135809+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-08-19T06:42:15.359826+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-19T06:42:15.359826+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-19T06:41:51.023811+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-19T06:42:15.359826+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-08-19T06:42:15.359826+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Speakers not detected on HP systems with TI TAS2783 SoundWire amps"
+}

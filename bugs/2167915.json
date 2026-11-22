@@ -1,0 +1,80 @@
+{
+  "duplicate_of": null,
+  "id": 2167915,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T05:16:43.345570+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-14T03:25:13.957129+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T05:17:01.948915+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T05:17:01.948915+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T03:16:30.488666+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T03:16:30.488666+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "noble",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T03:16:30.488666+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T03:16:30.488666+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Support Cirrus Logic CS42L45+CS35L63 on new Dell Slate"
+}

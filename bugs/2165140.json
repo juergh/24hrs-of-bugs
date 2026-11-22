@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2165140,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-26T13:28:55.582146+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T14:39:53.526269+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "jammy",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T14:39:53.526269+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "qrtr: ns: node limit of 64 breaks QRTR routing on large multi-node deployments"
+}

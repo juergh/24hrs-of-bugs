@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166440,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-04T05:30:12.088177+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "wol not wkorking Kernel: The newer version that forces the reboot.  Symptom: System completes systemd-poweroff but immediately triggers a hardware reset/reboot."
+}

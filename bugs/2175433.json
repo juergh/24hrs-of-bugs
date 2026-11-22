@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175433,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T20:27:33.684429+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Xonar DG/DGX: snd-oxygen capture volume controls return 255 for negative values"
+}

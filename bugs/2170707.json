@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2170707,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-13T13:56:33.550406+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[amdgpu] RX 9070 XT: one-frame bands of old screen content since 7.0.0-38 (7.0.0-34 is fine)"
+}

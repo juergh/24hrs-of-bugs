@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2055473,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2024-02-29T21:42:42.634012+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ian Whitfield",
+      "date_created": "2026-10-01T19:53:46.181099+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2024-02-29T21:42:51.983153+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "mantic",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "Ian Whitfield",
+      "date_created": "2024-02-29T21:42:51.983153+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "pmtu.sh net selftest fail with PMTU exception wasn't created after exceeding MTU"
+}

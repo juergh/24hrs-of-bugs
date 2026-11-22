@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167300,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T06:48:47.272169+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T22:25:15.532009+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T00:12:35.788618+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T00:12:38.341009+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "firmware: nvidia-ffa-ec: support FF-A EC services v1.3 and early ACPI consumers"
+}

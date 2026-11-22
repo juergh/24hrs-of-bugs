@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174625,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T17:08:15.068508+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "GPU hang (ccs0) importing a 10-bit 4-tiled scanout framebuffer as a VA-API surface, then running VPP on it"
+}

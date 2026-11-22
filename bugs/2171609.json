@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2171609,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T11:37:42.189773+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[amdgpu] RX 7900 XTX: single-frame colored block bands since 7.0.0-38 (7.0.0-30 not affected)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172878,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T20:52:53.438968+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.10 ARM64: enrolled shim MOK not imported into trusted keyrings with efi=noruntime (XPS 13 9345)"
+}

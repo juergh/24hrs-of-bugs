@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173785,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T18:08:05.377073+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-11-09T18:08:23.080282+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "jammy",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Jammy update: v5.15.225 upstream stable release"
+}

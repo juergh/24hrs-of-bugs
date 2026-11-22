@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175496,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-22T01:11:58.656405+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Realtek RTL8125BG Ethernet unavailable on Ubuntu 7.0.0-44.44, works on 7.0.0-43.43"
+}

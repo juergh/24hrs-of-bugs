@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168573,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-25T20:14:53.137574+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "DELL WD19 dock dGPU power-on fails and prevents suspend after undock - XPS 15 9510"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175480,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-21T17:31:56.922558+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Cant mount ntfs on linux"
+}

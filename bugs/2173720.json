@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2173720,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T05:19:20.213746+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-11-10T01:22:05.031261+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-11-10T01:22:05.031261+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Intel Wi-Fi 7 firmware error and call trace at boot on Dell systems"
+}

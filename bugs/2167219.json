@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167219,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-14T09:07:11.371156+00:00",
+      "importance": "Critical",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Add support for AMD Zen6 client SFH"
+}

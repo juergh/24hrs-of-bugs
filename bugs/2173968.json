@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2173968,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T07:15:33.847353+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T07:15:46.351521+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T07:15:46.351521+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T07:15:46.351521+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Fix no sound out from the speaker on HP laptops"
+}

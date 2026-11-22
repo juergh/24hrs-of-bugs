@@ -1,0 +1,53 @@
+{
+  "duplicate_of": null,
+  "id": 2167893,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T21:49:01.655106+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T21:49:11.369413+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "jammy",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T21:49:11.369413+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T21:49:11.369413+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T21:49:11.369413+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Revert SAUCE: AMDv4 VMs may get no timer interrupts or suffer from timer interrupt storms"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2175448,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-21T02:54:25.906214+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Internal audio/mic missing after 7.0.0-43: sof_sdw \"CODEC DAI cs35l56-ot25 not registered\""
+}

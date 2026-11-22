@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2166531,
+  "id": 2167096,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T13:14:06.963882+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Title: AMD DCN 3.5 / SMU GPU hang after display idle on kernel 7.0.0-31-generic"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2173807,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T22:23:51.282753+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo ThinkPad X1 Carbon Gen 14 (Panther Lake), Ubuntu 26.04 LTS. linux-image-7.0.0-1017-oem to 7.0.0-1018-oem"
+}

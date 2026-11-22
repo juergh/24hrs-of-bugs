@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2169329,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T18:13:18.211174+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-10-02T18:13:29.633638+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T20:56:15.700114+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-10-02T20:56:15.700114+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Upstream stable patch causes build failure when CONFIG_XFRM_MIGRATE is enabled"
+}

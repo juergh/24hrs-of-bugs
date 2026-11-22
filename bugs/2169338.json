@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169338,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T20:07:17.301957+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T20:14:19.829608+00:00",
+      "importance": "Medium",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel oops / GPF in path_is_under() from complete_walk() on openat \u201a\u00c4\u00ee 7.0.0-34/-38-generic and 7.0.0-1017-azure, Hyper-V Gen2 guest"
+}

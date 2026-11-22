@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170428,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-10T08:07:01.430123+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Touchpad regression on linux 7.0.0-38-generic: FocalTech PS/2 taps frequently missed (works fine on 6.8.0-146-generic)"
+}

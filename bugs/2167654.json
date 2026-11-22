@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167654,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T22:03:43.121743+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Intel AX210NGW Wifi card and BE200 Wifi card not recognized in system, even though they show up in lspci. iwlwifi module appears to be loaded but not functioning correctly."
+}

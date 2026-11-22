@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171415,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T14:31:54.645161+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T07:18:30.805851+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] Intel H97 SATA I/O errors and DMAR faults with kernel 7.0, avoided by libata.force=max_sec=2560"
+}

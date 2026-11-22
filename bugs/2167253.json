@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167253,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T14:51:26.206733+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T14:51:35.457536+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T14:51:35.457536+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T14:51:35.457536+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "stonking",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "[CVM][Backport] hv_netvsc: Advertise the SR-IOV capability for CoCo VMs"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2160033,
+  "id": 2166583,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-05T21:44:51.217002+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-headers-7.0.0-31-generic 7.0.0-31.31~24.04.1 failed to install/upgrade: podproces zainstalowany pakiet linux-headers-7.0.0-31-generic skrypt post-installation zwr\u00f3ci\u0142 kod b\u0142\u0119du 11"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2146784,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-03-30T13:06:53.224745+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T05:48:22.195553+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "gfx1153 hangs on certain test cases in TheRock CI"
+}

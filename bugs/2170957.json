@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2170957,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T09:29:40.983287+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-10-15T09:30:20.422188+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T12:54:57.111949+00:00",
+      "importance": "Undecided",
+      "name": "linux-aws",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-10-15T12:54:57.111949+00:00",
+      "importance": "Undecided",
+      "name": "linux-aws",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T22:48:50.674486+00:00",
+      "importance": "Undecided",
+      "name": "linux-oracle",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-10-19T22:48:50.674486+00:00",
+      "importance": "Undecided",
+      "name": "linux-oracle",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Upstream stable patch causes build failure when CONFIG_SENSORS_RASPBERRYPI_HWMON is enabled"
+}

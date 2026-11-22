@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2170598,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T15:06:35.862982+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-13T07:44:48.714017+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "mt7925e: system hangs on resume from hibernation with the 7.3 kernel (fix: upstream c182bfe944eb)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2169402,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-03T10:26:33.852758+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel 7.0.0-38 regression: screen corruption flashes on RX 7600 XT (Wayland, VRR), 7.0.0-34 unaffected"
+}

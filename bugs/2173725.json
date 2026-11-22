@@ -1,0 +1,80 @@
+{
+  "duplicate_of": null,
+  "id": 2173725,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T07:28:57.557336+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T05:50:49.006251+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T05:50:49.006251+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T05:50:49.006251+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "tenacious",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T07:27:53.183226+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T05:50:49.006251+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T05:50:49.006251+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T05:50:49.006251+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "tenacious",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] Update Zen6 PMF support for firmware changes"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175435,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T20:58:02.983274+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amd_pstate fails to load on Zen 2 (Ryzen 5 4600G, shared-memory CPPC): \"failed to set auto_sel, ret: -95\", falls back to acpi-cpufreq"
+}

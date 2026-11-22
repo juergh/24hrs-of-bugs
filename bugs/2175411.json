@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175411,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T17:07:50.279393+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Problem concerning linux mint with kernel 6.8.0-149 and kernel 6.8.0-151 with serial port ttyS0"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174467,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T04:22:38.191954+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] Dell Inspiron 15 3535 fails to resume from s2idle on kernel 7.0.0-43, works on 7.0.0-38"
+}

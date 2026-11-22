@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2174761,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T17:20:47.238852+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T17:22:00.774348+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "resolute/linux: apparmor: kernel fails to build with CONFIG_NETWORK_SECMARK=n"
+}

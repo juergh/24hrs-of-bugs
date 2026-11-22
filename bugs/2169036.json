@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169036,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-30T15:31:58.234363+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth RTL8723BE (USB 0930:0222) never discovers any devices on 26.04 (kernel 7.0.0-34)"
+}

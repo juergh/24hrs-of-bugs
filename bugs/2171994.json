@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171994,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-23T00:06:54.051284+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu/ttm: use-after-free in ttm_lru_bulk_move_tail causes GPF and kernel panic on 7.0.0-38 (Cezanne)"
+}

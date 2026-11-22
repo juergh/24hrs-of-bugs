@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169127,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T09:11:44.186902+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T14:32:58.374818+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU][FFe] brcmfmac-cyw module missing from initrd"
+}

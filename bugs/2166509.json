@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2166509,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-04T15:14:49.811046+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": " NULL pointer dereference in btmtk_usb_hci_wmt_sync kills MT7925 Bluetooth in 6.8.0-139 (regression from 6.8.0-138)"
+}

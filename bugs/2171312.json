@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2171312,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-18T02:01:11.915726+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu: horizontal screen corruption on RX 9070 XT at 4K 120/160Hz (DSC) with 7.0.0-38; 7.0.0-34 is fine"
+}

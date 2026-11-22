@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2060677,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2024-04-09T12:28:43.191802+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T12:28:15.626727+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Consistent (zfs?) errors at shutdown"
+}

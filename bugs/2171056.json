@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171056,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-16T09:48:31.210995+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dell Latitude 7450 (Meteor Lake, OV02E10): built-in camera not working on 26.04 \u2014 USBIO DKMS gpio driver lacks INTC10D1, sensor fails to power on"
+}

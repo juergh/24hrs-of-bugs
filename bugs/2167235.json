@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167235,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T12:29:28.321260+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T14:34:57.560215+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T14:34:50.385470+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T14:34:57.560215+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "ALSA: hda/acpi: audio fails and resume is delayed after S3"
+}

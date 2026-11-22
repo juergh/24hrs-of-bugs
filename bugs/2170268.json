@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2170268,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T23:43:00.415202+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T23:43:02.000085+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T23:43:58.360589+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T23:43:59.842011+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-09T03:08:37.922117+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T17:25:05.237271+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[linux-nvidia]: nvme-rdma: GDS scatterlist can be undersized for GPU I/O"
+}

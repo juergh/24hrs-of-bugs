@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165872,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Edoardo Canepa",
+      "date_created": "2026-09-01T22:10:56.886628+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "#510/p sleepable raw tracepoint reject from test_verifier in ubuntu_bpf failed with resolute (7.0.0-33.33) generic amd64"
+}

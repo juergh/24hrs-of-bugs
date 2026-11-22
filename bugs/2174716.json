@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174716,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T10:41:19.811164+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo ThinkPad T14s Gen 4 AMD (21F8): internal microphone not detected, snd_pci_ps finds no PDM device (ACP config 10)"
+}

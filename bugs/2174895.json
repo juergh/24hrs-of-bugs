@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174895,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-18T18:01:05.889317+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "7.0.0-43: no internal audio on CS35L57 SoundWire laptops \u2014 sdw_utils asks for \"cs35l56-ot25\" DAI that the cs35l56 codec doesn't provide"
+}

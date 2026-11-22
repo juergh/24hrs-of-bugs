@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2166184,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T19:30:22.031875+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T19:30:22.031875+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T19:30:22.031875+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T19:31:09.275045+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T19:31:09.275045+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv-7.0",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T19:31:09.275045+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv-7.0",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] 1.5 minute boot delay by multipathdservice on riscv64"
+}

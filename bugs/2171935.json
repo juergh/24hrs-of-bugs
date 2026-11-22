@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171935,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T11:49:51.793626+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-realtek",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T07:24:09.754028+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-realtek",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "RTL8852AU (0bda:4852) \u2014 firmware 20260915 breaks simultaneous BLE HID connections (Connection Timeout 0x08)"
+}

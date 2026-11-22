@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169580,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T12:25:05.219781+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "IPv6 routed connectivity broken on Hyper-V after kernel update; works again with previous kernel"
+}

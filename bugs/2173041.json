@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173041,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T01:05:48.037466+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2026-11-05T14:32:25.777120+00:00",
+      "importance": "Critical",
+      "name": "linux-firmware-amd-graphics",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "black screen after upgrading linux-firmware-amd-graphics to 0ubuntu3.4"
+}

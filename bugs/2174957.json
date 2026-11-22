@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174957,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-18T22:57:56.129848+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "7.0.0-43.43: sof_sdw card registration fails \u2014 \"CODEC DAI cs35l56-ot25 not registered\" (Dell Pro 7, Panther Lake, CS35L63)"
+}

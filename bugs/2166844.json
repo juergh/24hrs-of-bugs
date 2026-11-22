@@ -1,0 +1,26 @@
+{
+  "duplicate_of": 2166531,
+  "id": 2166844,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-09T06:46:19.220323+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-09T06:49:59.034219+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Delta_Ubuntu24.04_AMD R7 CPU cannot reboot."
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171389,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T08:05:45.820566+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "atkbd: keyboard disabled after s2idle resume on MECHREVO WUJIE Series"
+}

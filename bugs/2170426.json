@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170426,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-10T05:54:07.129097+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Livelock between arc_prune and zfs_zget() hangs ZFS on large pools (fixed upstream, openzfs#19266)"
+}

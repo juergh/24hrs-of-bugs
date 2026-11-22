@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2168447,
+  "id": 2168448,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T13:59:54.549062+00:00",
+      "importance": "Undecided",
+      "name": "linux-lowlatency",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Plasma X11 flicker/black screen on 6.8.0-142-lowlatency + NVIDIA 580 (GTX 1050); XFCE OK"
+}

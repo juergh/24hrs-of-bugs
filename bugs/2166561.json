@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2166561,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-05T07:33:12.356267+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "6.8.0-139: btmtk NULL deref kills MT7922 Bluetooth and hangs resume"
+}

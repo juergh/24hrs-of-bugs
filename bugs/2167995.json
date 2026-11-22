@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167995,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T03:51:54.517618+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Seyeong Kim",
+      "date_created": "2026-09-23T03:52:06.747003+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "jammy",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Seyeong Kim",
+      "date_created": "2026-09-23T03:52:06.747003+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Seyeong Kim",
+      "date_created": "2026-09-23T03:52:06.747003+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "HMC error triggers cascading PF resets and tears down RDMA connections"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2172334,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-27T19:01:10.278667+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T17:12:54.029405+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "arm-smmu-v3: SVA does not enable hardware Access/Dirty updates, so GPU writes to MADV_FREE memory hang or crawl on Vera"
+}

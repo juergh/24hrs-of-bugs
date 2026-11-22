@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171338,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-18T16:01:12.227386+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel panic in update_blocked_averages() on Ubuntu 24.04, linux 6.8.0-147-generic"
+}

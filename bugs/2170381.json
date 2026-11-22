@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170381,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-09T17:02:47.089715+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth A2DP regression: Intel 8087:0037 works on kernel 7.0.0-34 but fails on 7.0.0-38"
+}

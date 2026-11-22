@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2167550,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T07:13:40.584114+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T07:45:09.684197+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Add support for CPPC values for Zen6"
+}

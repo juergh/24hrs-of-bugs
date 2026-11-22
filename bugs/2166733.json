@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2166733,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T09:13:58.849554+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T09:14:10.202231+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T09:14:10.202231+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "New upstream core24.60 release"
+}

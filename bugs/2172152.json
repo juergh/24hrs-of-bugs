@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172152,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T06:39:55.290429+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Internal speakers not working on Acer SFN14-56 with Intel Core Ultra 5 226V on Ubuntu 26.04 LTS"
+}

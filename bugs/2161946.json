@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2161946,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T03:37:57.233749+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-28T06:36:33.582695+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed-oem-7.0",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Dell 16 Plus DB16250\u060c LNL + RT722\u060c \u0645\u0636\u062e\u0651\u0645\u0627\u062a RT1320 \u0639\u0644\u0649 link 2/3 \u0644\u0627 \u062a\u064f\u0643\u062a\u0634\u0641\u060c \u0627\u0644\u0646\u0648\u0627\u0629 \u062a\u062d\u0645\u0651\u0644 sof-lnl-rt722-l0.tplg"
+}

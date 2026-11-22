@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173712,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T01:18:45.714324+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Thunderbolt probe timeout can leave a freed PCI notifier linked and cause a boot Oops at RIP 0"
+}

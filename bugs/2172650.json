@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172650,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-31T02:56:49.606702+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth: \"Unexpected start frame (len 83)\" and \"Frame is too long\"        with DualShock 4 on kernel 7.0.0-42 (regression from 7.0.0-38)"
+}

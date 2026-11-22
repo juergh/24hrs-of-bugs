@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171046,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T07:47:27.995584+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T07:52:31.612870+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Firmware-less serdev device returns ENODEV for modalias, breaking sysfs enumeration"
+}

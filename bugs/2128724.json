@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2128724,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-10-17T14:55:28.731670+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T12:04:50.847986+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-03-14T20:00:17.331652+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T12:04:50.847986+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "noble",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "iwlwifi crashing after some hours, leaving WiFi broken"
+}

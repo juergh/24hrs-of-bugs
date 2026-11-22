@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170457,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-10T19:09:31.066756+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression: Intel i915 HDMI flickering and CPU pipe B FIFO underrun with eDP 1368x768 + HDMI 1920x1080@60 after Ubuntu 26.04 upgrade"
+}

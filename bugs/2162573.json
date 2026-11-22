@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2162573,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-31T14:35:45.206511+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T14:46:31.881115+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "i2c_designware driver returning sda stuck low error"
+}

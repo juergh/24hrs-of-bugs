@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175014,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T10:47:34.534091+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "nvidia 615 open: \"Runtime D3 status: Not supported\" on kernel 7.3, dGPU never suspends"
+}

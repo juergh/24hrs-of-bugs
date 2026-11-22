@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174473,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T07:21:46.237443+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Btrfs zoned: ENOSPC/EAGAIN transaction abort and forced readonly on WD host-managed SMR (Ubuntu 26.04)"
+}

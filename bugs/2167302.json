@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167302,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T21:29:19.085392+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T21:29:19.085392+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T07:10:15.851596+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T05:24:28.054794+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[linux-firmware] DMCUB firmware regression causes severe input lag on Navi 33 (RX 7600)"
+}

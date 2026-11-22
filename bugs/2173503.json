@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173503,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T06:05:37.446748+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] 7.0.0-42: atlantic (AQC100S) TCP bulk TX collapses to ~5Mbps with TSO on, works on 7.0.0-38"
+}

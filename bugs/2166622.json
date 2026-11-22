@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166622,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-06T19:23:54.172170+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Yoga Slim 7 14AKP10: ~38 s s2idle resume stall, NVMe IO_PAGE_FAULT, fixed by iommu=pt"
+}

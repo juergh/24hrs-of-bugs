@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2173822,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T02:22:39.794406+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T02:23:42.506815+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T02:23:42.506815+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T02:23:14.759525+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T02:23:42.506815+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T02:23:42.506815+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "tenacious",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Fix no sound ouput from the speaker on Dell SKU 0EBA"
+}

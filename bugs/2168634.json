@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2168634,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-26T17:00:18.441542+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-modules-nvidia-580-generic-hwe-24.04 7.0.0-34.34~24.04.1+1 failed to install/upgrade: problemas de dependencias - se deja sin configurar"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172676,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-31T18:37:25.786245+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-nvidia 7.0.0-1024: kernel paging fault in mt792x_pm_wake_work (MT7925 Wi-Fi) corrupts IOMMU, machine hard-resets; regression from 7.0.0-1019"
+}

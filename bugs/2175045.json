@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175045,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-11-19T14:46:47.911019+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-11-19T14:46:58.696193+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "linux-amd-embedded: Add the MAX96719A/MAX96723A GMSL serializer driver"
+}

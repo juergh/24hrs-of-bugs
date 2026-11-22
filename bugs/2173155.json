@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173155,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T16:50:04.986564+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Ubuntu Noble 6.8] AppArmor capget: off-by-one loop bound + wrong bit shift skips caps 32-40"
+}

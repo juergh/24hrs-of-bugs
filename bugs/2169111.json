@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2169111,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T07:39:16.453495+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-10-01T07:40:20.718025+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T07:40:20.718025+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "No built-in speaker audio on HP systems with TI TAS2783 amplifiers"
+}

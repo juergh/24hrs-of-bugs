@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169812,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T08:41:41.122626+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "libnl3 3.12.0-2 FTBFS in stonking"
+}

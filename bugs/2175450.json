@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175450,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-21T04:18:33.779963+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "intel_ipu6_isys: NULL pointer dereference in isys_runtime_pm_suspend at boot (Dell XPS 16 9640, Meteor Lake)"
+}

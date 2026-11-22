@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170506,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-11T22:37:21.773642+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Problemas de conex\u00e3o Wifi/Bluetooth"
+}

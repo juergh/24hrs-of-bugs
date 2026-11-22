@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2156316,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Bethany Jamison",
+      "date_created": "2026-08-29T09:08:55.288778+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[TWL][Desktop] intel_dmc_wait_fw_load()  merge to Ubuntu next release "
+}

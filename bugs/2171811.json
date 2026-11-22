@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171811,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T20:43:01.894259+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Intel Wireless-AC 9462 Bluetooth (8087:0aaa, ibt-0040-1020) repeatedly crashes with \"Hardware error 0x0c\""
+}

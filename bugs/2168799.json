@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168799,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-28T18:57:15.239414+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Complete System shutdown via disconnecting from Power needed"
+}

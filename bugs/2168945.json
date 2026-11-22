@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168945,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-30T06:53:09.146244+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "cs35l41-hda: OTP_BOOT_DONE'u bekleyemedi, dahili hoparl\u00f6rler ASUS Zenbook UX3402ZA'da sessiz (7.0.0-30 \u00fczerinde \u00e7al\u0131\u015f\u0131yor, -28/-31/-34)"
+}

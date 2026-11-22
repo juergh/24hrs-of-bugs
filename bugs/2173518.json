@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173518,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T09:28:36.408322+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Freezing on kernel 7.0..."
+}

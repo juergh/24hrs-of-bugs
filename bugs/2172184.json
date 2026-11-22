@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2172184,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T20:10:12.827361+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T06:58:55.429005+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T22:36:18.712299+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T06:58:55.429005+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "No sound from internal speakers on ASUS ExpertBook PM5406CGA (ALC294 + 2x CS35L41, SSID 1043:3601) \u2014 missing realtek quirk"
+}

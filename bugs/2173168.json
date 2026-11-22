@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173168,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T18:37:36.932234+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu probe fails with error -22 on RDNA4 (DCN 4.0.1) and Raphael iGPU (DCN 3.1.5) after linux-firmware-amd-graphics 0ubuntu3.4 - black screen at boot"
+}

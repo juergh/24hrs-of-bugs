@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173164,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T17:50:03.742110+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T06:48:31.831813+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "noble",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Intel AX210 AP mode firmware crashes on Ubuntu 24.04 \u2013 outdated firmware update requested"
+}

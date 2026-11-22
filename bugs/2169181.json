@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169181,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T16:33:09.708637+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-18T17:18:04.736651+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Visual background flickering and pixel artifacts after updating to kernel 7.0.0-38 (regression from 7.0.0-34) | Ubuntu 26.04 | AMD Radeon RX 9060"
+}

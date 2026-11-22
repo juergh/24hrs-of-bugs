@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166940,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-10T03:49:01.874664+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] poweroff deadlocks in amdgpu_dm_ism_disable() \u2014 ISM backport is missing upstream fix 3714fe2"
+}

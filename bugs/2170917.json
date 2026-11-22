@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2170917,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T06:42:52.352537+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T06:43:04.833936+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-10-15T06:43:04.833936+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T06:42:30.287879+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-10-15T06:43:04.833936+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T06:43:04.833936+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "No internal microphone on AMD systems with RT712-VB SoundWire codec"
+}

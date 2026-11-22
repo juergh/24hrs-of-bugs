@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172439,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T06:11:08.801583+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-image-7.0.0-42-generic 7.0.0-42.42 failed to install/upgrade: old linux-image-7.0.0-42-generic package postinst maintainer script subprocess failed with exit status 2"
+}

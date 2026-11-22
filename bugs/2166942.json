@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2166942,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T06:07:49.982291+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-modules-nvidia-580-7.0.0-31-generic 7.0.0-31.31~24.04.1 failed to install/upgrade: installed linux-modules-nvidia-580-7.0.0-31-generic package post-installation script \u5b50\u9032\u7a0b\u50b3\u56de\u4e86 1 \u932f\u8aa4\u9000\u51fa\u72c0\u614b\u78bc"
+}

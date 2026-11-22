@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2167666,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-18T03:09:50.633935+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T07:55:23.654145+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Intel AX211 (0000:00:14.3) iwlwifi firmware crash (ADVANCED_SYSASSERT) after resume causes s2idle suspend to hang; does not reproduce on Windows 11 on same hardware"
+}

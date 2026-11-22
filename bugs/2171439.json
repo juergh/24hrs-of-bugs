@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171439,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T19:29:26.942287+00:00",
+      "importance": "Low",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:40:55.841273+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-raspi: UBSAN array-index-out-of-bounds in minstrel_ht_tx_status via mt76x02u (MT7612U) - please backport \"wifi: mt76: mt76x02: validate TX-status rate index before mac80211 handoff\""
+}

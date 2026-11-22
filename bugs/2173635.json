@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173709,
+  "id": 2173635,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T15:38:48.671249+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "7.0.0-43: WARNING at net/mac80211/rx.c:5513 (ieee80211_rx_list) with ath9k_htc AR9271; adapter fails to come up, 7.0.0-42 works"
+}

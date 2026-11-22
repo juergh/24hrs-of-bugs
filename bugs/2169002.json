@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2169002,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-30T10:36:16.610276+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T22:16:00.161923+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T23:00:32.741211+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T23:00:34.611062+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T22:45:48.252514+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T22:45:49.736404+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "MediaTek MT8901: SBSA watchdog causes resets around system suspend"
+}

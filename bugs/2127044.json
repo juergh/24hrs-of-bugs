@@ -1,0 +1,116 @@
+{
+  "duplicate_of": null,
+  "id": 2127044,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-01-05T07:20:25.027175+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-01-05T07:20:25.027175+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-01-05T07:20:25.027175+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "questing",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T06:31:08.058108+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-10-16T06:31:08.058108+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "noble",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T06:31:08.058108+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "questing",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-10-08T02:29:43.709279+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.14",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2025-10-08T02:29:52.249342+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.14",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-01-05T07:18:30.560095+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.14",
+      "series": "questing",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-12-02T03:45:14.160692+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2025-12-02T03:45:14.160692+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-01-05T07:18:30.560095+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "questing",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "MT7925 wifi is hard blocked on HP's machine"
+}

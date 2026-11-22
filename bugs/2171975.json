@@ -1,0 +1,89 @@
+{
+  "duplicate_of": null,
+  "id": 2171975,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T18:56:14.004337+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T18:56:53.528194+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T18:56:53.528194+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T18:56:45.309879+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T18:56:53.528194+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T18:56:53.528194+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T22:18:00.787771+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T22:18:00.787771+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T22:18:00.787771+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "NVDA8000 USB controllers fail to probe with xhci-hcd NVDA8001:00: Not find power wrap config data"
+}

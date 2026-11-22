@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2170396,
+  "id": 2170867,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-14T16:45:42.611999+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu web page times out when reporting a bug"
+}

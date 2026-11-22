@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174407,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T14:52:44.721401+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "7.0.0-43: hard lockup on snapd restart with apparmor-prompting enabled (list_debug corruption in ep_remove)"
+}

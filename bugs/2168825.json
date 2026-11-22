@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168825,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-29T06:48:11.321801+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "xruns in HDMI audio after kernel 7.0.0-27"
+}

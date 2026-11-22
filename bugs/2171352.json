@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2171354,
+  "id": 2171352,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-18T18:19:14.779814+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Latitude 7455 device tree: touchscreen at 0x34 / HID descriptor register 0 on this unit, DT says 0x09 / 1"
+}

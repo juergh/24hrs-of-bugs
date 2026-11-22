@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175079,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T17:44:20.514865+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Upgraded to 6.8.0.151 - UPS shows battery disconnected"
+}

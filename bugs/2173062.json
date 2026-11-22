@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173062,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T07:21:00.801332+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad T16 Gen 4, BIOS 1.18: EC fires _Q3E 'battery charge threshold changed' at 500-2400/s; kacpi_notify saturates (16,384 D-state workers, load 16k), USB-C/UCSI hotplug dead"
+}

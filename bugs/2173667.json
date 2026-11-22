@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2173667,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T02:42:17.370947+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "No sound on XPS 14 9440 after update to 7.0.0-43 \u2014 CS35L56 amps not probing, Dummy Output only"
+}

@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2174563,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T06:12:39.029186+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-11-16T06:12:50.037988+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-11-16T06:13:25.087805+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "MediaTek MT7922 WiFi regulatory domain not self-managed, firmware too old"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172531,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T17:59:11.983778+00:00",
+      "importance": "Undecided",
+      "name": "linux-oracle",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "linux-oracle 7.0.0-1015: AppArmor forced stack breaks signals between threads in containerd (k3s) containers; Go programs hang in setgid (gosu)"
+}

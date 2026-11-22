@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170483,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-11T12:06:03.935510+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[MT7921 13d3:3563] Bluetooth USB device drops off the bus and cannot re-enumerate (error -71) since upgrade to 26.04 / linux-firmware 20260319"
+}

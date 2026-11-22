@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175008,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T10:31:31.853797+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-11-19T10:32:54.933985+00:00",
+      "importance": "High",
+      "name": "linux-xilinx",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "linux-xilinx: KR260 MACB boot crash and headless fbdev reboot panic"
+}

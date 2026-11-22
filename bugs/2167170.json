@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167170,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-12T14:46:25.119246+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo IdeaPad 3 15ALC6 (82KU): fan RPM unavailable because yogafan driver is not enabled"
+}

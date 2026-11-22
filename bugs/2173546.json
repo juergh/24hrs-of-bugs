@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173546,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T14:18:14.432830+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] linux-firmware-amd-graphics 0ubuntu3.4: dcn_4_0_1_dmcub symlinked to DCN 3.2 firmware, DMUB errors and display stalls on RDNA4"
+}

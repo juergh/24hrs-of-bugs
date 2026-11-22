@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166421,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2026-09-03T21:47:36.894180+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T14:54:08.187514+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Malformed early option 'numa' passed in numa=fake=8"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165927,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-08-31T17:41:57.843547+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Hibernation resume fails with nv_pmops_freeze returns -5 on kernel 7.0.0-30-generic (regression from 7.0.0-28-generic)"
+}

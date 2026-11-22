@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2166487,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-04T13:09:32.250680+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel oops (NULL pointer deref) in btmtk_usb_hci_wmt_sync on MediaTek MT7921 BT during hci_power_on, 6.8.0-139-generic"
+}

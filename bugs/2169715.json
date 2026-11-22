@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169715,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-06T13:49:36.893117+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "ideapad-laptop battery extension causes endless BAT1 \"change\" uevent storm (~800-1500/s) on Lenovo LOQ 15IRX10 (83JE); upowerd grows to >10 GB and gets OOM-killed"
+}

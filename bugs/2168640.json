@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168640,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-26T21:28:34.437022+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] 7.0.0-34: USB2 hub on AMD Raphael/Granite Ridge xHCI (1022:15b8) not enumerated at boot (\"usb7-port1: unable to enumerate USB device\")"
+}

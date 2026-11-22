@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2172831,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T12:32:45.761113+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-modules-nvidia-580-7.0.0-42-generic 7.0.0-42.42~24.04.1 failed to install/upgrade: installed linux-modules-nvidia-580-7.0.0-42-generic "
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171921,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T10:02:21.066879+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth HFP microphone extremely quiet on Intel Wireless 8260; kernel reports corrupted SCO packets and unknown SCO connection handle 257"
+}

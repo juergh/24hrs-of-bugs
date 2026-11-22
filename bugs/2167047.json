@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2167364,
+  "id": 2167047,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T03:16:33.653107+00:00",
+      "importance": "Undecided",
+      "name": "canonical-kernel-snaps",
+      "series": "",
+      "status": "New",
+      "type": "project"
+    }
+  ],
+  "title": "Missing iwlwifi driver firmware in pc-kernel for some intel wifi cards in stock 26.04.1 installation with TPM+FDE"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173944,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T12:08:18.893553+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Mehmet Basaran",
+      "date_created": "2026-11-20T12:08:35.796259+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "noble selftests:net:tls test compile error due to selftests: tls: add rekey tests"
+}

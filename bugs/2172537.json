@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2172537,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T19:00:43.846398+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T19:01:30.918692+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T19:01:30.918692+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T19:01:08.929606+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T19:01:30.918692+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T19:01:30.918692+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "tenacious",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Fix Jack detection on Dell platforms with Intel NVL-H + Realtek (ALC3359) IC Solution"
+}

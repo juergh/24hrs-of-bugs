@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171961,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T15:44:24.281088+00:00",
+      "importance": "High",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T15:44:58.369817+00:00",
+      "importance": "High",
+      "name": "linux-nvidia",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ubuntu_kvm_unit_tests: vmx and la57 fail on nvidia-h100:hidon (Sapphire Rapids) regardless of kernel version"
+}

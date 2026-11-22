@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170059,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T11:59:03.050131+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ath12k (WCN7850): MLO with two links gets no DHCP/data on 7.0.0-38 (\"failed to find the peer with peer_id 8193\"); fixed upstream in 7.2"
+}

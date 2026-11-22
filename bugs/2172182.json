@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172182,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T19:42:23.382132+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MSI Prestige 14H B12UCX: I2C-HID touchpad (MSNB0001:00 06CB:CEBD) stops after a few seconds; only stays alive with NVIDIA dGPU forced on"
+}

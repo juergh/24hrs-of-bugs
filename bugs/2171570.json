@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171570,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T03:26:08.545077+00:00",
+      "importance": "Undecided",
+      "name": "linux-iot",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "On the Neousys Nuvo-7000 (DMI \"NVS-7000\"), it87_wdt loads, but the board does not reset when the watchdog times out."
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168015,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T08:17:26.612273+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "MediaTek Bluetooth Adapter (0489:e0cd) stops working from kernel 6.8.0-139-generic (142 also)"
+}

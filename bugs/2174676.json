@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174676,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T22:42:39.964143+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[linux-oem-7.3] Lunar Lake ThinkPad T14s Gen 6: s2idle often fails to reach S0ix on battery (18% OK on 7.3.0-1004-oem vs 86% on 7.0.0-43-generic)"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2165859,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-08-31T02:15:38.746243+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-31T02:16:22.929284+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Infinite connect/disconnect loop with JBL Flip Essential 2"
+}

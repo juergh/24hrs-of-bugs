@@ -1,0 +1,179 @@
+{
+  "duplicate_of": null,
+  "id": 2167722,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:15:50.626046+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:25:28.264987+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:26:24.484208+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:07.413361+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-broadcom-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:08.647863+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:09.358670+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-misc",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:10.172882+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:11.391726+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-marvell-prestera",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:12.226263+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-marvell-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:13.060266+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:13.801471+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mellanox-spectrum",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:14.576425+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:15.392507+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-netronome",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:16.145585+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-nvidia-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:16.799358+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-qlogic",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:17.589611+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-qualcomm-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:19.243463+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-qualcomm-misc",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:20.098727+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-qualcomm-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Ioanna Alifieraki",
+      "date_created": "2026-09-18T14:27:21.019803+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-realtek",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[MIR] linux-firmware (and subpackages)"
+}

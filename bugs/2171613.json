@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171613,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T12:13:18.370804+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T12:13:43.722148+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "resolute generic kernel build failure on drivers/gpu/drm/v3d"
+}

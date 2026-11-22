@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2173797,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T20:49:08.964399+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-11-10T08:29:44.687015+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "jammy",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-11-10T08:27:38.811760+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "mlxbf_pmc: replace SAUCE patches with upstream content"
+}

@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2163373,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-17T10:04:18.046516+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T07:16:51.177962+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-17T10:04:18.046516+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-17T01:41:38.352986+00:00",
+      "importance": "Undecided",
+      "name": "linux-main-modules",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T07:16:51.177962+00:00",
+      "importance": "Undecided",
+      "name": "linux-main-modules",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-17T01:41:38.352986+00:00",
+      "importance": "Undecided",
+      "name": "linux-main-modules",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "ipu7-psys module fails to probe"
+}

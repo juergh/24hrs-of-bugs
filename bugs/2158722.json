@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2158722,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-06-30T13:37:56.456736+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-09T09:58:02.153727+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "focal",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-06-30T13:38:08.034987+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "jammy",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "ubuntu_zfs_stress failure for jammy on openstack:ppc64el/arm64"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2161936,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-28T00:49:02.888647+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T14:38:39.600946+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[CM4] Unable to boot 7.0.0-1015-raspi from resolute proposed"
+}

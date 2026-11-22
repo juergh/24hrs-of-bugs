@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171519,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T14:25:39.595431+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "i2c_hid_acpi i2c-VEN_0488:00: device did not ack reset within 1000 ms"
+}

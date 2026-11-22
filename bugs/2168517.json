@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168517,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-25T09:40:07.398399+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "camera driver causes gpu to hang"
+}

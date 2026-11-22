@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167600,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T13:43:28.145536+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-aws-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-modules-nvidia-580-server-aws fails to configure: postinst late-link requires linux-headers-<kernel_vesrion>"
+}

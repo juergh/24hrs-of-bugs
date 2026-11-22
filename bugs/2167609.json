@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2167609,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T15:13:31.392731+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Alice C. Munduruca",
+      "date_created": "2026-09-17T15:13:41.721819+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Resolute update: upstream stable patchset 2026-09-17"
+}

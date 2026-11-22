@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2161309,
+  "id": 2165188,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-26T20:20:23.408808+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo X1 Yoga requires i915.enable_dpcd_backlight=0"
+}

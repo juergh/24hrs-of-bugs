@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171455,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T02:02:57.501194+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad X13 Gen1 AMD (20UF/20UG) missing from amd_pmc s2idle quirk list"
+}

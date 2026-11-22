@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170476,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-11T06:55:02.785811+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dell Latitude 5450 very slow ethernet connection fixed by disabling EEE"
+}

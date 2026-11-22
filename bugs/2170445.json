@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170445,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-10T13:50:19.410811+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Race condition at kernel boot time SOF & GPIO AMP"
+}

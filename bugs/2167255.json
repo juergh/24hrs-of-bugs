@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167255,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T16:12:07.970258+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-modules-6.8.0-139-generic 6.8.0-139.139 failed to install/upgrade: error setting ownership of './boot/System.map-6.8.0-139-generic': Operation not permitted"
+}

@@ -1,0 +1,53 @@
+{
+  "duplicate_of": null,
+  "id": 2131181,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-14T20:49:58.034250+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Dean Marx",
+      "date_created": "2026-10-14T21:03:51.530334+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "jammy",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "Dean Marx",
+      "date_created": "2026-10-14T21:03:51.530334+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Dean Marx",
+      "date_created": "2026-10-14T21:03:51.530334+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Dean Marx",
+      "date_created": "2026-10-14T21:03:51.530334+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Loading certificate with --import enrolls it into the platform keyring instead of the machine keyring"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169169,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Bethany Jamison",
+      "date_created": "2026-10-01T15:07:11.382766+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "After upgrading USB 3.0 no longer working"
+}

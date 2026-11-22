@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171271,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T22:01:32.463053+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Slow resume (~75s) from lid/keyboard on ASUS UM3406HA after upgrade to 26.04"
+}

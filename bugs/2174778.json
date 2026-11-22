@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174778,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T22:05:20.541430+00:00",
+      "importance": "Undecided",
+      "name": "linux-meta-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": " CODEC DAI cs35l56-ot25 not registered"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170952,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T08:49:47.741657+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Subject: btintel_pcie: suspend returns -16 (EBUSY), s2idle aborts in a loop on ThinkPad X1 Carbon Gen 13"
+}

@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167571,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T10:29:24.587051+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T11:23:30.110068+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-18T11:24:02.878918+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Li Bin",
+      "date_created": "2026-10-15T11:23:30.110068+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] Fix excessive internal microphone gain causing noisy recordings on Yoga Pro 7"
+}

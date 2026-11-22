@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172790,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T00:45:17.850794+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "   [ASUS Vivobook 15 X1504ZA] i915 never reaches DC6, package stuck at PC3, s2idle drains ~4%/h"
+}

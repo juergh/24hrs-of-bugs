@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175044,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-11-19T14:45:59.255982+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-11-19T14:46:09.468695+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "linux-amd-embedded: Add the MAX96726A GMSL deserializer driver"
+}

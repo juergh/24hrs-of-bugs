@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2170231,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T18:11:06.950277+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-10-26T15:40:27.187242+00:00",
+      "importance": "Medium",
+      "name": "linux-bluefield",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "mlxbf_gige: RX hang after NAPI poll unmasks interrupt with CQEs already pending"
+}

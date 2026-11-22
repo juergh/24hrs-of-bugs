@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2138621,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Jesse Sung",
+      "date_created": "2026-01-19T11:01:58.153393+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Jesse Sung",
+      "date_created": "2026-09-16T10:07:48.939388+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "Integrate IgH EtherCAT master"
+}

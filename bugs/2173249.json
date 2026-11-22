@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173249,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T20:21:23.170985+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-firmware-amd-graphics 3.3 to 3.4: RX 9060/9070 XT no login screen, \u201cDMCUB error\u201d"
+}

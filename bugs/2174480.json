@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174480,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T12:34:49.872241+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "6.8.0-149: refcount use-after-free in l2tp_tunnel_get_session when an L2TP/IPsec VPN connects, then kernel oops / full freeze"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171019,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T20:49:42.492473+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Error ID: OOPS-e9559a9b96f47d88be5e4d17775ac162. Kernel 7.0.0-38-generic: no GPU driver bound, brightness and Night Light unavailable (Lenovo LOQ 15ARP9, RTX 4050)"
+}

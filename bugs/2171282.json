@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171282,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Ross Porter",
+      "date_created": "2026-10-17T06:18:35.852039+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Wake-on-LAN from s2idle does not work on ASUS NUC 15 (Intel I226-V, igc); wake from S5 and USB wake from s2idle both work"
+}

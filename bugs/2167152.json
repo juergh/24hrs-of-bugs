@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167152,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-12T06:40:12.880691+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Monitor does not turn on after hibernate"
+}

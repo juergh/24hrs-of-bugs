@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172718,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-01T14:35:05.994617+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "S3 suspend resume fails on 7.0.0-38/-42 (Razer Blade 15, RTX 2060), works on 6.8"
+}

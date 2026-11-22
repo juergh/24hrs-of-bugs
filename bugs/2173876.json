@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173876,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T13:47:19.724917+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] linux-firmware-amd-graphics 0ubuntu3.4: dcn_4_0_1_dmcub.bin.zst replaced by symlink to dcn_3_2_0, breaks display on RX 9000 (DCN 4.0.1); 0ubuntu3.2 works"
+}

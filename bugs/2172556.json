@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172556,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T21:36:26.610253+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dell XPS 8940 fails to power off completely on Ubuntu 26.04 Linux 7.0 kernels; GRUB halt succeeds"
+}

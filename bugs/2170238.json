@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170238,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-08T19:12:47.580099+00:00",
+      "importance": "Medium",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Missing RPi commit \"of: Improve compatibility with old Pi 5 firmware\" - 7.0 kernel can't boot on Pi 5 with pre-2025-02 EEPROM"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175156,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T12:07:02.777643+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad T1g Gen 9: s2idle resumes immediately due to wake from PCIe root port 00:1c.4 (RP05, NVMe slot)"
+}

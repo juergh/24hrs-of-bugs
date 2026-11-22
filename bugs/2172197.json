@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172197,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-26T04:02:02.215574+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[amdgpu] RX 9060 XT: green flickering and horizontal artifacts at 1440p 180 Hz, absent so far at 120 Hz"
+}

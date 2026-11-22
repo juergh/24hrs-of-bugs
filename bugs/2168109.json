@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2168109,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T14:35:27.196171+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T09:08:16.561205+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "brcmfmac firmware files should be included automatically"
+}

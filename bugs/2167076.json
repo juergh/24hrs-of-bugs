@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167076,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T09:26:00.622161+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Automatic screen rotation does not apply despite valid IIO accelerometer events"
+}

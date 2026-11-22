@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2158540,
+  "id": 2169579,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T11:51:56.387716+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad X9-14 Gen 1 (Lunar Lake): intel-ipu7 probe fails with -EEXIST \"duplicate filename /kernel/software_nodes/SONY471A-0\"; webcam not usable"
+}

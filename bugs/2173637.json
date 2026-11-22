@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173637,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T16:48:18.153219+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu/ttm: GPF in ttm_resource_move_to_lru_tail() from amdgpu_cs_submit, leaked lru_lock causes full system hang (7.0.0-43, RX 9070 XT)"
+}

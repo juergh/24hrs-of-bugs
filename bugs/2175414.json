@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175414,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T17:34:46.391602+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "After resuming from S3 suspend, both external monitors connected through a USB-C hub stop working."
+}

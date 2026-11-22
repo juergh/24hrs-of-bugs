@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169427,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-03T18:10:30.543866+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression: 7.0.0-38-generic hangs during boot when NVIDIA driver loads; boots successfully with NVIDIA modules blacklisted; 7.0.0-34 works"
+}

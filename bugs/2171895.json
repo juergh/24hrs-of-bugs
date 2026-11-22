@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2171894,
+  "id": 2171895,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T07:32:21.092801+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "bluetooth does not work - Realtek RTL8852BU Bluetooth (0bda:b853) fails to initialize: \"Opcode 0xfcf0 failed: -16\", no controller available"
+}

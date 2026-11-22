@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174483,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T17:15:40.848078+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[resolute] .NET processes crash with general protection fault in libc since linux 7.0.0-42 (7.0.0-38 OK)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169485,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-04T17:55:10.983017+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Boot error with kernel 7.0.0-38: nvidia-gpu / ucsi_ccg I2C timeout"
+}

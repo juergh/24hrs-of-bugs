@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172188,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T20:57:50.730813+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ASUS TUF Gaming F16 FX607VJ internal keyboard, power button and lid cannot wake from s2idle"
+}

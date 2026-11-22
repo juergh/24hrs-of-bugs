@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167231,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-14T11:06:57.151175+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression 7.0.0-30 -> 7.0.0-31: hard system hang (black screen, no oops, no vmcore) under sustained multi-process load on Intel Meteor Lake"
+}

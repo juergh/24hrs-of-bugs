@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167032,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T21:12:35.632317+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-10T21:14:04.812065+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "jammy",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-10T21:14:04.812065+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-10T21:14:04.812065+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Apply fixes for gve header split data path"
+}

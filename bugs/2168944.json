@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2168944,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-09-30T06:33:21.450576+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-09-30T06:33:44.078198+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-09-30T06:33:44.078198+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "AMD system hangs on resume when a Thunderbolt dock is plugged in during s2idle"
+}

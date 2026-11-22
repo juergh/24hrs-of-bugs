@@ -1,0 +1,125 @@
+{
+  "duplicate_of": null,
+  "id": 2162917,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-08-08T18:49:33.192828+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-09-10T14:00:21.491038+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-08-08T18:50:01.402731+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-09-09T17:48:48.303924+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-03T22:27:36.749828+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-09-10T14:00:21.491038+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-03T22:27:36.749828+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-09T17:48:48.303924+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-08T18:50:01.402731+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-03T22:27:45.264236+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T14:00:21.491038+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-03T22:27:45.264236+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-09T17:48:48.303924+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Backport: \"mm/gup: fix GUP-fast fallback for NULL-mapping order-0 folios\""
+}

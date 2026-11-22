@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172565,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T23:16:17.520943+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ALC256 (Acer Aspire A515-57): constant loud noise on the 3.5 mm jack when a device is plugged in at boot; replugging fixes it. coef 0x46 jack-detect bits not set at boot"
+}

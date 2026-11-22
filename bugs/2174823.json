@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174823,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-18T10:57:11.788755+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "NULL deref in rt712_sdca_dmic_set_gain_put"
+}

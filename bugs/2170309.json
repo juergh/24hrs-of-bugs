@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170309,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-09T09:23:58.621929+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Internal microphone not detected on Lenovo LOQ 15ARP9 (AMD ACP6x)"
+}

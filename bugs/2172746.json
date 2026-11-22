@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2172746,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-02T10:56:43.874145+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:25:26.174683+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "7.0.0-1023 (raspi, based on 7.0.0-43): AppArmor denies signals inside containers (forced stack //&unconfined), breaking Kubernetes nodes"
+}

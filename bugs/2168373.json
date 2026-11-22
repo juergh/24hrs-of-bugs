@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2168373,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T03:26:10.145258+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T03:26:19.721027+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[MANA] net: mana: Cache MANA_QUERY_LINK_CONFIG result to avoid repeated HWC queries"
+}

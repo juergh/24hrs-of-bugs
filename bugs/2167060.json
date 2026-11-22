@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167060,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T06:19:18.477377+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "RTL8852CE Wi-Fi fails on kernel 7.0.0-31 but works on 6.17.0-40"
+}

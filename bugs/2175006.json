@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175006,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T09:49:11.618105+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-11-19T09:50:25.625537+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "ntfs3: serve as alias for the dropped legacy ntfs driver"
+}

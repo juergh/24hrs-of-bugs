@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2166475,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-04T11:42:35.580675+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[REGRESSION] Bluetooth (btmtk/btusb) non-functional on kernel 6.8.0-139 (works on 6.8.0-138) - ASUS ExpertBook B5602CBA"
+}

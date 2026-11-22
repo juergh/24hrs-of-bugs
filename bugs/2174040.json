@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174040,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:51:00.015813+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] No sound on Dell Pro Precision 7 16 (PTL, SoundWire CS42L45/CS35L57) with 7.0.0-43: \"CODEC DAI cs35l56-ot25 not registered\""
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173965,
+  "id": 2173964,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T04:22:48.603562+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-headers-6.8.0-149-generic 6.8.0-149.149 failed to install/upgrade: installed linux-headers-6.8.0-149-generic package post-installation script subprocess returned error exit status 11"
+}

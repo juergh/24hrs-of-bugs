@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174743,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T14:37:48.739142+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "xhci: High-Speed isochronous OUT stream has periodic gaps on CFC-capable hosts (USB Audio 2 explicit feedback, bInterval=1)"
+}

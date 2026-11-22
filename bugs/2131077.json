@@ -1,0 +1,143 @@
+{
+  "duplicate_of": null,
+  "id": 2131077,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-11-20T15:19:02.679706+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-04-01T14:35:52.190751+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-04-01T14:35:52.190751+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "questing",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-11-20T15:19:20.891440+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-06-30T15:33:22.779835+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.17",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-06-30T15:33:22.779835+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.17",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-01T10:12:56.137992+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-01T10:13:47.368608+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "jammy",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T21:52:58.629987+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-06-30T16:18:05.566913+00:00",
+      "importance": "Undecided",
+      "name": "linux-lowlatency",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-06-30T16:18:05.566913+00:00",
+      "importance": "Undecided",
+      "name": "linux-lowlatency",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-04T16:34:40.882063+00:00",
+      "importance": "Undecided",
+      "name": "linux-lowlatency-hwe-6.8",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T21:52:58.629987+00:00",
+      "importance": "Undecided",
+      "name": "linux-lowlatency-hwe-6.8",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T21:52:42.628628+00:00",
+      "importance": "Undecided",
+      "name": "linux-vmware",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-10-02T21:52:58.629987+00:00",
+      "importance": "Undecided",
+      "name": "linux-vmware",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Add intel-speed-select  to linux-tools-$(uname -r)"
+}

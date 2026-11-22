@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2172110,
+  "id": 2172813,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T09:02:50.629559+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo IdeaPad Slim 3 17IWC11 (83VS): internal keyboard not working, i8042 IRQ 1 never fires"
+}

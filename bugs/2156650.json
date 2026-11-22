@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2156650,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-06-13T10:48:32.807608+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-realtek",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T12:36:31.049728+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-realtek",
+      "series": "noble",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Realtek Bluetooth Issue (BT500)"
+}

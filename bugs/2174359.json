@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2174359,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T05:03:58.084715+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T05:04:44.565802+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T05:04:10.384355+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T04:09:01.152248+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T05:04:44.565802+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T05:04:10.384355+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Fix stale NVL PCD-S S0ix_LPM telemetry constants"
+}

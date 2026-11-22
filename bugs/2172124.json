@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172124,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-24T14:48:54.209214+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] amdgpu: internal eDP panel stays black on 7.0 kernels (\"enabling link 0 failed: 15\") \u2013 HP OMEN 16-c0xxx, Ryzen 9 5900HX (Cezanne, DCN 2.1); 6.17 works"
+}

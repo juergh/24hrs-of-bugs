@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172179,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T17:41:56.155338+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MediaTek MT7925 Bluetooth initialization fails with WMT timeout (-110) on ASUS ROG STRIX B850-I \u2014 Ubuntu 26.04 LTS"
+}

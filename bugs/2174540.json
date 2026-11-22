@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174540,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-15T16:47:58.619991+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel regression hangs suspend and shutdown on Dell Precision 3510"
+}

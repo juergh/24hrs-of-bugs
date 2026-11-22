@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2175035,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T13:14:16.874272+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression 7.0.0-30 \u2192 7.0.0-43: no audio on Dell Pro Precision 5 16S (PTL, CS42L45 + 2\u00d7 CS35L63) \u2014 \u2018CODEC DAI cs35l56-ot25 not registered\u2019"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173617,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T09:43:27.701308+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu does not bind to AMD Thames GPU on HP EliteBook 8470w (1002:6841, subsystem 103c:1789)"
+}

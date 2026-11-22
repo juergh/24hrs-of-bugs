@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2171590,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T08:35:25.575234+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure-fde-5.15",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T08:36:03.701703+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure-fde-5.15",
+      "series": "focal",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T08:35:46.487316+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure-fde-5.15",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ubuntu_lxc: lxc-test-apparmor-mount and lxc-test-unpriv fail on AMD CC instances (azure-fde-5.15)"
+}

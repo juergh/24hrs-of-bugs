@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165962,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-01T03:47:53.833680+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Apple Trackpad not usable in Ubunty Desktop but works on laptop"
+}

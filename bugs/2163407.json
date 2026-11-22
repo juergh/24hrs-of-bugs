@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2163407,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T20:34:04.308096+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T20:34:10.907537+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Jacob Martin",
+      "date_created": "2026-09-11T20:34:10.907537+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-13T13:10:03.294555+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T20:34:10.907537+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T20:34:10.907537+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.0",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "linux-nvidia-7.0:  ACPI enablement for the MT8901 I2C controller and its HID keyboard interrupt on Spark"
+}

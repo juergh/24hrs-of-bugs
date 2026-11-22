@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2155978,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-06-08T22:03:11.547910+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T14:29:02.421207+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-raspi 7.0.0-1011: AHCI SATA drives not detected on Pi 5 \u2014 regression from 7.0.0-1008 (64-bit DMA misdetection, errno=-12)"
+}

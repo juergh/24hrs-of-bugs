@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2146641,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-03-28T17:27:19.535406+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-02T15:36:36.648078+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-03-28T17:27:26.155261+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "questing",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-03-28T17:27:26.155261+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "C200 Plan and Patches"
+}

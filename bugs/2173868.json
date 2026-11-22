@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2173868,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T14:48:33.719687+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T14:48:33.719687+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "jammy",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "ChunAnWu",
+      "date_created": "2026-11-10T14:48:33.719687+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T11:53:30.743567+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "ChunAnWu",
+      "date_created": "2026-11-10T14:46:33.121205+00:00",
+      "importance": "High",
+      "name": "linux-hwe-6.8",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T12:06:53.915600+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "HP ProBook 445 G10 (AMD Ryzen 7 7730U) never comes back from RTC-armed cold reboot on 6.8.0-149.149~22.04.1   "
+}

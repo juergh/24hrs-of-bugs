@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173784,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T17:51:49.969487+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad T480: intermittent BAT1 capacity collapse (20.03 Wh to 4.98 Wh) after reboot with 7.0.0-43-generic"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173770,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T16:24:19.402214+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Meteor Lake (Core Ultra 9 185H, ThinkPad T14p Gen 2): hard freezes and memory-corruption panics on 7.0.0-38/-42, none on 7.0.0-29 (A/B/A reproduced)"
+}

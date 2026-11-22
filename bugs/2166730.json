@@ -1,0 +1,116 @@
+{
+  "duplicate_of": null,
+  "id": 2166730,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T05:32:09.270446+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:15.374438+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:20.488046+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:25.097668+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:02.518653+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:15.374438+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "noble",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:20.488046+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:25.097668+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:05.071395+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:15.374438+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:20.488046+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T07:39:25.097668+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] amdgpu: Fix garbled display when switching workspaces"
+}

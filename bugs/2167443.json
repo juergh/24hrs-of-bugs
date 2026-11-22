@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2167443,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T08:59:03.088702+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-modules-nvidia-535 failed to install/upgrade"
+}

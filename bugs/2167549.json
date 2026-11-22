@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167549,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T06:57:02.412010+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad P1 Gen 7 Meteor Lake \u2014 i915 PHY/DPLL failure after s2idle resume"
+}

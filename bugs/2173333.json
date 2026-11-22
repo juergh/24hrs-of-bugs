@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173333,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T23:00:39.333626+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "dcn_4_0_1_dmcub.bin.zst symlink points to dcn_3_2_0_dmcub.bin.zst, DMCUB load fails on RX 9070 XT"
+}

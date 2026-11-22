@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2161309,
+  "id": 2166520,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-04T16:48:06.682734+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Dell XPS 13 9340: intel_backlight values change but Sharp C71M1 panel brightness does not"
+}

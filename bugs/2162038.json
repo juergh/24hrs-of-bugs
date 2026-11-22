@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2162038,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-08-07T04:21:58.563704+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-07T03:24:55.851113+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-07-29T06:56:39.329602+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-07T03:24:55.851113+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] Fix incorrect GTT calculation on the APU systems"
+}

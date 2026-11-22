@@ -1,0 +1,152 @@
+{
+  "duplicate_of": null,
+  "id": 2173838,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:53:22.109455+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:54:52.000294+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T16:59:25.733574+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:54:52.000294+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T14:44:34.842863+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T14:44:34.842863+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T14:44:34.842863+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T14:44:34.842863+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "tenacious",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:54:18.285525+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:54:52.000294+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T16:59:25.733574+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:54:52.000294+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "tenacious",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:53:49.145358+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:54:52.000294+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T16:59:25.733574+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T06:54:52.000294+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "tenacious",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": " Support SoundWire and SoF on AMD with Cirrus Logic IC Solution"
+}

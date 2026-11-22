@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167012,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-10T19:15:29.888331+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "System performs hard reset shortly after boot with kernel 7.0.0-31-generic"
+}

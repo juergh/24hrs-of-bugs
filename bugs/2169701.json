@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169701,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-06T11:19:46.055681+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "TAS2781 (HDA side codec): speakers silent after PCM reopen during Headphones -> Speaker UCM profile switch"
+}

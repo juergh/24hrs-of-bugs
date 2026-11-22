@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2165410,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Matthew Ruffell",
+      "date_created": "2026-08-27T15:30:03.747838+00:00",
+      "importance": "Medium",
+      "name": "linux-aws",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "Matthew Ruffell",
+      "date_created": "2026-09-07T06:13:25.131798+00:00",
+      "importance": "Medium",
+      "name": "linux-aws",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "Matthew Ruffell",
+      "date_created": "2026-09-07T06:13:25.131798+00:00",
+      "importance": "Medium",
+      "name": "linux-aws",
+      "series": "stonking",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu LTS 26.04 linux-aws: systemd enters D state and blocks SSH during cpuset migration on nohz_full CPUs"
+}

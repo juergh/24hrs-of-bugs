@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2088354,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2024-11-17T01:25:29.409572+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T05:50:19.271994+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Intel(R) Wireless-AC 9260 iwlwifi fails to load firmware after upgrade to 24.04"
+}

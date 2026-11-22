@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2158540,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-06-27T22:30:46.195714+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T07:15:37.514078+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad X9-15 Gen 1: IPU7 camera probe fails \u2014 duplicate software_node SONY471A-0 (-EEXIST), bridge init failed"
+}

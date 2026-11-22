@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171958,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T15:25:32.191110+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "pink/magenta artefacts at bottom of external USB-C DisplayPort monitor above 60 Hz on Radeon 860M (DCN 3.5)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166778,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T13:49:09.788769+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.04 / kernel 7.0.0-31: AMDGPU/TTM list_del corruption after hibernate/resume causes complete system freeze"
+}

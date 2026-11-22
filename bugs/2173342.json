@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173342,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T23:30:49.326373+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "No internal audio on ASUS Vivobook 18 M1807GA: ACP7.x match table lacks an \"RT721 alone on link 1\" entry"
+}

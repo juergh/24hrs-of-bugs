@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2170909,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T00:33:52.368654+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] amdgpu: transient multicolour band corruption on external monitors (Hawk Point / 780M) in 7.0.0-38, not in 7.0.0-34"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172581,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-30T10:31:07.398062+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] amdgpu: horizontal stripe glitches on DisplayPort monitor with RX 9060 XT on 7.0.0-38 (OK on 7.0.0-30)"
+}

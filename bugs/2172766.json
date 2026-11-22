@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172766,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-02T18:21:19.525557+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-azure: please enable CONFIG_DMI_SYSFS=m on amd64 (all Azure flavours, including azure-fde)"
+}

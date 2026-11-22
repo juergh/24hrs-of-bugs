@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167015,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-10T19:34:06.345563+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "System hangs on poweroff since kernel 7.0.0 series (regression)"
+}

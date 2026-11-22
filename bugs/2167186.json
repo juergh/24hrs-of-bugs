@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167186,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-13T11:23:35.249944+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Raptor Lake-S dual HDMI: Intel display hotplug-poll work re-armed every ~10s indefinitely, hogging CPU (i915_hpd_poll_init_work / output_poll_execute), on both i915 and xe"
+}

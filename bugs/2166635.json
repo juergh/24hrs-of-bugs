@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166635,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-07T04:49:33.409577+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T08:01:25.743859+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "iwlwifi BE201 firmware crash (ADVANCED_SYSASSERT/NMI_INTERRUPT_UMAC_FATAL) \u2014 missing 102.ucode, falls back to 101"
+}

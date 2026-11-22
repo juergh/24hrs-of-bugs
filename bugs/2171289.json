@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2164611,
+  "id": 2171289,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-17T10:37:46.413985+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "intel-ipu7 declares no MODULE_FIRMWARE, so its firmware is left out of the initramfs"
+}

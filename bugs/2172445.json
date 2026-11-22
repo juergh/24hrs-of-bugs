@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2172445,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Michael Reed",
+      "date_created": "2026-10-29T09:40:38.590971+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Michael Reed",
+      "date_created": "2026-10-30T16:00:07.662558+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Michael Reed",
+      "date_created": "2026-10-29T19:42:41.191302+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Query and Ubuntu merge plans for PCI: Accept AtomicOps already enabled by the hypervisor "
+}

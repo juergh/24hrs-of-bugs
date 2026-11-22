@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172603,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-30T15:08:49.881885+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Hard system freeze on Ubuntu 24.04.5 with 7.0.0-38-generic and Intel Meteor Lake i915"
+}

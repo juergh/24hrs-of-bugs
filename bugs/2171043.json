@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171043,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T07:07:56.610663+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "ipu-bridge lists SONY471A twice (mainline + SAUCE): IPU7 probe fails with -EEXIST, imx471 use-after-free oops, suspend hangs"
+}

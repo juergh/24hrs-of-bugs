@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2167454,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T10:32:38.168049+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-modules-nvidia-575-generic-hwe-24.04 7.0.0-31.31~24.04.1 failed to install/upgrade: Abh\u00e4ngigkeitsprobleme - verbleibt unkonfiguriert"
+}

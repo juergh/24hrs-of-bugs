@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174341,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T21:28:52.242681+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel oops: timer interrupt jumps to corrupt address (RIP 0x7, 0x43be810e0d2), repeated hard freezes on Ryzen 7 4800H, 7.0.0-43"
+}

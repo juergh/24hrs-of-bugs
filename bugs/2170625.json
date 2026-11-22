@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170625,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T19:52:25.236772+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[REGRESSION] Screen brightness stuck at 100% on Lenovo ThinkPad T14 Gen 5 Intel with kernel 7.0.0-38-generic"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172227,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-26T12:26:53.964831+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "USB-C external monitor not detected after upgrade to Ubuntu 26.04; restored by full power reset"
+}

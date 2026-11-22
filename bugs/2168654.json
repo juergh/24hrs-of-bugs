@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168654,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-27T07:09:31.780905+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "mt7921e: kernel Oops in mt7921_mac_reset_work after \"chip reset failed\" (page fault in mt76_dma_add_buf / GPF in __mt76_tx_complete_skb) freezes the system"
+}

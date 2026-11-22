@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169635,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T21:44:19.988757+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T21:44:27.078221+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "net: mana: Add debug knob to skip TX timeout recovery reset"
+}

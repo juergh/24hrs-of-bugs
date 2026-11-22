@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2170492,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-11T13:45:15.903435+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Screen corruption on RX 9070 XT after update to 7.0.0-38, KWin atomic commits fail with EBUSY"
+}

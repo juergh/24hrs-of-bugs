@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171313,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-18T03:46:52.747457+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "mt7925e can't connect to Wi-Fi 7 (MLO) access points when the BIOS disables 802.11be for the country (Canada)"
+}

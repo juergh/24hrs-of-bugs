@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169943,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T08:20:52.425853+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Edoardo Canepa",
+      "date_created": "2026-10-08T08:21:15.441306+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "noble: bpf verifier loses scalar-ID precision propagation after 2026-09-02 stable patchset (test_verifier \"precise\" tests fail)"
+}

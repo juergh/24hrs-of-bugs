@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2166809,
+  "id": 2166818,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T22:19:41.274833+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "kernel panic"
+}

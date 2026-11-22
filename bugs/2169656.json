@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169656,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-06T03:53:57.570049+00:00",
+      "importance": "Medium",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "focaltech: UBSAN array-index-out-of-bounds in focaltech_process_packet (index -1)"
+}

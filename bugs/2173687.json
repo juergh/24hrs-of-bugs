@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173687,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T15:19:08.002534+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": " Raspberry Pi 5: new linux-raspi kernel hangs during early userspace (udev coldplug), piboot-try falls back"
+}

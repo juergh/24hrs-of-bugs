@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172450,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T11:19:36.434573+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "bnxt_en: IOMMU DMA read faults followed by fatal firmware reset on BCM57414 with 7.0.0-42-generic (7.0.0-29-generic is fine)"
+}

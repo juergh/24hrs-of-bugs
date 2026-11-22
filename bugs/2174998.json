@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174998,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T08:47:11.935989+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ptrace:set_syscall_info in ubuntu_kernel_selftests failed on stonking ppc64el (GET_SYSCALL_INFO returns 0 after SET)"
+}

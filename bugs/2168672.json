@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2168673,
+  "id": 2168672,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-27T15:17:38.508651+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Poweroff hangs at the final stage "
+}

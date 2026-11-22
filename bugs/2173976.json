@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2173976,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T09:01:51.316440+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:20:23.545939+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T09:03:46.395044+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:20:23.545939+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "[HP EliteBook 6 G1i 16] AX211 Wi-Fi and BT dead on 7.0: NMI_INTERRUPT_UMAC_FATAL with bz-b0-gf-a0-100 "
+}

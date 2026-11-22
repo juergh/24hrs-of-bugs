@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169180,
+  "id": 2170493,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-11T14:24:26.226284+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-headers-generic-hwe-24.04 7.0.0-38.38~24.04.4 failed to install/upgrade: Abh\u00e4ngigkeitsprobleme - verbleibt unkonfiguriert"
+}

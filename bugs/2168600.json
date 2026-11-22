@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2168600,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-26T06:53:41.736557+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "btmtk_usb_hci_wmt_sync NULL pointer dereference breaks MT7922 Bluetooth"
+}

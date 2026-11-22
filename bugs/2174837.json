@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174837,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-18T13:40:51.237573+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "AppArmor on 7.0 rejects focal apparmor_parser 2.13.3 policy (\"Profile doesn't conform to protocol\"); snapd in 20.04 containers fails to start"
+}

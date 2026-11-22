@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172796,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T02:52:26.937525+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "hv-fcopy-daemon.service skipped on 26.04: ConditionPathExists=/dev/vmbus/hv_fcopy can never be met, Copy-VMFile on Hyper-V host consequently fails (0x800710DF)"
+}

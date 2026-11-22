@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169185,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Yufeng Gao",
+      "date_created": "2026-10-01T17:00:46.458412+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "Yufeng Gao",
+      "date_created": "2026-10-05T07:03:52.510510+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Dell XPS 13 9340: OV02C10 front camera image upside down (missing ipu-bridge DMI quirk)"
+}

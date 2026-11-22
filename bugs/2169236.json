@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169236,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-02T00:46:15.802533+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "HDMI A/V desync on Intel UHD 630 (Comet Lake) since 7.0.0-34, still present on 7.0.0-38"
+}

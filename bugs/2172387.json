@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172387,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-28T15:20:52.001613+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression in 6.8.0-138: AMD-Vi IO_PAGE_FAULT on NVMe read DMA returns wrong data (still in -147, iommu=pt avoids it)"
+}

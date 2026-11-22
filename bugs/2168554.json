@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168554,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-25T16:17:05.156248+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "drm/ttm: use-after-free of the bulk_move cursor after hibernation or memory-pressure swapout (amdgpu), fixed upstream in v7.3-rc4 / 7.2.8"
+}

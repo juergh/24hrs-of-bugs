@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166290,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-03T06:13:58.513741+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Dell Pro 14 Plus PB14250 webcam not working on Ubuntu 24.04: OVTI05C1 detected by IPU6 but no video stream available"
+}

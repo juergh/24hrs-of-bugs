@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2170360,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-09T14:22:22.495508+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "nvidia-580-7.0.0-38-generic 7.0.0-38.38~24.04.4 failed to install/upgrade: installed linux-modules-nvidia-580-7.0.0-38-generic package post-installation script subprocess returned error exit status 1"
+}

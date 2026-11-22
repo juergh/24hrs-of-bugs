@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2161222,
+  "id": 2164965,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T01:39:15.708419+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ntfs3/iomap kernel BUG in iomap_write_end during Git clone on 7.0.0-30-generic"
+}

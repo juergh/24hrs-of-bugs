@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171012,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T18:59:07.939720+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Mac mini 2014 intel i5 tries to instell nvidia drivers and panics."
+}

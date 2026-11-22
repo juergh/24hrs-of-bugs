@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166965,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-09-10T10:24:49.957636+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "debian/scripts/file-dowloader: error when following redirects"
+}

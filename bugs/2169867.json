@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2169867,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T15:35:41.487796+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T06:59:48.794635+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T15:27:07.216096+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T06:59:48.794635+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dell XPS 13 DX13260 (0E53): poor internal speaker sound; CS35L56 amps missing from sound card"
+}

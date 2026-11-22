@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172049,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-23T15:51:59.873652+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Huawei MDF-X] Conexant SN6140: speaker and headphone output simultaneously (SSID 19e5:3e68)"
+}

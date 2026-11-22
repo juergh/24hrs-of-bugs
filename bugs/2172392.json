@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172392,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-28T15:47:47.295969+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regresi\u00f3n en 7.0.0-42: el clickpad i2c-hid SYNA3602 (VAIO VJFE52A1811H) deja de entregar el clic f\u00edsico izquierdo y enumera 4 nodos input \u00abUNKNOWN\u00bb"
+}

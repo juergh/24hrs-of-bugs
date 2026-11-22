@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2169179,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T16:16:18.703716+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T22:36:52.202885+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T22:36:52.202885+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "[mana][Backport] backport mana patch for capping number of MSI reported by PCI"
+}

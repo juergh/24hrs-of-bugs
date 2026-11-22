@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174977,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T03:21:42.662996+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[linux-nvidia]: i2c-mt65xx: ACPI-enumerated I2C buses ignore the declared bus speed and run at 100 kHz"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173163,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T17:42:37.156999+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] 0ubuntu3.4 ships dcn_4_0_1_dmcub.bin.zst as symlink to dcn_3_2_0 firmware \u2013 black screen on RX 9070 (Navi 48)"
+}

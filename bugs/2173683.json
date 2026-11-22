@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173683,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T14:26:04.329840+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-firmware-amd-graphics 20240318.git3b128b60-0ubuntu3.4: amdgpu/dcn_4_0_1_dmcub.bin.zst is a symlink to dcn_3_2_0_dmcub.bin.zst, DMCUB load fails and display stays black on AMD 1002:7590"
+}

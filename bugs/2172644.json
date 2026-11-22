@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2172644,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-30T23:14:04.065470+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Edoardo Canepa",
+      "date_created": "2026-11-12T16:08:16.937165+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "resolute/linux-raspi: FTBFS after rebase onto Ubuntu-7.0.0-43.43 (pps-gpio capture_clear, v3d stats refcount)"
+}

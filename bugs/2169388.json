@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169388,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-03T08:19:07.525174+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkBook 16 G8 IAL (21SK): s2idle suspend/resume loop after lid close, wake IRQ 9 (ACPI GPE 0x6D), ~20%/h battery drain"
+}

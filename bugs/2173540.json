@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173540,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T13:25:11.490467+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-11-06T13:25:31.872172+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "linux-amd-embedded: x86/amd_node: Fix divide by zero on virtualized systems and potential NULL pointer dereference"
+}

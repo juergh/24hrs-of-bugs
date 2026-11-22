@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169515,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Alice C. Munduruca",
+      "date_created": "2026-10-05T04:50:59.355615+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "# fstrim triggers IRQ stack overflow in device-mapper completion on LVM RAID1 (7.0.0-34-generic)"
+}

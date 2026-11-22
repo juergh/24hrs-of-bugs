@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174549,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-15T19:06:11.447968+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Razer Blade 2019 (i7-8750H/UHD 630/144 Hz eDP): hard freeze with last frame retained; stable with i915.enable_psr=0 + intel_idle.max_cstate=4"
+}

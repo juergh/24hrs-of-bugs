@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167115,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T14:22:08.341341+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amd_pmc: hard hang entering s2idle on ThinkPad P14s Gen 6 AMD (Ryzen AI 9 HX PRO 370)"
+}

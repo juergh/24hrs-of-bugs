@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166754,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T10:15:47.702054+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] sof-soundwire rt713: headphone jack silent on 7.0.0-31 (worked on 7.0.0-30, broken on 7.0.0-28) \u2014 Dell Precision 5690 / Meteor Lake"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172145,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-24T23:30:31.951469+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "`O_DIRECT` read into a 512-aligned (not 4096-aligned) buffer returns `EIO` instead of `EINVAL` on a 4096-byte-sector LUKS volume (`dm-crypt`)"
+}

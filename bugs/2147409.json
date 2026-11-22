@@ -1,0 +1,98 @@
+{
+  "duplicate_of": null,
+  "id": 2147409,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-04-07T09:39:16.028374+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-04-07T09:41:48.323691+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-04-07T09:41:48.323691+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "questing",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-04-07T09:41:48.323691+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-10T14:10:05.341557+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-04-07T09:40:05.487112+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-04-07T09:41:48.323691+00:00",
+      "importance": "High",
+      "name": "linux-oem-6.17",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-04-07T09:41:48.323691+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "questing",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-04-07T09:41:48.323691+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T14:10:05.341557+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Support additional 2888x1808@30fps 900MHz for OVTI05C1 camera sensor"
+}

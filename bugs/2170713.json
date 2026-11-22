@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170713,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-13T14:32:07.917159+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo ThinkPad T14 Gen 4 AMD: ELAN0677 touchpad not working, I2C lost arbitration errors"
+}

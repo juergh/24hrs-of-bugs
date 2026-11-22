@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167344,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T14:01:06.737568+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "FCoE not supported with HPE Synergy 4820C and 6820C CNA cards"
+}

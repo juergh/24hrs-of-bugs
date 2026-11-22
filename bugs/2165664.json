@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2163121,
+  "id": 2165664,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T10:35:27.931088+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Regression: System hangs on shutdown/reboot on kernel 7.0.0-30-generic after active workload (persists across 7.0.0-28, -29, -30)"
+}

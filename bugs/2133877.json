@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2133877,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-12-04T14:59:33.158844+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T14:30:22.325695+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Complete network hang on Raspberry Pi 5 with kernel 6.17 under load - possibly related to CPU frequency scaling"
+}

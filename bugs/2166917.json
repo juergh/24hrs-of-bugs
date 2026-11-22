@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166917,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "bugproxy",
+      "date_created": "2026-09-14T10:58:33.139778+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[26.10] Please test secureboot and lock-down with 7.3.0-4.4 kernel (s390x) on Stonking Stingray"
+}

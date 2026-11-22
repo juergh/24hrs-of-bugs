@@ -1,0 +1,143 @@
+{
+  "duplicate_of": null,
+  "id": 2121852,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2025-09-02T08:19:41.075039+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-09-10T16:11:09.942669+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2025-09-10T16:11:09.942669+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "questing",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T13:55:56.688605+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-10T13:55:56.688605+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-09-02T08:20:08.470964+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.14",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2025-09-10T16:11:09.942669+00:00",
+      "importance": "High",
+      "name": "linux-oem-6.14",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-09-10T16:11:09.942669+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.14",
+      "series": "questing",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T13:55:56.688605+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.14",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T13:55:56.688605+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.14",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-09-10T16:13:22.224844+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2025-09-10T16:13:22.224844+00:00",
+      "importance": "High",
+      "name": "linux-oem-6.17",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2025-09-10T16:13:22.224844+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "questing",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T13:55:56.688605+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T13:55:56.688605+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Support Samsung S5K3J1 sensor for Intel MIPI camera"
+}

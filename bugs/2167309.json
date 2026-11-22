@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2167309,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T08:29:52.474931+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-09-15T08:30:27.943472+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T09:53:59.120856+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-09-22T09:53:59.120856+00:00",
+      "importance": "High",
+      "name": "linux-xilinx",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "[Noble] Enable signing for Xilinx kernels and Ubuntu Core FIT images"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2164963,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T01:35:02.102456+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Dell Pro Precision 9 Tower takes too long to resume from sleep"
+}

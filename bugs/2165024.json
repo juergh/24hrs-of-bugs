@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165024,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T12:03:38.720925+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "NVidia module missing from next boot kernel (7.0.0-30-generic"
+}

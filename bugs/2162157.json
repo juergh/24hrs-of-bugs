@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2162157,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-23T08:13:37.449344+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-23T08:13:54.398707+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-wireless",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-23T08:13:54.398707+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-wireless",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "New upstream core24.80 release"
+}

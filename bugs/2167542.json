@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167542,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T05:51:52.141280+00:00",
+      "importance": "Undecided",
+      "name": "linux-oracle-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-image-7.0.0-1006-oracle (not installed) failed to install/upgrade: subproces van pakket linux-image-7.0.0-1006-oracle werd script pre-removal ge\u00efnstalleerd gaf de foutwaarde 1 terug"
+}

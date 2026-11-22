@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172503,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T15:12:20.949793+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Two kernel oopses in mm/swap PTE handling on 7.0.0-42-generic (resolute-updates) \u2014 likely incomplete fix for CVE-2026-64416"
+}

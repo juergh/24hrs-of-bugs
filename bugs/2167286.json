@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167286,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T01:15:59.203018+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-image-7.0.0-31-generic 7.0.0-31.31 failed to install/upgrade: run-parts: /etc/kernel/postinst.d/kdump-tools exited with return code 1"
+}

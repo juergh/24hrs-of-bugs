@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172815,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T09:36:30.675997+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "SI GPUs stuck at lowest DPM level on Mac Pro 2013 since 7.0.0-41 (drm/amd/pm/si: Fix updating clock limits from power states)"
+}

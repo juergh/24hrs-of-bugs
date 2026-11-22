@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172347,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-27T20:59:26.264261+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Suspend/resume failure on Ubunty 26.04.1 LTS"
+}

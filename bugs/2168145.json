@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168145,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T14:10:13.893998+00:00",
+      "importance": "Undecided",
+      "name": "linux-meta-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dell XPS 16 DA16260: internal camera (ov08x40, OVTI08F4) image upside down \u2014 BIOS reports 0\u00b0 rotation"
+}

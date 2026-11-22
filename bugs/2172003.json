@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172003,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-23T02:41:43.421675+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "rtw89 (rtl8852be): link reports \"connected\" but is dead - gateway latency spikes to 1.5s idle, recovers only when the Wi-Fi applet is opened"
+}

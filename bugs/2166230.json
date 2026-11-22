@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166230,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-02T21:53:20.905156+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[amdgpu/Rembrandt] Hibernation regression in 7.0.0-30: image is written, then \"Wakeup event detected during hibernation, rolling back\", GPU never recovers"
+}

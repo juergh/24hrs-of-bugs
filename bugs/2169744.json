@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169744,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-06T19:33:59.477678+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu froze and had to restart computer"
+}

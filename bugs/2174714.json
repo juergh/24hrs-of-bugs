@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174714,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T10:32:57.200199+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "i915: FIFO underruns and glitching external monitors after upgrade to 26.04"
+}

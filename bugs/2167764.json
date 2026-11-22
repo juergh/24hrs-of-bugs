@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2167764,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-19T09:38:45.935771+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:38:36.986414+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:38:36.986414+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "thunderbolt.host_reset=1 default tears down pre-boot UEFI PCIe tunnels, breaking external NVMe direct boot over USB4"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174400,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T12:17:59.683151+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] 7.0.0-43: no internal audio on ThinkPad X1 2-in-1 Gen 11 (PTL, CS35L63) \u2013 sof_sdw: CODEC DAI cs35l56-ot25 not registered"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2174658,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T20:38:46.070756+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-modules-nvidia-535-generic-hwe-24.04 6.17.0-40.40~24.04.1 failed to install/upgrade: problemy z zale\u017cno\u015bciami - pozostawianie nieskonfigurowanego"
+}

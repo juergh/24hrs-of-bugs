@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171571,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T03:31:18.080453+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Touchpad ELAN062F not detected on Lenovo ThinkBook 15-IML: i2c_hid_acpi fails with -121 (EREMOTEIO)"
+}

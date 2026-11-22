@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2168871,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T15:17:13.951839+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T15:19:45.027468+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Unable to connect to wireless access point after suspend"
+}

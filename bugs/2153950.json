@@ -1,0 +1,89 @@
+{
+  "duplicate_of": null,
+  "id": 2153950,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Ian Whitfield",
+      "date_created": "2026-05-21T22:52:54.318968+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Ian Whitfield",
+      "date_created": "2026-05-21T22:53:11.294502+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "jammy",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Ian Whitfield",
+      "date_created": "2026-05-21T22:53:11.294502+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Ian Whitfield",
+      "date_created": "2026-05-21T22:53:11.294502+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "questing",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-10T21:15:32.555366+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-05-21T22:53:03.077636+00:00",
+      "importance": "Undecided",
+      "name": "linux-gke",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Ian Whitfield",
+      "date_created": "2026-05-21T22:53:11.294502+00:00",
+      "importance": "Undecided",
+      "name": "linux-gke",
+      "series": "jammy",
+      "status": "Won't Fix",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-05-21T22:53:11.294502+00:00",
+      "importance": "Undecided",
+      "name": "linux-gke",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-10T21:15:32.555366+00:00",
+      "importance": "Undecided",
+      "name": "linux-gke",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Support larger gVNIC queue depth on Gen3+ GCE VMs"
+}

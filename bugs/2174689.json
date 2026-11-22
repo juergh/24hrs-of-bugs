@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174689,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T04:14:15.464026+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[HDA/ALC233] Lenovo B40-80 built-in microphone startup distortion disappears with power_save=0"
+}

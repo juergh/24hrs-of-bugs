@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174391,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T11:00:26.186945+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Intel AX201 (8087:0026): pairing Philips SHB2515 TWS earbuds fails with LMP Response Timeout (0x22) on Create Connection"
+}

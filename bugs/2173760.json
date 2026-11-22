@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173761,
+  "id": 2173760,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T14:14:41.992069+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] amdgpu: no external displays via Dell WD25 dock (DP MST \"Sending link address failed with -5\") on 7.0.0-43, works on 7.0.0-42"
+}

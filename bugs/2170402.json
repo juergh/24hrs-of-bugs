@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170402,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T15:46:43.826941+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Linux 7.0 causes black screen on AMD Stoney Ridge APU"
+}

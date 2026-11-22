@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2170448,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-10T16:11:19.436142+00:00",
+      "importance": "Medium",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T22:51:23.536039+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Slow S3 resume (10-45 s black screen) on MacBookAir5,2: secondary CPU bring-up stalls; 7.0.0-31 unaffected, 7.0.0-28/-30/-38 affected"
+}

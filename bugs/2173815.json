@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173815,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T23:47:26.741200+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "CSR8510 USB Bluetooth dongle (0a12:0001) silently hangs after BLE mouse reconnect on 7.0 kernels; fine on 6.8"
+}

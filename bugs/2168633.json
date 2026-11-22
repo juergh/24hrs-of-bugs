@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168633,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-26T16:49:12.989791+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Lenovo Yoga Air 14 (83QK)] No sound card at all on 26.04 kernel 7.0.0-34 \u2014 missing \"soundwire: dmi-quirks: Disable ghost Realtek devices\" backport"
+}

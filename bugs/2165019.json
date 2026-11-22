@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165019,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T11:29:51.026522+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "rtl8723bs: WiFi association succeeds but 4-way handshake and DHCP fail \u2014 \"coalesce failed with error -22\" (regression fixed upstream in 7.1.5)"
+}

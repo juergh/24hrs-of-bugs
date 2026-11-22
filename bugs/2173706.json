@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173706,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T20:43:59.875846+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] linux-firmware-amd-graphics 20240318.git3b128b60-0ubuntu3.4: DMUB firmware fails to load on Radeon RX 9060 XT, no display after GRUB; 0ubuntu3.3 works"
+}

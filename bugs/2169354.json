@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169354,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T21:51:12.176778+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T21:51:21.153644+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Migrate linux-azure-nvidia kernel from 6.14 to 7.0"
+}

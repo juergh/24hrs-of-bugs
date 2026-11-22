@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169065,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-30T19:49:15.096532+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Xreal Glasses 1S fail to initialize display output over USB-C/DP on Ubuntu"
+}

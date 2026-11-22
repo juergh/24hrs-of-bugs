@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173892,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T15:17:49.712894+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "7.0.0-42/-43: .NET processes in Alpine/musl containers crash with general protection fault in ld-musl (6.8 reported fine)"
+}

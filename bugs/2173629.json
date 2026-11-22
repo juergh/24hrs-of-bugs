@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173629,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T12:27:52.233797+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-firmware-amd-graphics 3.4 ships a regressed dcn_4_0_1 DMCUB blob that black-screens Radeon [1002:7550] (DCN 4.0.1) at gdm"
+}

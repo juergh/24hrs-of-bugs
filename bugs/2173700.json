@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173700,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T18:16:57.584977+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-firmware-amd-graphics 0ubuntu3.4 (noble): dcn_4_0_1_dmcub.bin.zst is a symlink to dcn_3_2_0, RX 9070 XT desktop freezes"
+}

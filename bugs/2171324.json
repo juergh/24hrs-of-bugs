@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171324,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-18T10:49:10.143229+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "snd-usb-audio: PreSonus StudioLive 16.0.2 USB stays at 44.1 kHz  after another program opens it at 44.1 kHz (needs power cycle)"
+}

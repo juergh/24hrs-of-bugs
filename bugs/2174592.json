@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174592,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T12:33:10.968114+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Razer Kiyo X, USB ID 1532:0e06, 1920\u00d71080 MJPEG @ 30fps causes a USB disconnect/reconnect on Ubuntu 26.04.1 kernel 7.0.0-43, while 1280\u00d7720@60fps remains stable"
+}

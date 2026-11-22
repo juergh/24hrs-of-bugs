@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171297,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-17T14:54:06.459374+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "resolute: please disable CONFIG_KEXEC_HANDOVER_ENABLE_DEFAULT (as done for 26.10 in LP: #2169198); KHO scratch makes 13 GiB unusable for GPU / pinned memory"
+}

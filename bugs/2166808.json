@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166808,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T19:05:45.967578+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T08:00:04.550162+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Lenovo ThinkBook 16p G6 IAX, 17aa:3921] Misnamed Cirrus CS35L56 firmware leaves speakers untuned"
+}

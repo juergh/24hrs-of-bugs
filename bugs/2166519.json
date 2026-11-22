@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166519,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2026-09-04T16:47:13.283412+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-13T06:59:30.130836+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "linux-firmware-amd-misc upgrade leaves unowned amdtee firmware files and causes dpkg warning"
+}

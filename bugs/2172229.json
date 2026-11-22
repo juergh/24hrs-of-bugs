@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172229,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-26T13:04:10.396374+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "AppArmor: profile attachment fails for diff-encoded xmatch DFAs (leftmatch_fb ignores MATCH_FLAG_DIFF_ENCODE) - firefox profile never attaches"
+}

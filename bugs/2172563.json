@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172563,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T22:27:13.681287+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[IPU7] Stale 64-byte cache lines in captured frames (colored horizontal dashes on motion) - please backport \"media: staging/ipu7: Synchronize capture buffers at the vb2 boundaries\""
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167189,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-13T14:18:07.467053+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "GTX 1060 initialization regression: kernel 7.0.0-31 fails with NVIDIA 580.178.04, while 7.0.0-30 works"
+}

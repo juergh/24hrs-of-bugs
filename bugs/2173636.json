@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173636,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T16:22:38.004838+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ITE Super I/O chip (IDs 0x8696 / 0x8883) unsupported on Gigabyte X870 AORUS ELITE WIFI7, causing sensor read-out failures and erratic maximum fan speed behavior"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166603,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-06T14:23:43.381978+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "KVM guests randomly panic/freeze with host-passthrough migratable=off, stable with migratable=on"
+}

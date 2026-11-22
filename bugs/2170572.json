@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2170572,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T11:24:04.561562+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Stefan Bader",
+      "date_created": "2026-11-03T14:59:24.963418+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Stefan Bader",
+      "date_created": "2026-11-03T15:38:46.523577+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "linux-image-7.0.0-38-generic randomly freezes Lenovo Legion 5"
+}

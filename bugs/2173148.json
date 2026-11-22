@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2173148,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T16:21:43.125062+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:23:08.025572+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:23:08.025572+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Raspberry Pi 5 RTC alarm interrupt delayed by many minutes on rtcwake"
+}

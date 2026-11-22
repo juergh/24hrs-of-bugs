@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2174384,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T09:58:34.491778+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-11-13T09:58:44.120990+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "linux-amd-embedded: Add the MAX96717 and MAX96724 GMSL drivers on the maxim-serdes framework"
+}

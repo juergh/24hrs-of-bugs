@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166834,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "John Cabaj",
+      "date_created": "2026-09-09T02:11:55.566053+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Suspend resume time is too long than threshold on HP Z8 Fury G6i Workstation"
+}

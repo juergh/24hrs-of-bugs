@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173227,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T20:08:01.132847+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression: linux-firmware-amd-graphics 0ubuntu3.4 causes black screen on boot with Radeon RX 9060 XT (Navi 44 / DCN 4.0.1)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172019,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-23T06:43:52.369465+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-azure 7.0.0-1017 (noble): MANA HWC requests time out (-110), TX watchdog fires, network down for 3-6 minutes; happens on 3 different hosts"
+}

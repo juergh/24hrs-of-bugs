@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173704,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T20:09:51.585554+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "nfsd: async NFSv4.2 COPY never completes (CB_OFFLOAD sent with all-zero stateid) since 6.8.0-148"
+}

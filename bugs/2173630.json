@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173630,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Vinicius Peixoto",
+      "date_created": "2026-11-07T13:36:12.530791+00:00",
+      "importance": "Critical",
+      "name": "linux-azure",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "Vinicius Peixoto",
+      "date_created": "2026-11-07T13:37:49.596071+00:00",
+      "importance": "Critical",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "64K-enabled ARM64 instances failing to boot on Azure"
+}

@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2170886,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Michael Reed",
+      "date_created": "2026-10-14T19:55:27.152552+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Michael Reed",
+      "date_created": "2026-10-21T00:38:38.794702+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Michael Reed",
+      "date_created": "2026-10-21T00:38:38.794702+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[Linux Perf] [DF PMC] MCM IOD (two IOD per socket)"
+}

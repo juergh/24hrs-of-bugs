@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170500,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-11T16:08:00.943659+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "HP Spectrex360 Bluetooth "
+}

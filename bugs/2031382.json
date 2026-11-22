@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2031382,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T02:51:01.858217+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Zixing Liu",
+      "date_created": "2026-09-21T02:51:24.261158+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ioprio_set03 in ubuntu_ltp_syscalls failed with J-oem-6.5 (TFAIL: ioprio_set IOPRIO_CLASS_BE prio 8 should not work)"
+}

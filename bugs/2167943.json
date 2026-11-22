@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2167943,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T12:18:08.611829+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth broken on 6.8.0-139: NULL pointer dereference in btmtk_usb_hci_wmt_sync (regression from 6.8.0-138)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2173799,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T21:07:23.404012+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression-proposed] 7.0.0-43.43: no sound card on ThinkPad X1 Carbon Gen 14 \u2014 cs35l56-ot25 DAI missing"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172416,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-28T21:18:32.678960+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Laptop doesn't stay in suspend since kernel 7.0.0-38 (btintel_pcie returns -16)"
+}

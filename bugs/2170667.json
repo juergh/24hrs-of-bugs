@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170667,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2026-10-13T08:14:46.698552+00:00",
+      "importance": "Undecided",
+      "name": "canonical-kernel-snaps",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "project"
+    }
+  ],
+  "title": "pi-kernel snap missing designware_i2s module needed for I2S audio on CM5"
+}

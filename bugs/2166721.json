@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166721,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-07T23:05:09.625079+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "HP ZBook Ultra G1a: MST ACT timeout and HPD storm with HP G6 dock and dual 4K60"
+}

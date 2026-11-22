@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174243,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T15:46:32.883628+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "RTL8761BU Bluetooth dongle (0bda:a728) stuck in USB reset loop since kernel 7.0.0-39; works on 7.0.0-38"
+}

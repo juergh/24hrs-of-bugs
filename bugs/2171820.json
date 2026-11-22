@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2163094,
+  "id": 2171820,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T23:42:13.006787+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[ASUS Vivobook S16 M3607GA] No internal audio: RT721 SoundWire codec has no ACP70 machine match"
+}

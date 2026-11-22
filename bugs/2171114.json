@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171114,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T16:27:59.175411+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "[X1 Carbon Gen 13 / oem-sutton-dacia] 3.5mm headphone jack detected but silent (rt713-sdca, Lunar Lake SOF)"
+}

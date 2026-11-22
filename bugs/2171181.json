@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171181,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T18:08:15.057345+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "RX 9070 XT: recurring frozen display with amdgpu pageflip/flip_done timeouts on Kubuntu 26.04.1, including after disabling VRR"
+}

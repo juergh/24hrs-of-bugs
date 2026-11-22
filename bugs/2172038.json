@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172038,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-23T13:24:23.123241+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "AppArmor notify audit cache: delayed_work timer corruption causes \"workqueue.c:2351\" WARNINGs and GPF in __run_timers (0xdead00000000012a) when apparmor-prompting is enabled"
+}

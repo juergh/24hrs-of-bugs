@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174383,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T09:46:15.922314+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Noble: incorrect backport of NFS: Fix a deadlock involving nfs_release_folio()"
+}

@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2173709,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T22:40:16.791393+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T23:35:48.480395+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-18T12:17:18.628109+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "ath9k_htc AR9271 USB Wi-Fi fails to come up on 6.8.0-149/7.0.0-43 (\"Message too long\"), works on 6.8.0-147/7.0.0-42"
+}

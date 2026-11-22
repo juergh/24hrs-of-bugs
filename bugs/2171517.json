@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169023,
+  "id": 2171517,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T14:23:53.675252+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "HP OmniBook X LaptopNGAI 14-ka0073cl speakers missing on Ubuntu 26.10 \u2014 TAS2783 firmware files absent"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174486,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T17:52:20.391828+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "realtek pci network card not working"
+}

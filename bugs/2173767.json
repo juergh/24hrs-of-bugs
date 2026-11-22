@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173767,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T15:42:12.908422+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Battery charges beyond 80% after updating to kernel 7.0.0-43 Limit dell latitude 5430"
+}

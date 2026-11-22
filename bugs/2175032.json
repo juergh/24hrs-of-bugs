@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175032,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T13:04:29.242748+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[amdgpu] DMCUB error and flip_done timed out on eDP-1 (Ryzen 7 7735HS / ASUS TUF FA507NV) on Ubuntu 26.04"
+}

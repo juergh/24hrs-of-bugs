@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173929,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T22:00:58.207375+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Intel Killer BE1750 (BE200, PCI 8086:272b) firmware crash ADVANCED_SYSASSERT, card unrecoverable until full shutdown"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2173676,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T13:18:12.188373+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "XPS 14 DA14260 (1028:0db9) no internal audio on 7.0.0-43-generic, worked on 7.0.0-42 - sof_sdw: CODEC DAI cs35l56-ot25 not registered"
+}

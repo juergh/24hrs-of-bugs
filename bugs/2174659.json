@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174659,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T20:40:04.034683+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "cs35l56-ot25 not registered"
+}

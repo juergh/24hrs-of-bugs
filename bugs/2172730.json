@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172730,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-01T19:41:53.226230+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.04 \u2014 Intel AX211 iwlwifi intermittent internet packet loss on home Wi-Fi, hotspot works"
+}

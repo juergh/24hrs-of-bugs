@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166576,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-05T16:13:46.571524+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-09-09T20:56:36.016044+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "KHO and ACPI MSFT0201 boot errors on AMD Ryzen AI 9 HX 370 (Zen 5, Minisforum X1 Pro AI370)"
+}

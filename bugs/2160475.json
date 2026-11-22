@@ -1,0 +1,80 @@
+{
+  "duplicate_of": null,
+  "id": 2160475,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-07-13T01:03:18.696295+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-13T01:03:32.299937+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-07-13T01:03:32.299937+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-09-07T01:59:05.944438+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-13T01:02:59.238618+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-07-13T01:03:32.299937+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-13T01:03:32.299937+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "resolute",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-07T01:59:05.944438+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "System cannot enter s0ix suspend on Dell with RTL8116AF ethernet"
+}

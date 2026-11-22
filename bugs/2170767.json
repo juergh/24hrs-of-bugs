@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173962,
+  "id": 2170767,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-14T02:05:31.998560+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Unable to resolve package upgrade path when running package resolver from 24.04 LTS"
+}

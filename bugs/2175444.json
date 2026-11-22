@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175444,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T23:25:58.836590+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "cfg80211: SSID not reported after connecting to an AP without a Country element (please backport 577f690ce5dc to Noble)"
+}

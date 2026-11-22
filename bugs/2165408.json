@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2165408,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-27T15:17:50.559279+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "System reported nVidia driver failed to update"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172131,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-24T18:33:41.208375+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "XPS 13 9345 (Snapdragon X Elite): fan state fixed at boot, never adjusts until power cycle"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174428,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T17:19:40.311687+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "audio speakers are not working"
+}

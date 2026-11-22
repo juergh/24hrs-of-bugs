@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171496,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T10:29:01.663009+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Wi-Fi regression in 6.8.0-147: MediaTek MT7921 (14c3:7961) fails on 5 GHz, works on 6.8.0-134"
+}

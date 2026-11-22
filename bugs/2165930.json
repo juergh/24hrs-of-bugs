@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2156855,
+  "id": 2165930,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "John Cabaj",
+      "date_created": "2026-08-31T18:33:18.482626+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel oops (GPF) in __run_timers via tmigr_handle_remote on 7.0.0-28-generic under network load"
+}

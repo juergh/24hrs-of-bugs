@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167833,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-21T09:48:51.128015+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": " ath12k_wifi7 WCN785x drops traffic when firmware assigns peer_id 0"
+}

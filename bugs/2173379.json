@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2173379,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T23:42:20.190955+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:16:10.096297+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T18:05:42.332477+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2026-11-12T07:16:10.096297+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Intel BE201 fails firmware initialization with PHY_CONFIGURATION_CMD error on linux-oem-24.04d 7.0.0-43"
+}

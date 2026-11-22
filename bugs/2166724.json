@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166724,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-08T02:28:23.829572+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "brcmfmac: NULL pointer dereference in brcmf_flowring_enqueue() during bridge forwarding causes kernel panic on BCM43602"
+}

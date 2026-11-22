@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2172646,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-30T23:39:19.008998+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx-zynqmp",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-31T00:06:06.034595+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx-zynqmp",
+      "series": "jammy",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "linux-xilinx-zynqmp: FTBFS in drivers/mtd/spi-nor/swp.c: 'mtd' undeclared in spi_nor_sr_unlock("
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175075,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T16:58:08.318425+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Intel Core Ultra 9 285H incorrectly detected as 16 CPU sockets instead of 1 on Ubuntu 22.04 kernel 6.8"
+}

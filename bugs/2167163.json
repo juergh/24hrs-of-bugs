@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167163,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-12T11:45:34.211648+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "System boot loop / instantly returns to login page after a restart on kernel 7.0.0-30System boot loop / instantly returns to login page after a restart on kernel 7.0.0-30"
+}

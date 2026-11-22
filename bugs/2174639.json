@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173709,
+  "id": 2174639,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T19:11:45.034799+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ath9k_htc (AR9271) triggers repeated WARNING at net/mac80211/rx.c:5513 on 7.0.0-43 \u2014 regression from 7.0.0-42"
+}

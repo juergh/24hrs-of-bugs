@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169591,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T13:40:21.639767+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Internal speaker silent on Acer Chromebook Spin 311 (MT8183/Juniper) \u2014 audio power domain left unpowered by premature genpd sync_state"
+}

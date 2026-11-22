@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170576,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T11:49:18.809044+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Internal speakers sound broken (flat, no bass, scratchy/rattling) on Samsung Galaxy Book6 Pro - CS42L45 + 2x CS35L57 SoundWire (SSID 144dc910)"
+}

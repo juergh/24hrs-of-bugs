@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168014,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T08:11:12.775156+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth adapter stops working and system hangs on shutdown on ASUS Vivobook X1502ZA after recent kernel update"
+}

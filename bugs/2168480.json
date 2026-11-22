@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2168480,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T18:37:24.542554+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:20:57.650021+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Logitech MX Master 3S scrollwheel becomes oversensitive sometimes, registring one flick as several"
+}

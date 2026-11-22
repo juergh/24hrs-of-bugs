@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169765,
+  "id": 2172177,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T16:52:43.318754+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[X1E80100] Yoga Slim 7x internal keyboard broken in 7.3.0-9: i2c-qcom-geni 32 MHz clock regression, needs 8cb5c17be3a2"
+}

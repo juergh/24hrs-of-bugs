@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169490,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-04T18:12:18.277564+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] snd_hda_intel fails to initialize on Intel 5-series (Ibex Peak) HDA: \"CORB reset timeout#2, CORBRP = 65535\" / \"no codecs initialized\" \u2014 works on 6.8.0-31, broken on 6.8.0-139"
+}

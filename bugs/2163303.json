@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2163303,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-08-12T08:45:32.526357+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-08-18T01:13:52.503243+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T18:28:29.649977+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T18:28:29.649977+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] linux-firmware 20240318.git3b128b60-0ubuntu2.29 causes half-screen corruption/black screens on AMD Navi 21; 0ubuntu2.26 works"
+}

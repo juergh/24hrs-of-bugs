@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172089,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-23T21:47:10.388393+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "SD card hotplug detection broken on GL9750 (17a0:9750) with kernel 7.0.0-38, works on 7.0.0-34"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2161309,
+  "id": 2166176,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-02T11:30:21.873677+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Backlight/brightness control regression on Lenovo ThinkPad T470p (Kaby Lake i915): works on 7.0.0-27-generic, broken on 7.0.0-30-generic"
+}

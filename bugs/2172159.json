@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172159,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T09:14:49.451004+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.04 does not suspend when closing the lid with an external monitor connected"
+}

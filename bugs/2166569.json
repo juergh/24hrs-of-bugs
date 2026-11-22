@@ -1,0 +1,26 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2166569,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-05T10:46:08.812946+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T23:38:04.292910+00:00",
+      "importance": "Undecided",
+      "name": "linux-lowlatency",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "btmtk: NULL pointer dereference in usb_autopm_get_interface during btmtk_setup_firmware_79xx on 6.8.0-139-generic (MT7961)"
+}

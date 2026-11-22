@@ -1,0 +1,35 @@
+{
+  "duplicate_of": 2168432,
+  "id": 2165052,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-08-25T17:33:00.379872+00:00",
+      "importance": "Undecided",
+      "name": "linux-realtime",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-08-25T17:33:09.560847+00:00",
+      "importance": "Undecided",
+      "name": "linux-realtime",
+      "series": "stonking",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-08-25T17:31:07.733053+00:00",
+      "importance": "Undecided",
+      "name": "ubuntu-realtime",
+      "series": "",
+      "status": "In Progress",
+      "type": "project"
+    }
+  ],
+  "title": "stonking:linux realtime patchset: 7.2-rt5"
+}

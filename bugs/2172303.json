@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172303,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-27T11:51:45.458964+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "ov08x40: 1928x1088 binned mode delivers ~3.7 fps on 2-lane Dell Pro Max 16 Premium (IPU6 + CVS) \u2013 webcam unusable at <=1080p"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166235,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-03T00:07:17.377956+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Edoardo Canepa",
+      "date_created": "2026-09-04T09:38:39.200772+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "append bpf to CONFIG_LSM"
+}

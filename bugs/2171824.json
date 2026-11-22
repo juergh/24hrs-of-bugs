@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171824,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T01:54:27.316590+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "USB3 flash drive not detected after warm reboot on Intel Panther Lake-H"
+}

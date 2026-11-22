@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169247,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T06:22:59.088826+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "virtualbox-7.2 Recommends: linux-image causes APT to install arbitrary cloud kernel flavours"
+}

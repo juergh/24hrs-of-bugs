@@ -1,0 +1,62 @@
+{
+  "duplicate_of": null,
+  "id": 2171515,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-10-20T14:17:29.686050+00:00",
+      "importance": "High",
+      "name": "linux-meta-xilinx-zynqmp",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-10-20T14:17:42.672757+00:00",
+      "importance": "High",
+      "name": "linux-meta-xilinx-zynqmp",
+      "series": "jammy",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T14:17:42.672757+00:00",
+      "importance": "Undecided",
+      "name": "linux-meta-xilinx-zynqmp",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-10-20T14:17:00.345179+00:00",
+      "importance": "High",
+      "name": "linux-xilinx",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T14:17:42.672757+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "jammy",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-10-20T14:17:42.672757+00:00",
+      "importance": "High",
+      "name": "linux-xilinx",
+      "series": "noble",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Missing Ethernet DT aliases on Kria and VEK280 prevent U-Boot MAC handoff"
+}

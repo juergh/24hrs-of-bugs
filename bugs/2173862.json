@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173862,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T11:06:49.197282+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Manuel Diewald",
+      "date_created": "2026-11-10T11:07:07.231042+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "Noble update: upstream stable patchset 2026-11-10"
+}

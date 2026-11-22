@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172601,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-30T14:40:18.207093+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad T14 Gen 2i: TM3471-030 misses taps / produces false zooms after suspend; F01 NoSleep workaround tested"
+}

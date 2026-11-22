@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172543,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-29T20:27:10.359260+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Yoga Slim 7x built-in keyboard stopped working after update to 7.0.0-42 (26.04), works on 7.0.0-38"
+}

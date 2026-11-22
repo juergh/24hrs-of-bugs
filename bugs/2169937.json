@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169937,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T07:09:31.880591+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bug Report: Realtek ALC257 speaker mute LED not exposed via `ctl-led` on Lenovo (17aa:3802) with SOF driver"
+}

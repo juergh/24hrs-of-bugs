@@ -1,0 +1,116 @@
+{
+  "duplicate_of": null,
+  "id": 2162843,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:54:03.909560+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:54:49.984954+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "jammy",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:54:03.909560+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T15:09:12.606753+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:54:49.984954+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "jammy",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-10-16T15:09:53.234282+00:00",
+      "importance": "Medium",
+      "name": "linux-bluefield",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:54:28.943438+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:54:49.984954+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:54:28.943438+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:56:33.406623+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:56:33.406623+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T13:56:33.406623+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Regression: io_uring provided buffer ring registration (IORING_REGISTER_PBUF_RING) returns -EINVAL for valid requests on 6.8.0-136 and 6.8.0-137"
+}

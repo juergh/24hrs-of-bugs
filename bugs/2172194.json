@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172194,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-26T00:57:12.450371+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ext4/fscrypt memory corruption after online \"tune2fs -O encrypt\" \u2014 please backport \"ext4: don't enable large folios on encrypted inodes\" (7.0.0-38)"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2139060,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-01-26T08:30:55.994138+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-misc",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T07:58:11.493166+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-misc",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Failed to load ISH firmware on Intel Panther Lake, Wildcat Lake RVP platforms: ISH loader: cmd 2 failed 10"
+}

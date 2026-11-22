@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2168310,
+  "id": 2169442,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-04T03:34:24.332907+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Use-after-free in AppArmor prompting: audit_cache_work_function delayed work queued on freed memory \u2192 panic in __run_timers"
+}

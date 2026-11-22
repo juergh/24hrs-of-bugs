@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169141,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T12:05:09.782409+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "iosm (XMM7560): s2idle suspend never resumes after \"msg timeout\" when re-suspending within seconds of resume (ThinkPad X1 Carbon Gen 10, 7.0.0-34)"
+}

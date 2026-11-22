@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2172552,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-10-29T21:06:41.956588+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-10-29T21:06:52.548772+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "amd-embedded: Raise CONFIG_CMA_ALIGNMENT to 12 on amd64"
+}

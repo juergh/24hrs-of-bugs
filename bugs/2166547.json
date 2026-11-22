@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2166547,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Sarah Emery",
+      "date_created": "2026-09-04T23:28:02.912613+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Sarah Emery",
+      "date_created": "2026-09-04T23:28:23.767066+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Sarah Emery",
+      "date_created": "2026-09-04T23:28:23.767066+00:00",
+      "importance": "Undecided",
+      "name": "linux-riscv",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": " Zfhmin/Zvfhmin not reported when Zfh/Zvfh are present "
+}

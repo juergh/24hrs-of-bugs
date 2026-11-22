@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174389,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T10:51:15.210891+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": " Noble: incorrect backport of io_uring/kbuf: check if target buffer list is still legacy on recycle"
+}

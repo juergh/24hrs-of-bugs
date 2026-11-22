@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171359,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-18T19:28:16.936547+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "resolute: enable CONFIG_XFS_ONLINE_SCRUB (upstream default y since Linux 6.18)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171518,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T14:24:05.330265+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Internal DMIC records only silence on Dell Pro Precision 7 16 (Panther Lake, cs42l45) - \"No SoundWire machine driver found\""
+}

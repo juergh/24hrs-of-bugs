@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170619,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T18:38:52.196159+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "[REGRESSION] Ubuntu 24.04 kernel 6.8.0-146: L2TP use-after-free followed by i915 kernel faults and complete system freezes"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168016,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T08:41:09.635514+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] System fails to resume from suspend on ThinkPad X13 Gen 2a starting with kernel 6.8.0-139-generic"
+}

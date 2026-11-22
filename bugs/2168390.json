@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2168390,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T06:23:35.172878+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T06:24:16.444341+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Triaged",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:25:57.681647+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "Build failure on /mm/damon/core.c when CONFIG_DAMON is enabled"
+}

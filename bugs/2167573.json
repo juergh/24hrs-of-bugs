@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167573,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-17T11:07:34.150224+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "xHCI controller repeatedly dies (HC died) on Lenovo IdeaPad 3 15ADA05, disabling Bluetooth"
+}

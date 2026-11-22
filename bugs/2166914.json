@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166914,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-09T16:59:07.570574+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression 7.0.0-30 -> 7.0.0-31] Suspend deadlocks in pm_restore_console: fbcon takeover holds console_lock while blocked on nvidia-modeset rwsem"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167070,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-11T08:50:07.389220+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "Regression: integrated microphone DMIC unavailable with kernel 7.0.0-31"
+}

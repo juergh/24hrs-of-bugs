@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169339,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T20:17:55.247672+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[iMac18,2] BCM43602 Wi-Fi (brcmfmac) cannot associate on 7.3 kernels: DMAR DMA Read faults, firmware hangs; works with intel_iommu=off"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169805,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T08:12:16.724913+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[7.0.0-38] amdgpu: DMUB/DMCUB errors + intermittent black screen on boot on Lenovo IdeaPad Slim 3 15AHP10 (HawkPoint1 1002:1900)"
+}

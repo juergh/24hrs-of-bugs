@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2165251,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-09-14T11:11:43.798824+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-09-14T11:11:43.798824+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-08-27T06:02:09.217275+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-07T03:25:20.338802+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] Add support for amd-pmf AMDI0112 ID"
+}

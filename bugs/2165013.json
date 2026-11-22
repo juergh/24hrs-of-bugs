@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165013,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T10:08:42.829727+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "HP ProBook x360 435 G8 \u2014 Recurring Hard Freeze / Crash Investigation"
+}

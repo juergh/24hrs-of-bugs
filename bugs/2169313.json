@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2169313,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T16:19:46.212279+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu: horizontal tearing/corruption in windows on RX 9070 with 7.0.0-38, not on 7.0.0-34"
+}

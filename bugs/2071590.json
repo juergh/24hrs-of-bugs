@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2071590,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T05:16:47.181612+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-09-22T05:18:32.187980+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "test_vxlan_vnifiltering.sh from ubuntu_kselftests_net failed on linux-oem-6.8 (with ipv6 default rdst)"
+}

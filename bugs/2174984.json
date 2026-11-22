@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174984,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T06:56:29.861575+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Surface Pro 11 (Intel): no sound card, ghost RT1320 in ACPI (needs upstream d32e04c05234)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174460,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T00:18:10.091818+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ASUS ROG Strix G16 (2025) - Internal display brightness not working with NVIDIA RTX 5060 and nvidia_wmi_ec_backlight"
+}

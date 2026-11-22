@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173072,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T10:34:06.543632+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "sp5100_tco: release_resource() on the muxed FCH PM region never wakes i2c-piix4 waiters; SPD probe hangs at boot (AM5, DDR5, 7.0)"
+}

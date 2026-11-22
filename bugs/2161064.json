@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2161064,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-07-17T08:43:13.397592+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-07T03:23:51.358593+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] Add DisplayID to the panel detection logic in amdgpu dm"
+}

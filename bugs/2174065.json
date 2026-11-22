@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174065,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T12:38:44.264921+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "6.17.0-1024-oem kernel very poor performance with Dell Pro Max BIOS default \"Raid On\""
+}

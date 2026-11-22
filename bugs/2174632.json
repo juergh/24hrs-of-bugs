@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174632,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T17:54:57.666194+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "UBUNTU: SAUCE: fix FTBFS on n:linux-azure-nvidia"
+}

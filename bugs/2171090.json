@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171090,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T13:53:23.336590+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Thunderbolt DP tunnel torn down before amdgpu loads; TB3 monitor stays dark after boot (regression 7.0 -> 7.3)"
+}

@@ -1,0 +1,89 @@
+{
+  "duplicate_of": null,
+  "id": 2175126,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:30:22.903497+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:31:07.780336+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:31:11.002502+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "stonking",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:30:59.620889+00:00",
+      "importance": "Medium",
+      "name": "linux-oem-7.0",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:31:07.780336+00:00",
+      "importance": "Medium",
+      "name": "linux-oem-7.0",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:31:11.002502+00:00",
+      "importance": "Medium",
+      "name": "linux-oem-7.0",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:31:03.529146+00:00",
+      "importance": "Medium",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:31:07.780336+00:00",
+      "importance": "Medium",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T02:31:11.002502+00:00",
+      "importance": "Medium",
+      "name": "linux-oem-7.3",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] drm/i915/bios: Support VBT #57 vswing/pre-emphasis override"
+}

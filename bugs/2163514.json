@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2163514,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-14T17:30:24.440732+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T08:08:49.634471+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MT7922 (0489:e0d9): spurious \"Connection Timeout\" teardown of healthy eSCO+ACL links during HFP calls"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169257,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-02T08:04:47.890686+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel 7.0.0-38-generic and 7.0.0-42-generic panic / execution of NX-protected page during boot (intel_ish_ipc / ie31200_edac) on Dell Precision 7780"
+}

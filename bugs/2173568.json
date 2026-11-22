@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173568,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T18:00:26.365936+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "RX 9070 (RDNA4): DMCUB errors and display freezes after upgrade to 0ubuntu3.4"
+}

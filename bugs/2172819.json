@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172819,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T10:39:20.988931+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu: NULL pointer dereference in amdgpu_amdkfd_free_gtt_mem() from device_queue_manager_uninit() on 5.15 (bad backport), black screen on Picasso APU without IOMMU"
+}

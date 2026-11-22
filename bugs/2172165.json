@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172165,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T11:29:21.265145+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[26.04] Internal PS/2 keyboard dead on Xiaomi Redmi Book Pro 16 2026 (TM2425): atkbd sends ATKBD_CMD_RESET_DIS (0xF5), EC then stops sending scancodes"
+}

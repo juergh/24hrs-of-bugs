@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173709,
+  "id": 2174759,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T16:43:33.636262+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] ath9k_htc (AR9271 / TP-Link TL-WN722N v1): \"RTNETLINK answers: Message too long\" (-EMSGSIZE) when bringing interface UP after kernel update"
+}

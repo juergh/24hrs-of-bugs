@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173703,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-08T19:22:42.499336+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Framework 16 PIXA3854 touchpad not bound on 7.0.0-42"
+}

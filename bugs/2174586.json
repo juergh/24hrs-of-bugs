@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174586,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T12:03:08.646128+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "\"cp filea fileb\" hangs on client of ZFS based NFS export with NFS server running Ubuntu Noble kernel 6.8.0-149"
+}

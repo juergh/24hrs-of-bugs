@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173612,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T06:12:03.953785+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] linux-firmware-amd-graphics 0ubuntu3.4: DMCUB errors flood log, desktop stutters/freezes on RX 9070 XT (noble)"
+}

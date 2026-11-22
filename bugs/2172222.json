@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2172221,
+  "id": 2172222,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-26T11:55:45.238943+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package nvidia-kernel-source-580-open 580.178.04-0ubuntu0.26.04.1 failed to install/upgrade: run-parts: /etc/kernel/postinst.d/dkms exited with return code 1"
+}

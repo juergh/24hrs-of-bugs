@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173711,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T00:50:33.522647+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[ASUS TUF Gaming A16 FA608UH] Keyboard backlight turns off after boot: I2C-HID LampArray controller (0B05:19B6) bound to hid-generic, asus::kbd_backlight has no effect"
+}

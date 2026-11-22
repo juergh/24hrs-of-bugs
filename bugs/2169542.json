@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169542,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T07:58:58.362144+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-tegra",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "NVIDIA k6.8 patches Oct 5, 2026"
+}

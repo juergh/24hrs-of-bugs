@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172305,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-27T13:08:40.533638+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] snd-soc-es8336 codec driver missing from generic kernel config \u2014 sof-essx8336 card fails with -517, ES8336 wrongly bound to es8316"
+}

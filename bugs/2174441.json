@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174441,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T19:46:13.701489+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Rembrandt/Radeon 660M] Hard freeze with DMCUB errors and flip_done timeouts, triggered by GNOME Night Light transition with PSR enabled"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175155,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T12:01:02.606960+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-bos",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "resctrl: Report unknown domain IDs in last_cmd_status"
+}

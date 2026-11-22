@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2160033,
+  "id": 2168630,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-26T16:12:14.165772+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "package linux-headers-7.0.0-34-generic 7.0.0-34.34~24.04.1 failed to install/upgrade: installed linux-headers-7.0.0-34-generic package post-installation script subprocess returned error exit status 1"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167160,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-12T11:06:51.415518+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[HawkPoint1 1002:1900] gfx_0.0.0 timeout, failed MES ring reset, then GNOME Shell SIGABRT and session loss"
+}

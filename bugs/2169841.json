@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169841,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T12:25:01.655200+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Krystian Kaniewski",
+      "date_created": "2026-10-07T12:26:01.159495+00:00",
+      "importance": "High",
+      "name": "linux-xilinx",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "linux-xilinx: Add UC metapackages and OP-TEE support to signed FIT images"
+}

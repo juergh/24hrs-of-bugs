@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2174356,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T01:46:11.230543+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] linux-firmware-amd-graphics 20240318.git3b128b60-0ubuntu3.4 causes black screen / monitor sleep on boot with AMD RX 9070 XT (Navi 48)"
+}

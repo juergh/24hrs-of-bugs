@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2165890,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-31T08:50:05.102908+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "nvidia-535-6.17.0-40-generic 6.17.0-40.40~24.04.1 failed to install"
+}

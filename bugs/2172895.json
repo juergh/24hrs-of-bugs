@@ -1,0 +1,80 @@
+{
+  "duplicate_of": null,
+  "id": 2172895,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-04T02:20:06.152073+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-04T03:27:16.735643+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-04T03:27:16.735643+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-04T03:27:16.735643+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-11-10T01:37:50.764240+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-misc",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-11-10T01:37:50.764240+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-misc",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-11-10T01:37:50.764240+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-misc",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-11-10T01:37:50.764240+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-misc",
+      "series": "tenacious",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Support Intel Integrated Sensor Hub (ISH) on Intel Nova Lake platforms"
+}

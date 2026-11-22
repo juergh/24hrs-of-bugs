@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2165021,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T11:39:03.261642+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T13:53:45.823674+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Backport of GPIO driver patch"
+}

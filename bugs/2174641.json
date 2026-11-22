@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174641,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T19:23:24.986192+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Intel AX210 (iwlwifi) hangs s2idle suspend on HP 250 G9 \u2013 kernel 7.0.0-43"
+}

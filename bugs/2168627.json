@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168627,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-26T15:50:55.722189+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "PC does not shut down completely"
+}

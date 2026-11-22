@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172407,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-28T18:10:38.439116+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[qxl] \"[TTM] Buffer eviction failed\" repeats forever, systemd stalls, on 7.0.0-34/-38/-42 (26.04) on QEMU/KVM; 6.8 fine"
+}

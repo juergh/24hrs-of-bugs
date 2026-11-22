@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172785,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-02T23:48:03.019150+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ucsi_acpi fails PPM init at every boot"
+}

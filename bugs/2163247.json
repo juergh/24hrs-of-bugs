@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2163247,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-27T18:06:21.285810+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.04 LTS -- Realtek ALC3347 on Lenovo Yoga 7 Pro 15IPH11 Output Device Marked as \"Dummy Output\""
+}

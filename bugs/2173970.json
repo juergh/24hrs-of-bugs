@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2173970,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T08:10:12.844993+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T08:10:12.844993+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "resolute",
+      "status": "Incomplete",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T08:10:12.844993+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "tenacious",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "New upstream core24.90 release"
+}

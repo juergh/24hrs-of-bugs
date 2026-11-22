@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169634,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T21:29:09.507492+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "KCQ enable failed / gfx_v10_0 resume failure (-110) after hibernate and s2idle suspend on Ryzen 3 7320U (Mendocino)"
+}

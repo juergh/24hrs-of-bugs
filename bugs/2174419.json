@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174419,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T16:08:53.486067+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "7.0 HWE: DMAR fault \"non-zero reserved fields in PTE\" on Intel 9 Series AHCI [8086:8c82] causes SATA host bus errors, failed writes and ext4 read-only remount (6.8 unaffected)"
+}

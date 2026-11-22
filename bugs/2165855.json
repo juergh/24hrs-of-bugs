@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2122077,
+  "id": 2165855,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-30T17:56:49.950120+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "CONFIG_X86_KERNEL_IBT remains \"temporarily\" disabled since 2022 (LP #1980484 regression/follow-up)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174615,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T15:44:10.887761+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "mt8901: Cirrus CS35L56 speaker amplifiers load no system-specific firmware or tuning"
+}

@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2166838,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Leo Lin",
+      "date_created": "2026-09-09T04:00:04.236640+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Stefan Bader",
+      "date_created": "2026-09-24T13:31:11.970817+00:00",
+      "importance": "Critical",
+      "name": "linux",
+      "series": "noble",
+      "status": "Opinion",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-10T13:07:10.461969+00:00",
+      "importance": "Critical",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "[SRU] Fix for storage corruption on 64 bit DMA on AMD platforms"
+}

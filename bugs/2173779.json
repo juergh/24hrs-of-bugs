@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2173779,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "April Cardenas",
+      "date_created": "2026-11-09T17:13:01.555352+00:00",
+      "importance": "Medium",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "April Cardenas",
+      "date_created": "2026-11-09T17:15:19.026246+00:00",
+      "importance": "Medium",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T17:23:39.814542+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "PREEMPT_RT: RP1 IRQ threads do not follow smp_affinity"
+}

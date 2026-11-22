@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170417,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-10T02:49:24.384853+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "ASUS Vivobook 15 M1502XA (Ryzen 7 7840HS): internal keyboard dead in Linux, works in UEFI/GRUB; IRQ1 override quirk needed?"
+}

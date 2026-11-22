@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165663,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T10:30:22.478116+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Persistent ACPI/firmware error messages during boot on HP Pavilion x360 with Ubuntu 26.04.1, without functional impact."
+}

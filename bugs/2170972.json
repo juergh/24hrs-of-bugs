@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170972,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T11:46:07.699664+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "HP Pavilion 15-ec1900nc (87B1), ELAN0718: normal boot fails -121; Esc then Enter works on BIOS F.35"
+}

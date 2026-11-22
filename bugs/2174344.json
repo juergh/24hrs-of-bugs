@@ -1,0 +1,26 @@
+{
+  "duplicate_of": 2171424,
+  "id": 2174344,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T21:51:56.890405+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T09:33:26.213651+00:00",
+      "importance": "Undecided",
+      "name": "linux-xilinx",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-xilinx 6.8.0-1042.43 fails to boot on Kria K26 platforms (KV260 and KR260)"
+}

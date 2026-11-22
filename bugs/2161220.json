@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2161220,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-07-18T23:37:17.103587+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-graphics",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T12:35:18.589783+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-graphics",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-firmware: missing GuC firmware 70.44.1 for Intel Meteor Lake (i915/mtl_guc_70.bin)"
+}

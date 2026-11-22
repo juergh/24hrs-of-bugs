@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171372,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T04:20:48.813759+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T04:21:03.990791+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "bpf-build in ubuntu_bpf failed on noble 6.8.0-148.148 (fatal error: cgroup_skb_direct_packet_access.skel.h: No such file or directory)"
+}

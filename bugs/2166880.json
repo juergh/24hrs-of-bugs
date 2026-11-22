@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166880,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-09T11:54:48.340918+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "GTX 980 Ti eGPU fails RmInitAdapter on kernel 7.0.0-31, works on 6.17.0-40 with NVIDIA 580"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166071,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-01T16:16:06.613588+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Regression in 6.8.0-138-generic: Docker embedded DNS 127.0.0.11 times out, works with 6.8.0-137-generic"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170253,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T21:34:06.570228+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ucsi_acpi times out (-110) after s2idle resume on IdeaPad Slim 5 14AKP10, causing ~12 s wake delay (kernel 7.0.0-38)"
+}

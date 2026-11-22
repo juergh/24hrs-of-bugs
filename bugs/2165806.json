@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165806,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-08-29T05:14:49.645070+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.04.1 Server ISO cannot install on MAXIO MAP1602 NVMe due to kernel 7.0.0-30 I/O regression; 7.0.0-31 works"
+}

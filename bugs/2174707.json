@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174707,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T08:31:39.248708+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Lenovo ThinkPad P14s Gen 6 AMD] Built-in keyboard unresponsive on boot (\"i8042: Warning: Keylock active\")"
+}

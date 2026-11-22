@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173709,
+  "id": 2175266,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T13:40:38.662996+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ath9k_htc AR9271 USB (0cf3:9271) broken on 7.0.0-43-generic: \"ip link set up\" fails with \"Message too long\", works on 6.14.0-37"
+}

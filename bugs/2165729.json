@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165729,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T13:48:49.691593+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "faulting task died holding the TTM LRU spinlock (exited with irqs    disabled / preempt_count 1),"
+}

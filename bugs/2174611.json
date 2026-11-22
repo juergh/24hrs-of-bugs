@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174611,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-16T15:07:45.685723+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Logi Bolt keyboard (MX Keys S) wakes system from S3: LED-off report during suspend triggers HID++ LOCK KEY STATE notification"
+}

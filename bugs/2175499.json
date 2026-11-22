@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175499,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-22T02:07:28.645544+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed-oem-7.3",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Internal digital mic missing on MSI Crosshair A18 HX A8WGKG (MS-184L)"
+}

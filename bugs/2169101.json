@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169101,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Yufeng Gao",
+      "date_created": "2026-10-01T03:42:26.262729+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "Yufeng Gao",
+      "date_created": "2026-10-05T07:01:47.806410+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "ath12k: WCN7850 MLO double DMA-unmap/free of REO queue buffer on firmware restart corrupts memory (needs upstream 4a1b53417739)"
+}

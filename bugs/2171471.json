@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171471,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-20T07:28:38.998154+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "No sound from internal speakers on Acer SFN14-55 (Meteor Lake, rt722 SoundWire); UBSAN shift-out-of-bounds in sof/ipc4-topology.c on 7.3.0-9"
+}

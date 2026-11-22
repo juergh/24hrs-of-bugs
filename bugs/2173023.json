@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173023,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-04T22:10:32.602619+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-04T22:11:18.421854+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Nodes are getting rebooted because of kernel Panic"
+}

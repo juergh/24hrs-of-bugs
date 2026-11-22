@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166825,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "John Cabaj",
+      "date_created": "2026-09-09T00:46:34.793273+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "Suspend resume time is too long than threshold on HP Z8 G5 Workstation"
+}

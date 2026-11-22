@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173709,
+  "id": 2174517,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-15T11:40:07.794629+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ath9k_htc (AR9271): ip link set up fails with \"Message too long\" on 7.0.0-43-generic, works on 7.0.0-42"
+}

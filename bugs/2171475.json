@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2163428,
+  "id": 2171475,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T07:50:36.154114+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MT7925 Bluetooth (0e8d:0717): WMT firmware download times out (-110), then device stops enumerating on USB, persists across cold boot"
+}

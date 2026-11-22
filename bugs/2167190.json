@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167190,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-13T15:46:00.946656+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[amdgpu][Navi 31] Reboot hangs on HWE 7.0; 6.17 works; blocking amdgpu avoids hang"
+}

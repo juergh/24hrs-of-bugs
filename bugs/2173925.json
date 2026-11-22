@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173925,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T20:51:54.004839+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 24.04.5: black screen with VMware SVGA on kernel 7.0.0-42; works on 7.0.0-34"
+}

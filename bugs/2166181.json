@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166181,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-09-02T12:18:56.686145+00:00",
+      "importance": "High",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-09-02T12:19:14.451733+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Add a linux-main-modules dependency toggle to kernel build process"
+}

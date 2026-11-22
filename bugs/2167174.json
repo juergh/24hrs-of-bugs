@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167174,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-12T18:49:12.208692+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Keyboard and Fn/multimedia keys stop responding after s2idle suspend/resume on Lenovo IdeaPad Slim 3 15ARP10 (AMD Ryzen 7 7735HS)"
+}

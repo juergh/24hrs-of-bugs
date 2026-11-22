@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166226,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-02T21:28:16.028497+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "[amdgpu][Navi 23/RX 6600] system-wide stalls followed by SDMA1 reset hang in sdma_v5_2_stop_queue on 7.0.0-30"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2172394,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-28T16:16:48.273277+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T07:36:04.004308+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Pi 4B Rev 1.4 hangs at xhci_hcd init / reboot-loops on Ubuntu 26.04 when BOOT_ORDER tries network first"
+}

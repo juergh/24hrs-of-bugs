@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172672,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-31T16:56:28.250421+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dummy Output on ASUS Zenbook 14 UX3480KA (AMD ACP 1022:15e2) - internal speakers not detected"
+}

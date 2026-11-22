@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2173021,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-04T21:10:45.120163+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T06:49:35.813141+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-mediatek",
+      "series": "resolute",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "[MT7921] Bluetooth SCO (HFP/HSP microphone) broken \u2014 Setup Synchronous Connection rejected (0x20), corrupted SCO packets"
+}

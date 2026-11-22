@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2174892,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-11-18T17:11:44.746415+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-11-18T17:14:23.382986+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Fix gcp-7.0 nvidia-related headers mismatching upstream"
+}

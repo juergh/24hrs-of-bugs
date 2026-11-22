@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2049676,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2024-01-17T19:52:39.923932+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T12:13:05.960768+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware",
+      "series": "jammy",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T12:14:08.291653+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T12:14:23.449800+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "`iwlist scan` crashes iwlwifi with a \"Microcode SW error detected. Restarting 0x0.\" message"
+}

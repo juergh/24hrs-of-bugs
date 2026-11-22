@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166856,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-09T08:49:40.124090+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed-hwe-6.17",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Dell 14S DS14260: no internal or functional HDMI audio on Ubuntu 24.04.4 and 26.04.1"
+}

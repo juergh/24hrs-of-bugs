@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174466,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T03:28:46.547128+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "qcom-camss on sc8280xp (ThinkPad X13s): pipeline power-up fails after any stream stop (-110 then -22); camera dead until reboot"
+}

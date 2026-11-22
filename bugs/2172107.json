@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2172107,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-24T08:33:30.909832+00:00",
+      "importance": "Medium",
+      "name": "linux-firmware-intel-misc",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-06T07:02:07.319012+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-misc",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Ubuntu 26.10] HP Panther Lake Intel ISH fails to initialize due to missing firmware lookup symlink \u2014 confirmed fix"
+}

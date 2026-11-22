@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169585,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T12:55:56.389918+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Brightness locked at 100%  in Ubuntu 26.04.1"
+}

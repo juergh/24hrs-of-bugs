@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2168432,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-24T11:34:32.625522+00:00",
+      "importance": "Undecided",
+      "name": "linux-realtime",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-24T11:34:44.907157+00:00",
+      "importance": "Undecided",
+      "name": "linux-realtime",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-24T11:34:08.702656+00:00",
+      "importance": "Undecided",
+      "name": "ubuntu-realtime",
+      "series": "",
+      "status": "Fix Released",
+      "type": "project"
+    }
+  ],
+  "title": "Stonking real-time patchset v7.3-rc4-rt1"
+}

@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2170634,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T21:51:53.177311+00:00",
+      "importance": "Medium",
+      "name": "linux-riscv",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T21:59:06.037816+00:00",
+      "importance": "Medium",
+      "name": "linux-riscv",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T21:59:06.037816+00:00",
+      "importance": "Medium",
+      "name": "linux-riscv",
+      "series": "stonking",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-31T14:27:12.287279+00:00",
+      "importance": "Medium",
+      "name": "linux-riscv",
+      "series": "tenacious",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "On 7.3.0-9-generic KVM does not fully support RVA23U64"
+}

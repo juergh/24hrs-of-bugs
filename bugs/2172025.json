@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172025,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-23T08:49:41.658716+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amd_pmf leaks 512 bytes per NPU metrics query, kmalloc-512 grows until reboot on Ryzen AI 300"
+}

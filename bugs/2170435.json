@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170435,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Alex",
+      "date_created": "2026-10-10T09:27:17.242976+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Power Issues and hangs"
+}

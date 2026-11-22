@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2165873,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T12:05:56.107723+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-08T12:05:56.107723+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-31T05:54:11.848008+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-09-01T01:48:55.477119+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "noble",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth fails to initialize due to a kernel NULL pointer error"
+}

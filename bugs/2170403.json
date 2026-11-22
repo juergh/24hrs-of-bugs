@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2170403,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-09T20:06:45.167926+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2026-10-09T20:06:56.739942+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-misc",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "[noble] amdnpu firmware doesn't work with 7.0 kernel"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175025,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T12:04:50.676998+00:00",
+      "importance": "Undecided",
+      "name": "linux-realtime",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "general protection fault in timerqueue_add (hrtimer rbtree corruption) on 6.8.1-1015-realtime, system hangs silently"
+}

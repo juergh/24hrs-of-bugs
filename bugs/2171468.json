@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171468,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T06:47:45.670583+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Power button does not generate KEY_POWER on HP ZBook Power 16 G11 A (AMD GPIO0 / ACPI0011 gpio-keys)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172226,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-26T12:13:33.580166+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "linux-azure 7.0.0-1017: NULL pointer dereference in hv_eject_device_work when the host removes the Accelerated Networking VF"
+}

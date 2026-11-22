@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166998,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-10T16:25:13.540953+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-11T19:06:27.137456+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-misc",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "No sound from internal speakers on ASUS ExpertBook P5406CCA (ALC294, subsystem 0x10433701)"
+}

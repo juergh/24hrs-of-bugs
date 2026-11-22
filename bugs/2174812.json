@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174812,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-18T07:15:50.558319+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo Legion 5 15IAH7 (82RB): suspend hangs at pm_test=platform, fixed by pcie_port_pm=off"
+}

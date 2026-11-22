@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2175471,
+  "id": 2175470,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-21T13:05:19.625103+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu (RX 580): black screen over HDMI with 7.0.0-42/43/44, fine with 7.0.0-38; DVI works"
+}

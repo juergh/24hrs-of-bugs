@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174401,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T12:53:23.814519+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "GPF in __run_timers (LIST_POISON timer) on 7.0.0-43-generic, reproducible with snap LibreOffice docx>pdf conversion"
+}

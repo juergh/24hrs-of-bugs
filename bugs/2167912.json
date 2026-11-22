@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167912,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T04:10:17.431283+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": " No audio output from internal speakers on LG gram 16Z90U-H.AU87U1 (Intel Panther Lake platform),   despite the entire audio stack reporting correct, unmuted, full-volume state."
+}

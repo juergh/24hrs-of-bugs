@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172593,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Krzysztof Adamski",
+      "date_created": "2026-10-30T13:27:46.215015+00:00",
+      "importance": "Undecided",
+      "name": "linux-qcom",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "VENTUNO Q fails to boot with SK hynix BC511 NVMe installed"
+}

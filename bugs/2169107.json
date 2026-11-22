@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169107,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T06:26:13.200323+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-tegra",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T06:26:24.608849+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-tegra",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "CVE Integration 2026-10-01"
+}

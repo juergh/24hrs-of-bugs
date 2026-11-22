@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2172428,
+  "id": 2172427,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-28T23:31:46.443361+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Touchpad SYNA2392 not detected on Lenovo 14w Gen 2 (82N9), created as platform device instead of I2C client"
+}

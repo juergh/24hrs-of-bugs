@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173095,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-05T13:40:46.398746+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-firmware-amd-graphics 0ubuntu3.4: dcn_4_0_1_dmcub.bin.zst symlinked to dcn_3_2_0 \u2192 black screen on RDNA4"
+}

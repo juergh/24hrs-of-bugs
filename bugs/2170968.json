@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2064176,
+  "id": 2170968,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-15T11:01:21.548618+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 7.0 kernel: Fan VXLAN discard path leaks the RCU read lock, causing RCU stalls and a full host hang"
+}

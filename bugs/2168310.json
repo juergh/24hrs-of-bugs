@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168310,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T20:34:00.353320+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel panic in __run_timers / __queue_work on HP Pavilion 15-cs3xxx, kernels 7.0.0-30 and 7.0.0-31"
+}

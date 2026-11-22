@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173915,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T18:54:55.190988+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux-hwe-5.15 5.15.0-203.213~20.04.1: i915 DP link training fails with \"Timeout waiting for DDI BUF D to get active\" on Alder Lake-P [8086:46a6]"
+}

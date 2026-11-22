@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2165873,
+  "id": 2166577,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-05T17:12:53.510186+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth NULL pointer dereference in btmtk_usb_hci_wmt_sync on MT7925 (6.8.0-139, regression from 138)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165854,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-08-30T16:13:23.553940+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "IPU6 ISYS never probes on Samsung Galaxy Book NP960QFG (RPL, OV02C1)    "
+}

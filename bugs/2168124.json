@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2168124,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T13:57:47.027603+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:29:15.331991+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel 7.0.0-34: system does not power off after shutdown (power LED/fans stay on) on HP OmniBook 5 AG1002sl "
+}

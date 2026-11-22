@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166119,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-01T22:41:49.759035+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "QCA9377 Bluetooth not detected on Ubuntu 26.04; USB enumeration fails with errors -110 and -71"
+}

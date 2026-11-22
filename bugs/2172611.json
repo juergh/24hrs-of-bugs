@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2172611,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-30T17:34:48.436294+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-11-03T09:37:21.695088+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "jammy",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Alessio Faina",
+      "date_created": "2026-11-03T09:37:21.695088+00:00",
+      "importance": "Undecided",
+      "name": "linux-bluefield",
+      "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "mlxbf_gige: disable MAC after panic"
+}

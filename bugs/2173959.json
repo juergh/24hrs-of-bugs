@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173959,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T03:06:51.350965+00:00",
+      "importance": "Undecided",
+      "name": "linux-raspi",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "[linux-raspi] Boot failure on Raspberry Pi after upgrade to 7.0.0-1023.23 (piboot-try fallback to 7.0.0-1020.20)"
+}

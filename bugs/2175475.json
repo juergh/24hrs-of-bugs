@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175475,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-21T14:55:41.740574+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Possible performance regression in Ubuntu kernel 7.0.0-43 compared with 7.0.0-42 on ASUS VivoBook X1704ZA"
+}

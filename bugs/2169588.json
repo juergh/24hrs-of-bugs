@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169588,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-05T13:35:06.176281+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "close(2) on inotify fd can hang unkillably in fsnotify_wait_marks_destroyed (fsnotify destroy path vs concurrent unmount) \u2014 kernel 7.0.0-38"
+}

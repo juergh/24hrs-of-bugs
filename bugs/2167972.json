@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167972,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T18:56:50.522486+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-intel-wireless",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Intel Bluetooth (ibt-0040-1020) repeatedly crashes with \"Hardware error 0x0c\", forcing full BT stack reset every 5\u201310 minutes"
+}

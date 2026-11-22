@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174970,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-19T02:01:05.586950+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Mute/mic-mute LEDs stopped working on ThinkPad X1 Carbon 6th in 7.3 (17aa:225c, ALC285)"
+}

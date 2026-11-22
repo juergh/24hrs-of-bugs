@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174679,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T00:20:40.062094+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression] 7.0.0-43: black screen after S3 resume, user.slice never thawed (HP OMEN, NVIDIA 580, worked on 7.0.0-42)"
+}

@@ -1,0 +1,71 @@
+{
+  "duplicate_of": null,
+  "id": 2064176,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2024-04-29T22:42:15.216534+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "Aleksandr Mikhalitsyn",
+      "date_created": "2024-10-07T08:27:42.013916+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "jammy",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Aleksandr Mikhalitsyn",
+      "date_created": "2024-10-07T08:35:39.275558+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "noble",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Aleksandr Mikhalitsyn",
+      "date_created": "2024-11-21T13:00:54.073176+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "oracular",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T02:07:15.204272+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T02:07:15.204272+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-16T02:07:15.204272+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "LXD fan bridge causes blocked tasks"
+}

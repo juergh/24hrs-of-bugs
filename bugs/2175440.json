@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175440,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T22:11:11.283249+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-20T22:11:20.726041+00:00",
+      "importance": "Undecided",
+      "name": "linux-gcp",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "TPU8 enablement for gce"
+}

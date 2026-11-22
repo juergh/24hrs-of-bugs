@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165164,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-26T16:50:47.244547+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "i915 Meteor Lake (ThinkPad P1 Gen 7): PHY A message bus unresponsive on resume from long s2idle dwell \u2014 C10 PLL left unprogrammed, display unrecoverable"
+}

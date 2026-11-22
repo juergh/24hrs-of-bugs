@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172808,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-03T06:47:35.494796+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.10: PVRDMA hot-add fails with \u201cfailed to get vmxnet3 device\u201d \u2014 suspected VMXNET3/PVRDMA probe-order race"
+}

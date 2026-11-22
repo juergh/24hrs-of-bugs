@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167061,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-11T06:24:02.794022+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Triaged",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth adapter disappears after suspend"
+}

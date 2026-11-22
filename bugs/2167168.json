@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2162637,
+  "id": 2167168,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-12T14:11:38.001735+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "error exit status while installing Brave browser"
+}

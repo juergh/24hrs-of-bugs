@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170592,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-12T14:17:57.081366+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression][x1e80100] Yoga Slim 7x built-in keyboard and USB fail in early boot on kernel 7.3.0-9-generic (i2c_hid_of: unexpected HID descriptor bcdVersion 0x0000)"
+}

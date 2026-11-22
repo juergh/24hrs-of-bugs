@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168537,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-25T13:32:09.282232+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Please backport \"drm/amdgpu: fix check in amdgpu_hmm_invalidate_gfx\" (52f650963d88) to resolute 7.0 - NULL deref in kcompactd kills the system"
+}

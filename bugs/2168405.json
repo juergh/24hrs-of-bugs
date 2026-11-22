@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168405,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-24T07:52:51.247310+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dell Pro 14 Premium PA14250 camera not detected on Ubuntu 26.04.1 LTS"
+}

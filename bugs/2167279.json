@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167279,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Juerg Haefliger",
+      "date_created": "2026-09-14T20:05:29.174996+00:00",
+      "importance": "High",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "Regression in 20260911.giteeccccbe-0ubuntu1"
+}

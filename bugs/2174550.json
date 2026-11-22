@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174550,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-15T20:34:32.092974+00:00",
+      "importance": "Undecided",
+      "name": "linux-meta-oem-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "No sound card on Dell XPS 14 (DA14260, Panther Lake): sof_sdw wants DAI \"cs35l56-ot25\", cs35l56 driver registers only cs35l56-sdw1/-sdw1c/-asp1 (-EPROBE_DEFER loop)"
+}

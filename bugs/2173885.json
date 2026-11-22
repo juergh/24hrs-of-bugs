@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173885,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T14:25:22.105233+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "7.0.0-43-generic: NULL-pointer page fault in lruvec_stat_mod_folio() during munmap (folio_remove_rmap_ptes -> zap_pte_range), 4 panics in 10 days"
+}

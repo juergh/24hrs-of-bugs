@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2161309,
+  "id": 2166429,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-04T02:01:47.380672+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[regression 7.0.0-28] ThinkPad T480 (UHD 620): internal eDP backlight stays off after suspend/resume, i915.enable_dpcd_backlight=0 fixes it"
+}

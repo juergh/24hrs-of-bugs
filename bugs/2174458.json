@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2174458,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-17T03:20:11.488567+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T23:38:15.164028+00:00",
+      "importance": "Undecided",
+      "name": "linux-aws",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "io_uring: registered eventfd signals only once after the cd305ee3633a backport (7.0.0-1016-aws)"
+}

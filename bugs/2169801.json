@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2169801,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T07:25:57.696273+00:00",
+      "importance": "Undecided",
+      "name": "linux-renesas",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-07T13:16:13.480416+00:00",
+      "importance": "Undecided",
+      "name": "linux-renesas",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "update noble:linux-renesas in universe to 6.8.0-1013.13"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2166540,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-04T20:31:08.102010+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Incomplete",
+      "type": "package"
+    }
+  ],
+  "title": "No internal speaker audio on LG gram 16T90SP (ALC298, subsystem 1854:0520)"
+}

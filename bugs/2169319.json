@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2169181,
+  "id": 2169319,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-02T16:39:51.350678+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu: screen flashes at 120/144 Hz on RX 9060 XT (gfx1200), regression 7.0.0-34 -> 7.0.0-38"
+}

@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2168494,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-25T15:21:53.000348+00:00",
+      "importance": "Medium",
+      "name": "linux-gcp",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-25T15:21:53.000348+00:00",
+      "importance": "Medium",
+      "name": "linux-gcp",
+      "series": "resolute",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "Rickey Castillo Valenzuela",
+      "date_created": "2026-09-29T19:53:43.653354+00:00",
+      "importance": "Medium",
+      "name": "linux-gcp",
+      "series": "stonking",
+      "status": "Fix Released",
+      "type": "package"
+    }
+  ],
+  "title": "VFIO/RDMA Backport of recent dma-buf patches"
+}

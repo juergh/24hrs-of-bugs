@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172146,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-25T00:14:40.894294+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Catastrophic kernel slab allocator corruption / General Protection Fault loop in kmem_cache_alloc triggered by high userspace concurrency (6.8.0-147-generic)"
+}

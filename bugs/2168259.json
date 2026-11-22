@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2168259,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-23T16:32:46.303948+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:27:49.215036+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "noble",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Bluetooth broken on MacBookPro12,1 (Broadcom BCM20703) after upgrading to linux-image-6.8.0-142-generic"
+}

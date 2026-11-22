@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173809,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T22:46:52.980639+00:00",
+      "importance": "Undecided",
+      "name": "linux-signed-hwe-5.15",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "NVIDIA TU106 USB 3.1 Host Controller (10de:1ada) fails S3 resume with USBSTS 0x401, dropping Type-C DP Alt Mode displays"
+}

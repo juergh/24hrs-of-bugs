@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2165032,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-25T13:35:59.836022+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "failed to install upgrade linux module nvidia 535"
+}

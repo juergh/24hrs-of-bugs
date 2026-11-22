@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167780,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-19T21:48:24.748482+00:00",
+      "importance": "Undecided",
+      "name": "linux-lowlatency",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MBox 2 Mini BOGUS control dir, pipe 80000280 doesn't match bRequestType 22"
+}

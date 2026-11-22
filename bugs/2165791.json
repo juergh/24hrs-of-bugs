@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165791,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-28T20:37:17.931588+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux 7.0.0-30-generic: list_del corruption + fatal Oops in ep_remove_safe/remove_wait_queue, triggered by the snapd 2.76 -> 2.76.3 upgrade"
+}

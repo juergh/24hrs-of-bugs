@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2169960,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-08T10:04:58.059580+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[i915][CFL] Color inversion on resume/boot with 10-bit primary plane (Sharp 0x149a eDP)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167337,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T13:11:21.882616+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "SRU: backport drm/xe current_op fix 0460455 for Intel Arc Pro B70 host wedge"
+}

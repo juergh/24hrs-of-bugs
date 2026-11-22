@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2168310,
+  "id": 2169184,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-01T16:59:03.723214+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "thunderbird crashes whole system"
+}

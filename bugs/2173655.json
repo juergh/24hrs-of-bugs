@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173041,
+  "id": 2173655,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T21:46:42.195729+00:00",
+      "importance": "Undecided",
+      "name": "linux-firmware-amd-graphics",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "0ubuntu3.4 symlinks dcn_4_0_1_dmcub to DCN 3.2 firmware, breaking RX 9000 display"
+}

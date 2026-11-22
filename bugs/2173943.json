@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173943,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-11T00:24:31.616354+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "NVIDIA: Backport nvme-pci: add NVME_QUIRK_DMAPOOL_ALIGN_512 for KIOXIA XG10d"
+}

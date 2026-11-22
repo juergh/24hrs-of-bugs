@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174385,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T10:03:22.501256+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Problem concerning linux mint with kernel 6.8.0-149 and ntpsec 1.2.4 parse driver refclock generic mode 5"
+}

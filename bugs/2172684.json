@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172684,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-31T20:31:16.860444+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "zpool online with the pool GUID oopses in vdev_reopen and hangs ZFS until reboot"
+}

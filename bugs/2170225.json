@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2170225,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-08T17:45:07.869208+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-08T17:49:34.074482+00:00",
+      "importance": "Medium",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "linux 7.0.0-38: BPF programs on syscalls:sys_enter_* tracepoints with user-pointer args only run on one CPU"
+}

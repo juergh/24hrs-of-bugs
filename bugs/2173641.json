@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173641,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-07T17:56:14.354341+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": " ath9k_htc regression in Kubuntu 26.04 - TP-Link TL-WN422G v2 (Atheros AR9271) fails to initialize (Target is unresponsive)"
+}

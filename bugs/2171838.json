@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171838,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-22T06:14:11.818270+00:00",
+      "importance": "Medium",
+      "name": "linux-oem-6.17",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ThinkPad P16s Gen 4 AMD (21RX): hang on resume from s2idle \u2013 MSFT0201 referenced in IVRS but missing from DSDT"
+}

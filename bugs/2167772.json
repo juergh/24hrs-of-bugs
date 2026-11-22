@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2167772,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-19T17:52:21.445316+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:56:25.478501+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-29T08:56:25.478501+00:00",
+      "importance": "Low",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "vboxsf: endless write loop and data corruption on short copy"
+}

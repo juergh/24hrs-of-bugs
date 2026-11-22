@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174429,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-13T17:22:21.635791+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[linux-nvidia-7.3]: Replace the CPPC autonomous mode SAUCE with the upstream series and backport CPPC fixes"
+}

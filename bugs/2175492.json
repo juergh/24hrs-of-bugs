@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175492,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-21T21:40:25.253791+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Kernel panic / NULL pointer dereference in CFS scheduler (task_h_load, update_load_avg, sched_balance_update_blocked_averages) since 7.0.0-34; 7.0.0-31 was stable"
+}

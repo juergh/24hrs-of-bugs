@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171402,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T11:56:47.917189+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T07:16:44.755486+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "vmwgfx: repeated WARNING in vmw_buffer_prime_to_surface_base with kwin_wayland on VMware (26.10, kernel 7.3)"
+}

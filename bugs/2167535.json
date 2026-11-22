@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167535,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-16T23:54:08.561800+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu, suspend/resume, RX 6700 XT, affects linux-generic-7.0 package"
+}

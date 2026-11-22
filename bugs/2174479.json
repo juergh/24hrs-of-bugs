@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174479,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-14T12:07:32.032197+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Title: HP Spectre x360 13-ac0XX: side volume buttons send no events in tablet mode; INT33D3 platform device has no driver bound"
+}

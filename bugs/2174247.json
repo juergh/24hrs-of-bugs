@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2174247,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T16:25:16.709432+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ELAN0676 (04F3:3195) touchpad on ThinkPad T14 Gen 6 (Intel/Lunar Lake) enumerates correctly but produces zero input events - GPIO IRQ never re-fires after initial boot handshake."
+}

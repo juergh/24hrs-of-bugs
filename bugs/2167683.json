@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2167683,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-18T08:55:15.281959+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-graphics",
+      "series": "",
+      "status": "Fix Released",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-18T09:03:44.733079+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-graphics",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "You-Sheng Yang",
+      "date_created": "2026-09-18T09:03:44.733079+00:00",
+      "importance": "High",
+      "name": "linux-firmware-intel-graphics",
+      "series": "stonking",
+      "status": "Fix Committed",
+      "type": "package"
+    }
+  ],
+  "title": "Enable GPU support for Intel Nova Lake platforms"
+}

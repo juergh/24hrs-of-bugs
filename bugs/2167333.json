@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167333,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-15T12:04:23.977477+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Internal microphone not detected on MSI Thin A15 B7UCX (missing ACP/YC DMI quirk)"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171189,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-10-16T20:10:30.748448+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "GPF in __run_timers caused by corrupted apparmor audit_cache delayed_work (7.0.0-38-generic)"
+}

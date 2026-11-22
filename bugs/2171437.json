@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2171437,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-19T18:56:18.864604+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-20T07:13:04.928618+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Ubuntu 26.10: desktop freezes during video playback when opening overview or switching workspaces on AMD Strix / Wayland"
+}

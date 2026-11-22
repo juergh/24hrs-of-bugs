@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173618,
+  "id": 2174342,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-12T21:47:20.973436+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Regression 7.0.0-42 \u2192 7.0.0-43: no sound card on ThinkPad X1 Carbon Gen 14 (Panther Lake), \u201cCODEC DAI cs35l56-ot25 not registered\u201d."
+}

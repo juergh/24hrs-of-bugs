@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2172258,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-26T21:35:48.809572+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Built-in speaker volume control behaves incorrectly on Lenovo Legion 7a 16AGP11 (Type 83Q8)"
+}

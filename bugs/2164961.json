@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2161309,
+  "id": 2164961,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-08-24T23:23:37.641520+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Lenovo Thinkpad x280 not waking from Suspend"
+}

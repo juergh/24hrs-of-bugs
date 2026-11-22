@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2167913,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-22T04:19:43.289118+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Unexpected gfp: 0x40000 (__GFP_COMP). Fixing up to gfp: 0x2d00 (GFP_NOIO|__GFP_ZERO|__GFP_NOWARN). Fix your code!"
+}

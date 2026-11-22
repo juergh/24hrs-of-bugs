@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173863,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-10T11:15:53.018468+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu: gfxhub page fault from gnome-shell \u2192 ring gfx_0.0.0 timeout \u2192 GPU reset, VRAM lost, Wayland session dies (RX 6600, Navi 23)"
+}

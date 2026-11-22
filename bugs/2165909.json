@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2165909,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-08-31T12:40:33.902022+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ELAN0718 I2C-HID touchpad: intermittent EREMOTEIO (-121) on HP Pavilion Gaming 15-ec0xxx"
+}

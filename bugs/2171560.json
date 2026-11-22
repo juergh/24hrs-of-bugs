@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2171560,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-21T00:05:21.339264+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[TU117] nouveau on 7.0.0-38: external DP monitors via Thunderbolt dock show no signal (GSP); with NvGspRm=0, KWin GPU job timeouts. Works on 6.8.0-147"
+}

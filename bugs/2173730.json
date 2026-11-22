@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173730,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T08:10:34.159817+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "platform/x86/intel/pmc: Meteor Lake GNA left in D0 after runtime resume blocks S0ix until next resume"
+}

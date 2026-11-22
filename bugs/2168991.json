@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2168991,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-09-30T09:26:40.936299+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Dell XPS 14 DA14260 (Panther Lake): IPU7 webcam OV08X40 not instantiated \u2013 INT3472 GPIO type 0x02 unknown, usbio GPIO 11 not in FW pins bitmap"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2170215,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-10-08T16:19:52.020100+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "MT7921K (mt7921e) severe packet loss on 7.0.0-38, works on 7.0.0-34"
+}

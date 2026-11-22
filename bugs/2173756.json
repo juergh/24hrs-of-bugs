@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2173756,
+  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-09T13:30:37.205907+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] 7.0.0-1017-azure: Hyper-V Dynamic Memory causes OOM panic with unexpected CMA pageblocks; 6.17.0-1022-azure works"
+}
