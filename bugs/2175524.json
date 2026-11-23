@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175524,
+  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-22T15:42:16.869489+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Yoga Pro 9 16IMH9: near-silent internal speakers, please backport upstream quirk 56722cfbb78d"
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2173709,
+  "id": 2175528,
+  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-22T17:16:36.232258+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ath9k_htc (AR9271 USB) fails to bring interface up on linux-hwe-7.0 7.0.0-43 (\"Message too long\"), kernel panic on unplug; 7.0.0-42 works"
+}

@@ -1,11 +1,11 @@
 {
   "duplicate_of": null,
-  "id": 2164890,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "id": 2175535,
+  "last_seen": "2026-11-23T01:00:42.381931+00:00",
   "targets": [
     {
       "assignee": "unassigned",
-      "date_created": "2026-08-24T11:29:25.503455+00:00",
+      "date_created": "2026-11-22T19:43:11.628225+00:00",
       "importance": "Undecided",
       "name": "linux",
       "series": "",
@@ -13,5 +13,5 @@
       "type": "package"
     }
   ],
-  "title": "MediaTek MT7902 Wi-Fi [14c3:7902] not supported by Ubuntu 26.04 kernel 7.0"
+  "title": "Add GUI option to disable automatic audio device suspension"
 }

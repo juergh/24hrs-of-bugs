@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175522,
+  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-22T14:53:42.276241+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    }
+  ],
+  "title": "sound card driver trouble"
+}

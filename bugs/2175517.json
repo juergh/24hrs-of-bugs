@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175517,
+  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-22T13:18:51.682726+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Internal microphone not detected on HP OmniBook 3 16-by0xxx (board 8EE2) \u2013 needs acp6x DMI quirk"
+}

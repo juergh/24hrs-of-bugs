@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175509,
+  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-22T10:12:09.770087+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Dell Precision 7770 (BIOS 1.42.0): s2idle never reaches S0ix (high sleep drain); Intel DTbt TPTS aborts ACPI S4 hibernation"
+}
