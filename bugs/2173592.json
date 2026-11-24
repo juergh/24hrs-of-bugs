@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2173592,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
   "targets": [
     {
       "assignee": "unassigned",
@@ -36,6 +36,24 @@
       "importance": "Undecided",
       "name": "linux-nvidia-7.0",
       "series": "noble",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T18:46:33.224920+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.3",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T18:46:35.179351+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-7.3",
+      "series": "resolute",
       "status": "Fix Committed",
       "type": "package"
     },

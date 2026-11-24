@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175626,
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T17:28:55.997872+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[noble] 6.8.0-151-generic can't load certain nftable rulesets with intercal sets"
+}

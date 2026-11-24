@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175550,
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T04:17:57.890179+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "USB Wi-Fi driver/firmware hang causes wpa_supplicant deadlock (status=255/EXCEPTION) and false \"NetworkManager not running\" error in GNOME Settings"
+}

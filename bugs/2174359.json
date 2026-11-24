@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2174359,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
   "targets": [
     {
       "assignee": "unassigned",
@@ -40,12 +40,12 @@
       "type": "package"
     },
     {
-      "assignee": "unassigned",
+      "assignee": "ChunAnWu",
       "date_created": "2026-11-13T05:04:44.565802+00:00",
       "importance": "Undecided",
       "name": "linux-oem-7.3",
       "series": "resolute",
-      "status": "New",
+      "status": "Fix Committed",
       "type": "package"
     },
     {

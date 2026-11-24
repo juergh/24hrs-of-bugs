@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175563,
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T08:22:01.685672+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "hdmi 4060ti 6.8.0-149 kernel"
+}

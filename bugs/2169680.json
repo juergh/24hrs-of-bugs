@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2169680,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
   "targets": [
     {
       "assignee": "unassigned",
@@ -13,12 +13,30 @@
       "type": "package"
     },
     {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T02:42:21.057869+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
       "assignee": "Leo Lin",
       "date_created": "2026-10-12T05:44:15.722845+00:00",
       "importance": "Undecided",
       "name": "linux-oem-7.3",
       "series": "",
       "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T02:42:21.057869+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "Fix Committed",
       "type": "package"
     }
   ],

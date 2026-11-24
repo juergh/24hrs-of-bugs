@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175553,
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T06:08:00.108088+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "tg3: Dell PowerEdge T440 with Broadcom BCM5720 hangs on reboot with fatal PCIe AER"
+}

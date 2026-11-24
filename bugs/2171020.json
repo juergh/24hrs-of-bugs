@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2171020,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
   "targets": [
     {
       "assignee": "Michael Reed",
@@ -13,12 +13,12 @@
       "type": "package"
     },
     {
-      "assignee": "unassigned",
+      "assignee": "Michael Reed",
       "date_created": "2026-10-23T16:37:54.273032+00:00",
       "importance": "Medium",
       "name": "linux",
       "series": "noble",
-      "status": "In Progress",
+      "status": "Fix Committed",
       "type": "package"
     },
     {
@@ -27,7 +27,7 @@
       "importance": "High",
       "name": "linux",
       "series": "resolute",
-      "status": "In Progress",
+      "status": "Fix Committed",
       "type": "package"
     },
     {
@@ -36,7 +36,7 @@
       "importance": "High",
       "name": "linux",
       "series": "stonking",
-      "status": "In Progress",
+      "status": "Fix Committed",
       "type": "package"
     }
   ],

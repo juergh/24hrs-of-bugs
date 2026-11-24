@@ -1,15 +1,78 @@
 {
   "duplicate_of": null,
   "id": 2174044,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
   "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T03:21:45.245513+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T03:21:45.245513+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T03:21:45.245513+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T03:21:45.245513+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "New",
+      "type": "package"
+    },
     {
       "assignee": "unassigned",
       "date_created": "2026-11-12T08:25:08.220347+00:00",
       "importance": "Undecided",
       "name": "linux-oem-7.3",
       "series": "",
-      "status": "New",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "AceLan Kao",
+      "date_created": "2026-11-23T03:21:12.535695+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "resolute",
+      "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T03:21:12.535695+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "stonking",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T03:21:12.535695+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "tenacious",
+      "status": "Invalid",
       "type": "package"
     }
   ],

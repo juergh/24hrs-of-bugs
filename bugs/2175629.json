@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175629,
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T17:43:13.377409+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Alice C. Munduruca",
+      "date_created": "2026-11-23T17:43:24.905942+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "CHUWI CoreBook Air internal speakers silent without override"
+}

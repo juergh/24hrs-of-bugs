@@ -1,0 +1,35 @@
+{
+  "duplicate_of": null,
+  "id": 2175660,
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T21:46:40.246824+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T21:46:53.852325+00:00",
+      "importance": "Undecided",
+      "name": "linux-aws",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-23T21:45:53.719128+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "vxlan tx_packets always 0 and tx_bytes = packet count on noble 6.8.0-1074-azure / 6.8.0-1070-aws"
+}

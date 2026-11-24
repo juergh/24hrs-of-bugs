@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2173709,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-24T01:00:38.067224+00:00",
   "targets": [
     {
       "assignee": "unassigned",
@@ -9,7 +9,7 @@
       "importance": "Undecided",
       "name": "linux",
       "series": "",
-      "status": "Fix Committed",
+      "status": "Fix Released",
       "type": "package"
     },
     {
