@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2166325,
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
+  "targets": [
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-09-03T09:46:27.807477+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Benjamin Wheeler",
+      "date_created": "2026-11-24T17:42:12.104571+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "Confirmed",
+      "type": "package"
+    }
+  ],
+  "title": "Intel VMD 8086:ad0b: Bus Offset 3 prevents NVMe enumeration and ARL004 causes NVMe completion stalls"
+}

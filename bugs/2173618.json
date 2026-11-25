@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2173618,
-  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
   "targets": [
     {
       "assignee": "unassigned",
@@ -18,7 +18,7 @@
       "importance": "Undecided",
       "name": "linux-hwe-7.0",
       "series": "",
-      "status": "Fix Committed",
+      "status": "Fix Released",
       "type": "package"
     },
     {

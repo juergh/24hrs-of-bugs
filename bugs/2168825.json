@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2168825,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
   "targets": [
     {
       "assignee": "Benjamin Wheeler",
@@ -10,6 +10,24 @@
       "name": "linux",
       "series": "",
       "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T17:17:06.857716+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T17:17:06.857716+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "Fix Released",
       "type": "package"
     }
   ],

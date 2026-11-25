@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175681,
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T05:30:32.474384+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MLO multicast duplicate detection drops fresh frames, causing prolonged ARP failures"
+}

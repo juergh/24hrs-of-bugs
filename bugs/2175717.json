@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175717,
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T11:07:36.492514+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MT7925 Bluetooth (0e8d:e025): \"Execution of wmt command timed out\" at boot, adapter later drops off USB; please backport \"Bluetooth: mt7925: trigger reset on WMT timeout\""
+}

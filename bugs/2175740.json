@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175740,
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T14:10:42.974941+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "No sound from internal speakers on ASUS ExpertCenter PM670KA_VM670KA with Realtek ALC256"
+}

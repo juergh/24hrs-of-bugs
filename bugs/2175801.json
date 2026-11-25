@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175801,
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-25T00:54:19.960578+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "amdgpu (Polaris RX 580): kernel Oops in amdgpu_bo_move / hard freezes under memory pressure while GPU clients allocate buffers; amdgpu.vm_update_mode=3 avoids it"
+}

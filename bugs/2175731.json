@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175731,
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T12:55:34.869337+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "r8152: RTL8153 (0bda:8153) in Dell U3223QE monitor repeatedly drops off USB since 7.0.0-43"
+}

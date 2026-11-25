@@ -1,8 +1,26 @@
 {
   "duplicate_of": null,
   "id": 2174422,
-  "last_seen": "2026-11-22T09:16:46.343320+00:00",
+  "last_seen": "2026-11-25T01:00:43.706558+00:00",
   "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T17:22:42.773813+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T17:22:42.773813+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
     {
       "assignee": "unassigned",
       "date_created": "2026-11-13T16:28:43.996114+00:00",
@@ -37,6 +55,24 @@
       "name": "linux-nvidia-bos",
       "series": "resolute",
       "status": "Fix Committed",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T17:22:22.639195+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-tegra",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-24T17:22:22.639195+00:00",
+      "importance": "Undecided",
+      "name": "linux-nvidia-tegra",
+      "series": "resolute",
+      "status": "New",
       "type": "package"
     }
   ],
