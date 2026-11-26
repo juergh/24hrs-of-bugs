@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175817,
+  "last_seen": "2026-11-26T01:00:47.673158+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-25T08:49:10.083614+00:00",
+      "importance": "Undecided",
+      "name": "canonical-kernel-snaps",
+      "series": "",
+      "status": "New",
+      "type": "project"
+    }
+  ],
+  "title": "pc-kernel 26.04 snap (rev 3935) missing iwlwifi-bz-b0-fm-c0 firmware - Intel Wi-Fi 7 BE201 on Arrow Lake non-functional"
+}

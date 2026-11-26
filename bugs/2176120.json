@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2176120,
+  "last_seen": "2026-11-26T01:00:47.673158+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-25T20:35:29.437964+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] Black screen / no display output on 7.3.0-10 and 7.3.0-11 with NVIDIA GTX 1070 (nvidia-driver-580) - 7.3.0-9 works"
+}

@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175809,
+  "last_seen": "2026-11-26T01:00:47.673158+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-25T03:22:01.957440+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Alice C. Munduruca",
+      "date_created": "2026-11-25T03:22:10.957989+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "stonking",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "Stonking update: v7.3.6 upstream stable release"
+}

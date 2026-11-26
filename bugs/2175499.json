@@ -1,15 +1,24 @@
 {
   "duplicate_of": null,
   "id": 2175499,
-  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "last_seen": "2026-11-26T01:00:47.673158+00:00",
   "targets": [
+    {
+      "assignee": "LEE KUAN-YING",
+      "date_created": "2026-11-22T02:07:28.645544+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
     {
       "assignee": "unassigned",
       "date_created": "2026-11-22T02:07:28.645544+00:00",
       "importance": "Undecided",
       "name": "linux-signed-oem-7.3",
       "series": "",
-      "status": "New",
+      "status": "Removed",
       "type": "package"
     }
   ],

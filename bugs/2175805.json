@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175805,
+  "last_seen": "2026-11-26T01:00:47.673158+00:00",
+  "targets": [
+    {
+      "assignee": "ChunAnWu",
+      "date_created": "2026-11-25T02:36:03.981906+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-6.8",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Some dell machines fail to shutdown when HDMI display is connected"
+}

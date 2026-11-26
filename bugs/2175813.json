@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2175813,
+  "last_seen": "2026-11-26T01:00:47.673158+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-25T06:25:35.773290+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-25T06:26:30.370475+00:00",
+      "importance": "Undecided",
+      "name": "linux-azure",
+      "series": "noble",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "TX Timeouts stalls on SQ"
+}

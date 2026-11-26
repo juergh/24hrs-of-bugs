@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2175834,
+  "last_seen": "2026-11-26T01:00:47.673158+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-25T09:50:10.833670+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "IPU6/IVSC (ov01a10): after a failed \"stream on\", privacy LED stays on and intel_vsc blocks suspend (-EAGAIN) until reboot"
+}
