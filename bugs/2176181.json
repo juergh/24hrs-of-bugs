@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2176181,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unknown",
+      "date_created": "2026-11-26T12:49:11.572573+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[UBUNTU 24.04] glibc: s390x: segfault in 8bit-generic.c iconv modules like IBM1047"
+}

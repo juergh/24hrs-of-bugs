@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2177227,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T19:58:20.353380+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "MSI Raider 16 HX B2WI (MS-2651): built-in microphone missing on Ubuntu 26.04"
+}

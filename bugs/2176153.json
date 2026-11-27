@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2176153,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T06:18:53.447258+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T06:27:42.540306+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T06:33:42.058689+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T06:33:42.058689+00:00",
+      "importance": "Undecided",
+      "name": "linux-hwe-7.0",
+      "series": "resolute",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "After the client lid is closed and the system is rebooted, open the lid will found the LCD is off, built-in display is not listed in the display settings."
+}

@@ -1,0 +1,17 @@
+{
+  "duplicate_of": 2115148,
+  "id": 2177228,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T20:07:44.638193+00:00",
+      "importance": "Undecided",
+      "name": "linux-restricted-modules-hwe-7.0",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "nvidia"
+}

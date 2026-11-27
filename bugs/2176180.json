@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2176180,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T12:08:04.542943+00:00",
+      "importance": "Undecided",
+      "name": "linux-oem-7.3",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Mute key LED stays off on HP laptops with Realtek ALC285 codec"
+}

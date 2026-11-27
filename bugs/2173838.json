@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2173838,
-  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
   "targets": [
     {
       "assignee": "unassigned",
@@ -18,7 +18,7 @@
       "importance": "Undecided",
       "name": "linux",
       "series": "resolute",
-      "status": "New",
+      "status": "Invalid",
       "type": "package"
     },
     {
@@ -27,7 +27,7 @@
       "importance": "Undecided",
       "name": "linux",
       "series": "stonking",
-      "status": "New",
+      "status": "In Progress",
       "type": "package"
     },
     {
@@ -45,7 +45,7 @@
       "importance": "Undecided",
       "name": "linux-firmware-amd-misc",
       "series": "",
-      "status": "Fix Released",
+      "status": "Removed",
       "type": "package"
     },
     {
@@ -54,7 +54,7 @@
       "importance": "Undecided",
       "name": "linux-firmware-amd-misc",
       "series": "resolute",
-      "status": "New",
+      "status": "In Progress",
       "type": "package"
     },
     {
@@ -90,7 +90,7 @@
       "importance": "Undecided",
       "name": "linux-firmware-misc",
       "series": "resolute",
-      "status": "New",
+      "status": "In Progress",
       "type": "package"
     },
     {
@@ -117,7 +117,7 @@
       "importance": "Undecided",
       "name": "linux-oem-7.3",
       "series": "",
-      "status": "New",
+      "status": "Invalid",
       "type": "package"
     },
     {
@@ -126,7 +126,7 @@
       "importance": "Undecided",
       "name": "linux-oem-7.3",
       "series": "resolute",
-      "status": "New",
+      "status": "In Progress",
       "type": "package"
     },
     {
@@ -135,7 +135,7 @@
       "importance": "Undecided",
       "name": "linux-oem-7.3",
       "series": "stonking",
-      "status": "New",
+      "status": "Invalid",
       "type": "package"
     },
     {
@@ -144,7 +144,7 @@
       "importance": "Undecided",
       "name": "linux-oem-7.3",
       "series": "tenacious",
-      "status": "New",
+      "status": "Invalid",
       "type": "package"
     }
   ],

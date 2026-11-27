@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2176158,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T07:33:47.440756+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "HID: APC Back-UPS (051d:0002) report 22 rejected as \"too short\" since 6.8.0-151 \u2013 apcupsd shows NOBATT, power failure not detected"
+}

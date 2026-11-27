@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2177234,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T22:32:14.296298+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Hard system hang (no panic, no log) on 7.0.0-43 and 7.0.0-44, Lenovo ThinkPad E16 Gen 3 (Arrow Lake); 7.0.0-34 stable"
+}

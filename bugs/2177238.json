@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2177238,
+  "last_seen": "2026-11-27T01:00:44.881411+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-26T22:57:16.483488+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "[Regression] Intel Wireless 8265 (iwlwifi) download speed capped at ~75 Mbps on kernel 7.0.0-43-generic and 44 despite 866.7 MBit/s link"
+}
