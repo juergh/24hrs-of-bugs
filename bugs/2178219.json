@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2178219,
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T12:39:43.259313+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "ideapad slm3 amd not entering sleep"
+}

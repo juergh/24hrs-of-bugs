@@ -1,0 +1,26 @@
+{
+  "duplicate_of": null,
+  "id": 2178258,
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T17:35:47.764659+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "Invalid",
+      "type": "package"
+    },
+    {
+      "assignee": "Vinicius Peixoto",
+      "date_created": "2026-11-27T17:35:59.848578+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "jammy",
+      "status": "In Progress",
+      "type": "package"
+    }
+  ],
+  "title": "Jammy update: v5.15.226 upstream stable release"
+}

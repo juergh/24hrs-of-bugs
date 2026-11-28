@@ -1,7 +1,7 @@
 {
   "duplicate_of": null,
   "id": 2175553,
-  "last_seen": "2026-11-24T01:00:38.067224+00:00",
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
   "targets": [
     {
       "assignee": "unassigned",
@@ -9,7 +9,7 @@
       "importance": "Undecided",
       "name": "linux",
       "series": "",
-      "status": "New",
+      "status": "Incomplete",
       "type": "package"
     }
   ],

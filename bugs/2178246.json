@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2178246,
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T16:34:00.183870+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "mt76_usb: page fault in mt76u_fill_rx_sg on mt7921u USB (0e8d:7961) \u2014 long-standing, crashes on 7.0.0-42 and 7.0.0-44 (far more frequent on -44)"
+}

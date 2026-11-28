@@ -1,12 +1,21 @@
 {
   "duplicate_of": null,
   "id": 2175540,
-  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
   "targets": [
     {
-      "assignee": "unassigned",
+      "assignee": "Canonical Kernel Team",
+      "date_created": "2026-11-27T12:59:39.796009+00:00",
+      "importance": "Medium",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "Canonical Kernel Team",
       "date_created": "2026-11-22T21:04:30.288504+00:00",
-      "importance": "Undecided",
+      "importance": "Medium",
       "name": "linux-hwe-7.0",
       "series": "",
       "status": "New",

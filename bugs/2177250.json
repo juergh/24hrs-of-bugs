@@ -1,0 +1,44 @@
+{
+  "duplicate_of": null,
+  "id": 2177250,
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T01:52:21.841663+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T01:52:35.207229+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "resolute",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T01:52:35.207229+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "stonking",
+      "status": "In Progress",
+      "type": "package"
+    },
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T03:03:31.121949+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "tenacious",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "Fix the speaker/mic mute LED not working correctly on  HP ZBook 8 G2a"
+}

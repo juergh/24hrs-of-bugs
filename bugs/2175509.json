@@ -1,15 +1,15 @@
 {
   "duplicate_of": null,
   "id": 2175509,
-  "last_seen": "2026-11-23T01:00:42.381931+00:00",
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
   "targets": [
     {
-      "assignee": "unassigned",
+      "assignee": "Canonical Kernel Team",
       "date_created": "2026-11-22T10:12:09.770087+00:00",
-      "importance": "Undecided",
+      "importance": "Medium",
       "name": "linux",
       "series": "",
-      "status": "New",
+      "status": "Confirmed",
       "type": "package"
     }
   ],

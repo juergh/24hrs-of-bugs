@@ -1,0 +1,17 @@
+{
+  "duplicate_of": null,
+  "id": 2178215,
+  "last_seen": "2026-11-28T01:00:46.882399+00:00",
+  "targets": [
+    {
+      "assignee": "unassigned",
+      "date_created": "2026-11-27T11:19:39.429035+00:00",
+      "importance": "Undecided",
+      "name": "linux",
+      "series": "",
+      "status": "New",
+      "type": "package"
+    }
+  ],
+  "title": "pinmem in ubuntu_stress_smoke_test failed on focal (5.4.0-248.268) generic s390x (kernel Oops in __gup_longterm_locked)"
+}
